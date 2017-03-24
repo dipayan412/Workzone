@@ -1,0 +1,25 @@
+{
+    "formatVersion" : 1,
+    "passTypeIdentifier" : "pass.com.codespoon.grabber",
+    "serialNumber" : "001",
+    "teamIdentifier" : "YV8YU6USRD",
+    "organizationName" : "Codespoon",
+    "description" : "Coupon for games"
+    "foregroundColor" : "rgb(255, 255, 255)",
+    "backgroundColor" : "rgb(135, 129, 189)",
+    "labelColor" : "rgb(45, 54, 129)",
+    "barcode" : {
+        "message" : "All you need is love",
+        "format" : "PKBarcodeFormatPDF417",
+        "messageEncoding" : "iso-8859-1"
+    },
+    "coupon" : {
+        "primaryFields" : [
+                           {
+                           "key" : "offer",
+                           "label" : "for you",
+                           "value" : "Free hug"
+                           }
+                ]
+    }
+}

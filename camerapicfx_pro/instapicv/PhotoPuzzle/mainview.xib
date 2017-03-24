@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1024" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="mainview">
+            <connections>
+                <outlet property="PuzzleButton" destination="13" id="20"/>
+                <outlet property="morebutton" destination="14" id="16"/>
+                <outlet property="notifier" destination="36" id="37"/>
+                <outlet property="optionbutton" destination="15" id="17"/>
+                <outlet property="photoTextLabel" destination="5" id="33"/>
+                <outlet property="tabbar" destination="6" id="11"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="main_background.png" id="34">
+                    <rect key="frame" x="0.0" y="-22" width="320" height="482"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="form_bg.png" id="35">
+                    <rect key="frame" x="20" y="36" width="276" height="306"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                </imageView>
+                <tabBar hidden="YES" contentMode="scaleAspectFill" id="6">
+                    <rect key="frame" x="0.0" y="411" width="320" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <tabBarItem title="My Network" image="mynetwork.png" id="9"/>
+                        <tabBarItem tag="1" title="Photos" image="cameraicon.png" id="8"/>
+                    </items>
+                </tabBar>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="13">
+                    <rect key="frame" x="68" y="128" width="184" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                    <state key="normal" backgroundImage="playpuzzel_btn.png">
+                        <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="PuzzlePressed:" destination="-1" eventType="touchUpInside" id="21"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="14">
+                    <rect key="frame" x="67" y="241" width="184" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                    <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" backgroundImage="more_btn.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="MorePressed:" destination="-1" eventType="touchUpInside" id="18"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="36">
+                    <rect key="frame" x="233" y="238" width="20" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="15">
+                    <rect key="frame" x="67" y="184" width="184" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" backgroundImage="option_btn.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="OptionPressed:" destination="-1" eventType="touchUpInside" id="19"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" id="5">
+            <rect key="frame" x="0.0" y="0.0" width="305" height="51"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <string key="text">"Welcome to the Jigsaw Puzzle Photos - FREE Messenger App. It's a fun and entertaining way   to share photos with friends &amp; family as a puzzle game!".</string>
+            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+            <color key="textColor" name="controlShadowColor" catalog="System" colorSpace="catalog"/>
+            <nil key="highlightedColor"/>
+        </label>
+    </objects>
+    <resources>
+        <image name="cameraicon.png" width="38" height="35"/>
+        <image name="form_bg.png" width="564" height="612"/>
+        <image name="main_background.png" width="640" height="960"/>
+        <image name="more_btn.png" width="419" height="108"/>
+        <image name="mynetwork.png" width="38" height="35"/>
+        <image name="option_btn.png" width="419" height="109"/>
+        <image name="playpuzzel_btn.png" width="419" height="109"/>
+    </resources>
+</document>

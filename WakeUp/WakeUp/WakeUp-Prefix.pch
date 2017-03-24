@@ -1,0 +1,133 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+
+    #import "ASIHTTPRequest.h"
+    #import <FacebookSDK/FacebookSDK.h>
+    #import "MBProgressHUD.h"
+    #import <SDWebImage/UIImageView+WebCache.h>
+    #import <CoreTelephony/CTCarrier.h>
+    #import <CoreTelephony/CTTelephonyNetworkInfo.h>
+    #import <CoreTelephony/CTCall.h>
+    #import <MessageUI/MessageUI.h>
+
+#define kAppBGColor [UIColor colorWithPatternImage:[UIImage imageNamed:@"appBG.png"]]
+
+#define evenCellColor [UIColor colorWithRed:131.0f/255.0f green:222.0f/255.0f blue:43.0f/255.0f alpha:1.0f]
+#define oddCellColor [UIColor colorWithRed:28.0f/255.0f green:150.0f/255.0f blue:234.0f/255.0f alpha:1.0f]
+
+#define kThemeColor1 [UIColor colorWithRed:230.0f/255.0f green:79.0f/255.0f blue:79.0f/255.0f alpha:1.0f]
+#define kThemeColor2 [UIColor colorWithRed:245.0f/255.0f green:194.0f/255.0f blue:18.0f/255.0f alpha:1.0f]
+#define kThemeColor3 [UIColor colorWithRed:177.0f/255.0f green:215.0f/255.0f blue:0.0f/255.0f alpha:1.0f]
+#define kThemeColor4 [UIColor colorWithRed:47.0f/255.0f green:224.0f/255.0f blue:147.0f/255.0f alpha:1.0f]
+#define kThemeColor5 [UIColor colorWithRed:47.0f/255.0f green:164.0f/255.0f blue:224.0f/255.0f alpha:1.0f]
+#define kThemeColor6 [UIColor colorWithRed:78.0f/255.0f green:96.0f/255.0f blue:172.0f/255.0f alpha:1.0f]
+#define kThemeColor7 [UIColor colorWithRed:184.0f/255.0f green:108.0f/255.0f blue:193.0f/255.0f alpha:1.0f]
+#define kThemeColor8 [UIColor colorWithRed:231.0f/255.0f green:80.0f/255.0f blue:126.0f/255.0f alpha:1.0f]
+
+typedef enum{
+    kColor1 = 1,
+    kColor2,
+    kColor3,
+    kColor4,
+    kColor5,
+    kColor6,
+    kColor7,
+    kColor8
+}kUserColor;
+
+#import "UserDefaultsManager.h"
+
+#define kGetCountryApi                      @"http://maps.googleapis.com/maps/api/geocode/json?address="
+
+#define kIsThreePointFiveInch               [UIScreen mainScreen].bounds.size.height < 568
+
+#define kPhonebookCheckComplete             @"kPhonebookCheckComplete"
+
+#define kStartPhonebookContactSync          @"kStartPhonebookContactSync"
+#define kPhonebookContactSyncDone           @"kPhonebookContactSyncDone"
+
+#define kInboxSynchronizedNotification      @"kInboxSynchronizedNotification"
+#define kInboxSyncStartedNotification       @"kInboxSyncStartedNotification"
+// calls that are waiting for it
+#define kInboxSyncSucceededNotification     @"kInboxSyncSucceededNotification"
+#define kInboxSyncFailedNotification        @"kInboxSyncFailedNotification"
+
+#define kMessageRoomSynchronizedNotification      @"kMessageRoomSynchronizedNotification"
+#define kMessageRoomSyncStartedNotification       @"kMessageRoomSyncStartedNotification"
+// calls that are waiting for it
+#define kMessageRoomSyncSucceededNotification     @"kMessageRoomSyncSucceededNotification"
+#define kMessageRoomSyncFailedNotification        @"kMessageRoomSyncFailedNotification"
+
+#define kIncomingMessageArrivedRemoteNotification   @"kIncomingMessageArrivedRemoteNotification"
+#define kIncomingMessageArrivedRemoteNotificationReloadChatRoom @"kIncomingMessageArrivedRemoteNotificationReloadChatRoom"
+#define kWokenUpRemoteNotificationArrived   @"kWokenUpRemoteNotificationArrived"
+#define kOtherTypeRemoteNotificationArrived @"kOtherTypeRemoteNotificationArrived"
+#define kNotificationViewControllerToFront  @"kNotificationViewControllerToFront"
+#define kAlarmNotificationArrived           @"kAlarmNotificationArrived"
+#define kStartContactCheckFromVerification           @"kStartContactCheckFromVerification"
+
+#define kWakeUpAlertShow                    @"kWakeUpAlertShow"
+#define kUserMovedPhone                     @"kUserMovedPhone"
+
+#define kProfileUpdated                     @"kProfileUpdated"
+
+#define kProfileViewControllerComeToFront   @"kProfileViewControllerComeToFront"
+#define kTimeLineViewControllerToFront      @"kTimeLineViewControllerToFront"
+#define kContactViewControllerToFront       @"kContactViewControllerToFront"
+#define kContactProfileViewControllerToFront       @"kContactProfileViewControllerToFront"
+#define kMessageViewControllerToFront       @"kMessageViewControllerToFront"
+#define kMessageRoomViewControllerToFront   @"kMessageRoomViewControllerToFront"
+#define kAddContactComeToFront              @"kAddContactComeToFront"
+#define kShortTextMessageViewComToFront     @"kShortTextMessageViewComToFront"
+#define kNotificationArrival                @"kNotificationArrival"
+#define kCurrentCountryFound                @"kCurrentCountryFound"
+#define kPhoneBookContactAddedNotification  @"kPhoneBookContactAddedNotification"
+
+#define kNotificationArrivalTotalKey        @"kNotificationArrivalTotalKey"
+
+#define kRootUrl                @"http://geometric-orbit-644.appspot.com/"
+//#define kBaseUrl                @"http://1-dot-pide-wakeup.appspot.com/wakeup?"
+#define kBaseUrl                @"http://geometric-orbit-644.appspot.com/wakeup?"
+//#define kBaseUrl                @"http://1-dot-geometric-orbit-644.appspot.com/wakeup?"
+#define kRegisterApi            @"registeruser"
+#define kLoginApi               @"loginuser"
+//#define kUploadphotoApi         @"http://1-dot-pide-wakeup.appspot.com/uploadimage"
+#define kUploadphotoApi         @"http://geometric-orbit-644.appspot.com/uploadimage"
+#define kSearchApi              @"searchwakeupusers"
+#define kSendContactRequestApi  @"sendcontactrequest"
+#define kNotificationApi        @"getnotifications"
+#define kAcceptContactApi       @"acceptcontactrequest"
+#define kDeclineContactApi      @"declinecontactrequest"
+#define kGetContactListApi      @"getcontactlist"
+#define kDownloadImageApi       @"downloadimage"
+#define kAddWakeUpApi           @"addwakeup"
+#define kGetTimeLineApi         @"gettimeline"
+#define kCreateAccountApi       @"createaccount"
+#define kVerifyPhoneNumberApi   @"verifyphonenumber"
+#define kUpdateProfileApi       @"updateprofile"
+#define kRegisterDeviceApi      @"registerdevice"
+#define kGetInboxApi            @"getmyinbox"
+#define kSendMessgaeApi         @"sendmessage"
+#define kGetMessgaeRoomApi      @"getmessageroom"
+#define kSyncInboxApi           @"syncinbox"
+#define kSyncMessageRoomApi     @"syncmessageroom"
+#define kResendCodeApi          @"resendcode"
+#define kCheckContactList       @"checkcontactsstatus"
+#define kAddPhoneBookContacts   @"addphonebookcontacts"
+#define kSyncContact            @"synccontactlist"
+#define kAddContact             @"invitecontactbyphone"
+#endif

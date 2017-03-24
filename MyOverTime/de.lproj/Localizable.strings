@@ -1,0 +1,354 @@
+"TIME_SHEET_PAGE_TITLE" = "My Overtime";
+
+//Ashif
+
+"LOCAL_AM" = "vm";
+"LOCAL_PM" = "nm";
+
+"SETTINGS_SET_WORK_DAYS" = "Arbeitstage einrichten";
+
+"REMINDER_MESSAGE_CONTENT" = "Es fehlt eine Zeiteingabe";
+
+"REPORT_LIST_BALANCE_REPORT" = "Meine Überstunden";
+"REPORT_LIST_ACTIVITY_REPORT" = "Detailbericht";
+"REPORT_LIST_ACTIVITY_BALANCE_REPORT" = "Guthabenbericht";
+"REPORT_LIST_BACK_BUTTON" = "Zurück";
+
+"REPORT_MYDATERANGE" = "Mein Zeitraum";
+"REPORT_BALANCE_FOR_RANGE" = "Saldo innerhalb Zeitraum";
+"REPORT_BALANCE_RANGE_START" = "Saldo vor Zeitraum";
+"REPORT_BALANCE_RANGE_END" = "Saldo nach Zeitraum";
+"REPORT_BALANCE_HISTORY" = "Saldoverlauf";
+
+"BALANCE_REPORT_TITLE" = "Meine Überstunden";
+"ACTIVITY_REPORT_TITLE" = "Detailbericht";
+"ACTIVITY_BALANCE_TITLE" = "Guthabenbericht";
+
+"ACTIVITIES_LIST_TITLE" = "Tätigkeiten";
+"ACTIVITIES_LIST_NEW_ITEM" = "Drücke '+' um eine neue Tätigkeit anzufügen";
+
+"ACTIVITY_DETAIL_TITLE" = "Tätigkeit";
+
+"BALANCE_REPORT_EMAIL_SUBJECT" = "Meine Überstunden";
+"BALANCE_REPORT_EMAIL_CONTENT" = "Beiliegend der Tagessaldoverlauf";
+"BALANCE_REPORT_EMAIL_ATTACHMENT" = "Meine Überstunden.csv";
+"BALANCE_REPORT_EMAIL_ATTACHMENT_1" = "Meine Überstunden.html";
+"BALANCE_REPORT_EMAIL_ATTACHMENT_2" = "Meine Überstunden.pdf";
+
+"BALANCE_REPORT_HEADER_WEEKDAY" = "Wochentag";
+"BALANCE_REPORT_HEADER_DATE" = "Datum";
+"BALANCE_REPORT_HEADER_TOTAL" = "Total";
+"BALANCE_REPORT_HEADER_OFFSET" = "Sollzeit";
+"BALANCE_REPORT_HEADER_BALANCE" = "Saldo";
+"BALANCE_REPORT_HEADER_TOTAL_MIN" = "Total (min)";
+"BALANCE_REPORT_HEADER_OFFSET_MIN" = "Sollzeit (min)";
+"BALANCE_REPORT_HEADER_BALANCE_MIN" = "Saldo (min)";
+
+"ACTIVITY_REPORT_EMAIL_SUBJECT" = "Detailbericht";
+"ACTIVITY_REPORT_EMAIL_CONTENT" = "Beiliegend der Detailbericht";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_0" = "DetailberichtFürIOS.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_1" = "DetailberichtFürMacOS.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_2" = "DetailberichtFürWindows.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_3" = "DetailberichtFürIOS.html";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_4" = "DetailberichtFürIOS.pdf";
+
+"ACTIVITY_REPORT_HEADER_MONTH" = "Monat";
+"ACTIVITY_REPORT_HEADER_DATE" = "Datum";
+"ACTIVITY_REPORT_HEADER_ACTIVITY" = "Tätigkeit";
+"ACTIVITY_REPORT_HEADER_TOTAL" = "Total";
+"ACTIVITY_REPORT_HEADER_START" = "Start";
+"ACTIVITY_REPORT_HEADER_END" = "Ende";
+"ACTIVITY_REPORT_HEADER_BREAK" = "Pause";
+"ACTIVITY_REPORT_HEADER_OFFSET" = "Sollzeit";
+"ACTIVITY_REPORT_HEADER_BALANCE" = "Saldo";
+"ACTIVITY_REPORT_HEADER_AMOUNT" = "Betrag";
+"ACTIVITY_REPORT_HEADER_COMMENTS" = "Bemerkungen";
+"ACTIVITY_REPORT_HEADER_TOTAL_MIN" = "Total (min)";
+"ACTIVITY_REPORT_HEADER_OFFSET_MIN" = "Sollzeit (min)";
+"ACTIVITY_REPORT_HEADER_BALANCE_MIN" = "Saldo (min)";
+"ACTIVITY_REPORT_DAILY_TOTAL" = "Tagessumme:";
+"ACTIVITY_REPORT_FLAT" = "Pauschal";
+
+"ACTIVITY_BALANCE_EMAIL_SUBJECT" = "Guthabenbericht";
+"ACTIVITY_BALANCE_EMAIL_CONTENT" = "Beiliegend der Guthabenbericht";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_0" = "GuthabenberichtFürIOS.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_1" = "GuthabenberichtFürMacOS.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_2" = "GuthabenberichtFürWindows.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_3" = "GuthabenberichtFürIOS.html";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_4" = "GuthabenberichtFürIOS.pdf";
+
+"ACTIVITY_BALANCE_HEADER_ACTIVITY" = "Tätigkeit";
+"ACTIVITY_BALANCE_HEADER_ALLOWANCE" = "Guthaben (Std)";
+"ACTIVITY_BALANCE_HEADER_DATE" = "Datum";
+"ACTIVITY_BALANCE_HEADER_APPLIED" = "Bezogen";
+"ACTIVITY_BALANCE_HEADER_BALANCE" = "Saldo";
+"ACTIVITY_BALANCE_HEADER_ALLOWANCE_MIN" = "Guthaben(min)";
+"ACTIVITY_BALANCE_HEADER_APPLIED_MIN" = "Bezogen(min)";
+"ACTIVITY_BALANCE_HEADER_BALANCE_MIN" = "Saldo(min)";
+"ACTIVITY_BALANCE_TOTAL" = "Total:";
+
+"DEFAULT_ACTIVITY_IN_OFFICE" = "Im Büro";
+"DEFAULT_ACTIVITY_COMPANY_HOLIDAY" = "Betriebsurlaub";
+"DEFAULT_ACTIVITY_WORK_FROM_HOME" = "Fernarbeit";
+"DEFAULT_ACTIVITY_ON_VACATION" = "not used";
+"DEFAULT_ACTIVITY_TRAVEL" = "Geschäftsreise";
+"DEFAULT_ACTIVITY_UNPAID_LEAVE" = "Unbezahlter Urlaub";
+"DEFAULT_ACTIVITY_COMPENSATION" = "Ausgleich";
+"DEFAULT_ACTIVITY_OUT_SICK" = "Krankeit";
+"DEFAULT_ACTIVITY_VACATION_2011" = "Urlaub 2012";
+"DEFAULT_ACTIVITY_VACATION_2012" = "Urlaub 2013";
+"DEFAULT_ACTIVITY_HOLIDAY_2011" = "Ferien 2012";
+"DEFAULT_ACTIVITY_HOLIDAY_2012" = "Ferien 2013";
+"DEFAULT_ACTIVITY_OVERTIME_PAID1.5" = "Überzeitsatz 1.5x";
+"DEFAULT_ACTIVITY_OVERTIME_PAID2X" = "Überzeitsatz 2x";
+"DEFAULT_ACTIVITY_OVERTIME_PAID" = "Überzeit einfach";
+//"DEFAULT_ACTIVITY_OVERTIME_REDUCER" = "Überzeit ausbezahlt";
+"DEFAULT_ACTIVITY_FLEXITIME_BURNED" = "Gleitzeit Abbau";
+//"DEFAULT_ACTIVITY_STARTING_BALANCE" = "Startsaldo";
+
+"DEFAULT_ACTIVITY_TEMPLATE_1"="Ausgangssaldo";
+"DEFAULT_ACTIVITY_TEMPLATE_2"="Sonderstunden";
+"DEFAULT_ACTIVITY_TEMPLATE_3"="Auszahlungskonto";
+//translate
+"DEFAULT_ACTIVITY_TEMPLATE_4"="At work";
+"DEFAULT_ACTIVITY_TEMPLATE_5"="Shift 1";
+
+"BACKGROUND_ACTION_SHEET_TITLE" = "Wähle den Hintergrund";
+"BACKGROUND_ACTION_SHEET_DEFAULT_BCKGRD_BUTTON" = "Standard Hintergrund";
+"BACKGROUND_ACTION_SHEET_CHOOSE_PHOTOS_BUTTON" = "Auswahl aus Fotoalben";
+"BACKGROUND_ACTION_SHEET_CANCEL_BUTTON" = "Abbrechen";
+
+
+"EXPORT_EMAIL_BODY" = "Beiliegend befindet sich eine Sicherungsdatei der Zeiteingaben. Um diese zu importieren, bitte auf die Datei tippen und diese mit 'My Overtime' öffnen lassen. Bitte beachten Sie, dass durch diesen Vorgang die bestehenden Daten überschrieben werden und es keine Vorwarnung gibt.";
+
+
+"APPIRATER_MESSAGE" = "Sie konnten bereits etwas Erfahrung mit MyOvertime sammeln. Bitte nehmen Sie sich kurz Zeit, diese App zu bewerten. \nAuch eine einfache Bewertung mit den Sternen \ngibt uns ein Hinweis weitere Besserungen voranzutreiben.\n\n Besten Dank, dass Sie MyOvertime benutzen!";
+"APPIRATER_RATE_BUTTON" = "Gerne";
+"APPIRATER_MESSAGE_TITLE" = "Im Appstore bewerten";
+"APPIRATER_CANCEL_BUTTON" = "Nein danke";
+"APPIRATER_RATE_LATER" = "Später";
+
+
+
+"PRODUCT_INAPP_NAVIGATION_TITLE" = "In-App-Kauf";
+
+"PRODUCT_INAPP_TITLE_1" = "Einkaufsliste";
+"PRODUCT_INAPP_TITLE_2" = "Zurückholen ";
+
+"PRODUCT_INAPP_1" = "Kalender freischalten";
+"PRODUCT_INAPP_DETAILS_1" = "Zeiteingaben ohne Einschränkung";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_1" = "Die derzeitige Einschränkung von max. 14 Zeiteingaben aufheben. Somit bleiben Ihre älteren Zeiteingaben erhalten und können ohne Einschränkung ausgewertet werden";
+
+
+"PRODUCT_INAPP_2" = "Daten emailen";
+"PRODUCT_INAPP_DETAILS_2" = "Meine Berichtsdaten emailen";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_2" = "Somit ermöglichen Sie es Ihre Datenausgabe als Anhang im Format PDF, HTML und CSV per Email zu senden. Somit können Sie ihre Daten ausdrucken, im Excel weiterverarbeiten oder weiterleiten";
+
+
+"PRODUCT_INAPP_TITLE_3" = "Neuinstallation dieser App";
+"PRODUCT_INAPP_TITLE_BUTTON" = "Jetzt";
+"PRODUCT_INAPP_RESTORE_TITLE" = "Wiederherstellen";
+"PRODUCT_INAPP_RESTORE_DESC_TITLE" = "Einkäufe zurückholen";
+
+"PRODUCT_INAPP_BUY_BUTTON_TITLE" = "Jetzt zum Preis von: ";
+
+"PRODUCT_INAPP_BUTTON_PURCHASE" = "Gekauft ";
+
+
+
+"PRODUCT_INAPP_MESSAGE" = "Um dieses Produkt zu kaufen, bitte ins Hilfemenu wechseln und auf 'In-App-Kauf' tippen";
+"PRODUCT_INAPP_HEADER" = "In-App-Kauf: Daten emailen";
+
+
+"PRODUCT_INAPP_MESSAGE2" = "Die max. 14 Kalendertage wurden erreicht. Die älteste Zeiteingabe wird jeweils gelöscht. Um dieses Produkt zu kaufen, bitte ins Hilfemenu wechseln und auf 'In-App-Kauf' tippen";
+"PRODUCT_INAPP_HEADER2" = "In-App-Kauf: Kalender freigeben";
+
+"PRODUCT_INAPP_HEADER3" = "In-App-Kauf: Dropbox";
+"PRODUCT_INAPP_MESSAGE3" = "Um dieses Produkt zu kaufen, bitte ins Hilfemenu wechseln und auf 'In-App-Kauf' tippen";
+
+"PRODUCT_INAPP_3" = "Dropbox freigeben";
+"PRODUCT_INAPP_DETAILS_3" = "Behalten Sie eine Sicherungskopie im Cloud";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_3" = "Ermöglichen Sie die Verbidundung mit Dropbox, Sichern Sie Ihre Daten auf Dropbox und stellen Sie diese wieder her. Verwenden Sie den Sicherungsplan um laufend eine Datensicherung auf Dropbox zu erstellen";
+
+
+"kINAPP_Failure" = "Product Error:";
+"kPDF_PageNumber" = "Seite";
+
+
+//Reset Timesheet Settings
+"RESET_HEADER" = "Zeiteingaben zurücksetzen";
+"RESET_SUBHEADER" = "Durch das Löschen nicht mehr benötigter Zeiteingaben laufen Ihre Abfragen und Email schneller. Bitte machen Sie sich eine Sicherung mittels 'Sichern und Senden' bevor Sie diesen Vorgang durchführen.";
+
+
+"RESET_SUCCESS" = "Der gewählte Zeitraum wurde nun zurückgesetzt !";
+"RESET_GO_BUTTON" = "Los";
+"OK" = "OK";
+"CANCEL" = "Abbrechen";
+"DELETE" = "Löschen";
+"DELETE_MESSAGE" = "Wollen Sie den gewählten Zeitraum löschen ?";
+"LATER" = "Später";
+"TAKE_ME_THERE" = "Zum Einkauf";
+
+
+//new reports header
+"SEGMENT_WEEKLY" = "Woche";
+"SEGMENT_MONTHLY" = "Monat";
+"SEGMENT_YEARLY" = "Jahr";
+"EMAIL_BUTTON" = "E-Mail";
+"TITLE_WEEK" = "Woche";
+"TITLE_YEAR" = "Jahr";
+"MY_OVERTIME_GRAPH_TITLE" = "Saldo";
+"INGOING" = "Start";
+"INRANGE" = "Zeitraum";
+"OUTGOING" = "Total";
+
+"FLAT_STRING" = "Pauschal";
+
+//New Report Email Output
+
+"MY_OVERTIME_SUMMARY" = "Überstunden-Statistik";
+"MY_OVERTIME_GRAPH" = "Überstunden-Grafik";
+"MY_OVERTIME_SUMMARY_SUBJECT" = "Überstunden-Statistik";
+"MY_OVERTIME_GRAPH_SUBJECT" = "Überstunden-Grafik";
+"MY_OVERTIME_SUMMARY_BODY" = "Beiliegend die Überstunden-Statistik";
+"MY_OVERTIME_GRAPH_BODY" = "Beiliegend die Überstunden-Grafik";
+
+//Move order
+"TITLE_EDIT" = "Ändern";// not used
+"TITLE_DONE" = "Fertig";
+
+
+"TITLE_ACTIVITY_REPORT" = "Detailbericht";
+"TITLE_ALL" = "Alle";
+"TITLE_FILTER" = "Auswahl:";
+"TITLE_BACKUP" = "Sichern und Senden";
+"BACKUP_FILENAME" = "Datensicherung";
+"TOTAL_ACTIVITY_RESULT" = "Total Stunden";
+"FILTER_HEADER" = "Auswahl:";
+"TOTAL_AMOUNT_HEADER" = "Gesamtbetrag:";
+
+
+"TITLE_EMAIL" = "Email hier erfassen";
+"BACKUP_EMAIL_VALIDATION_ERROR_MESSAGE" = "Bitte eine korrekte Email Adresse erfassen";
+"BACKUP_ERROR_MESSAGE" = "E-Mail Prüfung";
+"ERROR" = "Fehler!";
+
+"TEMPLATE"="Vorlage";
+"TEMPLATE_LIST_HEADER"="Meine Vorlagen";
+"TEMPLATE_ACTION_MESSAGE" = "Vorlage auswählen";
+"TEMPLATE_ACTION_NAME" = "Wähle die Vorlage";
+"DEFAULT_TEMPLATE_NAME_1"="Mein Ausgangssaldo";
+"DEFAULT_TEMPLATE_NAME_2"="Meine Sonderstunden";
+"DEFAULT_TEMPLATE_NAME_3"="Mein Auszahlungskonto";
+// need to translate
+"DEFAULT_TEMPLATE_NAME_4"="My typical day";
+"DEFAULT_TEMPLATE_NAME_5"="My shift 1";
+"DEFAULT_TEMPLATE_NAME_6"="Template 6";
+"DEFAULT_TEMPLATE_NAME_7"="Template 7";
+
+"USER_IDENTIFICATION_DESCRIPTION" = "Diese Angaben werden als Standardwerte für die E-Mail-Erstellung und in den Überschriften der Berichte verwendet";
+"MY_HEADING" = "Meine Koordinaten";
+"BACKUP_TEXT_MESSAGE" = "Es wird eine E-Mail erstellt und Ihre Zeiteingaben werden als Sicherungsdatei (.motd) angefügt. *Falls Sie Ihre Daten auf ein Android Gerät überführen möchten, können Sie diese im Format .motad erstellen und dort importieren";
+
+// FAQ Texts
+
+// Questions
+
+"FAQ_Question_1" = "1) Wie kann ich ein Anfangssaldo bzw. mein\n     Saldovortrag erfassen ?";
+"FAQ_Question_2" = "2) Wie erfasse ich einen Ausgleich, um\n     meine Überstunden zu reduzieren? ";
+"FAQ_Question_3" = "3) Was wird unter Überstunden (bzw. Überzeit)\n     verstanden ?";
+"FAQ_Question_4" = "4) Was wird unter Sollzeit verstanden ?";
+"FAQ_Question_5" = "5) Was ist unter 'Tätigkeit' zu verstehen?";
+"FAQ_Question_6" = "6) Wie kann ich meine Arbeiten bzw. Tätigkeiten\n     einrichten ?";
+"FAQ_Question_7" = "7) Wenn ich die Tätigkeit ändere, warum\n     werden die Zeiteingaben nicht angepasst ?";
+"FAQ_Question_8" = "8) Ist die Zeiterfassung für zwei Jobs möglich ?";
+"FAQ_Question_9" = "9) Wie unterscheidet sich die IAP Version\n     (App-Symbol mit roter Schleife) ?";
+"FAQ_Question_10" = "10) Wofür soll der Guthaben-Bericht gut sein ?";
+"FAQ_Question_11" = "11) Welche Möglichkeit habe ich um meine\n      Daten weiter auszuwerten ?";
+"FAQ_Question_12" = "12) Wie kann ich meine Daten ausdrucken ?";
+"FAQ_Question_13" = "13) Wofür wird das 'Sichern und senden'\n      verwendet ?";
+"FAQ_Question_14" = "14) Wie kann ich meine Daten wieder\n      herstellen ?";
+"FAQ_Question_15" = "15) Wie kann ich meine Daten auf ein anderes\n      Gerät verschieben ?";
+"FAQ_Question_16" = "16) Was ist 'Dropbox Cloud' und wie geht das ?";
+"FAQ_Question_17" = "17) Wie verwende ich Vorlagen ?";
+"FAQ_Question_18" = "18) Was sind die Zukunftspläne für diese App ?";
+
+// Answers
+
+"FAQ_Answer_1" = "Gehen Sie wie folgt vor:\na) Gehen Sie zu dem Termin (Datum) an dem sie die Zeiterfassung starten wollen bzw. den Tag davor.\nb) Tippen Sie auf 'Meine Vorlagen' and wählen Sie 'Mein Ausgangssaldo'*\nc) Aktualisieren Sie den vorgeschlagenen Pauschalstundenwert mit Ihrem gewünschten Startsaldo\nd) Nun sind Sie Startklar und können im nächsten Termin mit dem Erfassen Ihrer Arbeitszeiten beginnen\n* Falls der Satz 'Ausgangssaldo' nicht erscheint, können Sie diesen erstellen. Gehen Sie zu 'Einstellungen' und erstellen Sie eine neue Tätigkeit und richten Sie diese mit 'Sollzeit = abziehen' (Häkchen) ein und mit 'Pauschal = EIN'. Weiteres dazu unter Frage 6.";
+
+"FAQ_Answer_2" = "Wenn Sie, im Rahmen eines flexiblen Arbeitszeitmodell, Ihre Überstunden reduzieren können in dem sie später zur Arbeit kommen oder sich früher abmelden, braucht es keine besonderen Zeiteingaben weil der Tages-Saldo somit negative Stunden ausweist und ihre Überstunden gesamthaft reduziert werden.\nWenn Sie ganze Tage kompensieren möchten und diese eventuell auszahlen lassen, gibt es folgende Möglichkeiten:\nVariante A (Freier Tag als Zeitausgleich)\na) Gehen Sie zum abzugeltenden Termin\nb) Tippen Sie auf '+' um eine Zeiteingabe anzulegen\nc) Stellen Sie sicher, dass die Sollzeit den Arbeitstag entspricht (z.B. 08.00)\nd) Wählen Sie den Satz 'Ausgleich' oder 'Gleitzeit-Abbau' aus den vordefinierten Tätigkeiten\ne) Nun wird das Tagestotal auf 0 stehen und der Saldo einen negative Sollzeitwert ergeben (z.B. -8.00)\nf) Wenn Sie nun Ihre Daten abfragen, (gehen Sie zur Berichtsübersicht) könnten Sie feststellen, dass ihre Gesamtüberstunden um diesen Wert reduziert wurden.\nVariante B (Gesamtüberstunden reduzieren + Auszahlung)\na) Gehen Sie zu einem Freien Termin (bsp. Sonntag)\nb) Tippen Sie auf 'Meine Vorlagen' und wählen Sie 'Mein Auszahlungskonto' um eine Zeiteingabe anzulegen*\nc) Nun wird die Sollzeit auf 0 gestellt und der Stundenwert (40.00) kann mit Ihrem gewünschten Abbauwert aktualisiert werden. Zudem gibt es die Möglichkeit, bei einer eventuellen Auszahlung, den enstsprechenden Geldbetrag in einem weiteren Eingabfeld zu erfassen\nd) Der Tagessaldo weist somit einen negativen Wert aus bzw. wird um den Stundenwert entsprechend reduziert (z.B. -40:00).\ne) Wenn Sie nun Ihre Daten abfragen, (gehen Sie zur Berichtsübersicht) können Sie feststellen, dass ihre Gesamtüberstunden um diesen Wert reduziert wurden. Der Geldbetrag wir im Detailbericht mitgeführt.\n* Falls der Satz 'Auszahlungskonto' nicht vorhanden ist, können Sie diesen erstellen. Gehen Sie zu 'Einstellungen' und erstellen Sie eine neue Tätigkeit und richten Sie diese mit 'Sollzeit = abziehen' (Häkchen) ein, 'Pauschal = EIN' und 'Saldo reduzieren = EIN'. Weiteres dazu unter Frage 6.\nDieser Vorgang kann auch an einem Arbeitstag zusammen mit einer zusätzlichen Tätigkeit (z.B. 'Im Büro') mit Sollwert kombiniert werden.";
+
+"FAQ_Answer_3" = "In Zusammenhang mit dieser App sind es die aufgelaufenen Arbeitsstunden welche die tägliche Sollzeit übertrifft. Der Wert wird am unteren Rande der Zeiteingabe als 'Saldo' aufgeführt. Ein Beispiel: Sie haben 8,00 Stunden Sollzeit vereinbart und ihre Arbeitszeit (abzüglich Pausen) ergibt 9,15 Stunden was bedeutet, dass Sie 1 Stunde und 15 Minuten †berstunden bzw. †berzeit geleistet haben. Bei Firmen mit Gleitzeitmodellen wird auch von Gleitzeit 'Überschuss' gesprochen.\nDiese Überstunden möchten Sie eventuell zu einem späteren Zeitpunkt in Form von Freizeit oder Geld beziehen bzw. ausgleichen. Wenn Sie mit einem flexiblen Arbeitszeitmodell arbeiten, können Sie diese Zeit in Form eines kürzeren Arbeitstages (später zur Arbeit kommen, bzw. sich früher abmelden) oder eines freien Tages ausgleichen (siehe Frage 2). In bestimmten Industrien ist es üblich, dass die Arbeitszeit welche die 40-Stunden-Woche überschreitet, ausbezahlt wird. Des weiteren kann Wochenendarbeit mit einem höheren Überstunden-Satz berechnet werden (z.B. eine Stunde zählt 1.5x oder 2x).\nWenn Sie Ihre Überstunden mit Ihrem Arbeitgeber abrechnen wollen, empfiehlt es sich die Stunden wie auch der geschuldete Betrag mit einer vordefinierten Tätigkeit zu erfassen.\nEin Beispiel wie dies in der App abgewickelt werden kann: Am Samstag wurde eine Schicht geleistet wofür Überstunden zum Satz von 1.5 pro Stunde anfallen. Dazu können folgende Zeiteingaben erfasst werden:\n- Tätigkeit 1: 'Im Büro' (oder z.B. 'Schicht') mit Start: 09.00 and Ende: 05.00 (1.00 Stunde Pause) = Total 7.00 Arbeitsstunden\n- Tätigkeit 2: 'Überzeitsatz 1.5x' am gleichen Termin mit '+' anfügen und mit 3.30 Std erfassen (1.5 x 7 Std = 10.30 Std, 10:30 - 7.00 = 3.30 Std). Damit ergibt sich der Bonusanteil aus der zur 1.5-fachen verrechneten Arbeitszeit. Der für diese Stunden geschuldeter Betrag kann im dafür eingerichteten Betragsfeld erfasst werden.\n- Somit erhalten Sie für diesen Arbeitstag ein Stundentotal von 10.30 gegenüber der täglichen Sollzeit von 7:00 Stunden ergibt einen Überstundensaldo von 3.30 Std. Die angesammelten Stunden können mittels Detailbericht gezielt abgefragt bzw. ausgewertet werden\n- Am Zahltag bzw. am entsprechenden Termin kann die Tätigkeit 'Auszahlungskonto' angefügt werden womit alle abgegoltenen Überstunden und die entsprechende Geldsumme erfasst werden und der Überstundensaldo bis Dato um diesen Wert reduziert wird (führen Sie die Berichte aus um die Auswirkung zu überprüfen).\n- Falls Sie für die Berechnung Ihrer täglichen Arbeitszeit mehrere Tätigkeitssätze verwenden und diese sich immer wieder mit denselben Werten an verschiedenen Tagen bzw. monatlich wiederholen, dann sollten Sie diese Zeiteingaben in Form einer Vorlage zusammenfassen. Vorlagen können unter 'Meine Vorlagen' bzw. unter 'Arbeitstage einrichten' erstellt werden. Weiteres dazu unter Frage 17";
+
+"FAQ_Answer_4" = "Damit versteht sich die mit dem Arbeitgeber vereinbarte tägliche Arbeitszeit. Es gibt Anstellungsverhätnisse bei welchen eine wochentliche bzw. einen Monatssoll vereinbart wird. Womöglich kann in solchen Fällen keine tägliche Arbeitszeit berechnet werden. Diese App wurde jedoch auf die Zeiterfassung gegenüber einem Tagessoll ausgerichtet.";
+
+"FAQ_Answer_5" = "Darunter versteht sich im allgemeinen eine Einheit an die Sie Ihre Stunden zuordnen. Je nach dem wie Sie diese App einsetzen, gibt es eventuell andere Bezeichnungen, die zutreffender wären. In verschiedenen Stellen dürfte von 'Aufgaben', 'Projekte' oder 'Schichten' die Rede sein. Des weiteren könnte unter Tätigkeit auch ein 'Konto' verstanden werden (bspw. zur Verwaltung spezieller Überstunden).\n\nEs wurde für Sie einen Satz vordefinerter Tätigkeiten (einschliesslich 'Meine Vorlagen') beim ersten Download dieser App bereitgestellt um Ihnen die Möglichkeiten, Ihre Stunden zu verwalten, näher zu bringen. Es ist Ihnen jedoch überlassen, diese zu mehr detaillierten Aufgaben aufzuteilen (z.B. 'im Büro' kann auf 'Büro Aufgabe A', 'Büro Aufgabe B' aufgeteilt werden, usw.), Konten zu erstellen (z.B. Überstunden Sondersatz, Sondersatz Auszahlungen) und andere Einheiten zu bilden.";
+
+"FAQ_Answer_6" = "- Gehen Sie zu 'Einstellungen' und 'Tätigkeiten'.\n- Sie können vordefinierte Tätigkeiten beliebig anpassen bzw. umbennen, löschen, deren Reihenfolge ändern oder neue anlegen.\n- Es gibt die Möglichkeit, die Tätigkeit als 'pauschal' einzustellen d.h. es erscheinen keine Start- und Ende- Eingabefelder sondern es wird einen einzigen Total-Stundenwert erwartet. Als Vorgabe wird die Sollzeit direkt übernommen. Es kšnnen aber auch fixe Stundenwerte festgelegt werden. Die Urlaubs-Tätigkeit wurde als pauschal vordefiniert.\n- Es gibt die Möglichkeit, ein Guthaben einzurichten was für die Restguthaben-Kontrolle verwendet wird (z.B. Urlaub 2012). Siehe auch Frage 10.\n- Die Tätigkeiten werden in der Reihenfolge aufgeführt in dem Sie angelegt wurden. Diese Reihenfolge wird auch in die Auswahlliste übernommen";
+
+"FAQ_Answer_7" = "Aenderungen werden nur auf nachfolgenden Zeiteingaben angewendet womit bestehende Zeiteingaben unverändert bleiben. Um die Aenderungen rückwirkend anzuwenden, muss bei jeder historischen Zeiteingabe die Tätigkeit neu selektiert werden (z.B. bei Namensänderung, Pauschal EIN/AUS, Guthabenwert, usw).";
+
+"FAQ_Answer_8" = "Diese App wurde grundsätzlich für das verwalten von Arbeitszeiten zu einem Job entwickelt. Aus diesem Grund werden die überstunden-Saldo nicht auf Job-Ebene aufgeteilt sondern bei der Abfrage als einen Gesamtwert geführt. Es gibt jedoch folgende Möglichkeiten:\na) Eine Tätigkeit mit 'Job 2' o.ä. kann aufgesetzt werden. Wenn der 2. Job an einem anderen Tag stattfindet, kann eine 2. Sollzeit für diesen Tag erfasst werden in dem der Sollwert überschrieben wird. Wie erwähnt, werden die Überstunden jedoch als einen Gesamtwert im Bericht aufgeführt.\nb) Eine weitere Variante wäre die Vollversion App und die IAP App (roter Schleife) auf dem gleichen Gerät zu führen. Dabei müsste die zweite Version erworben werden.\nc) Eine weitere Variante: diese App auf einem weiteren iOS Gerät installieren und dort eine weitere Zeiterfassung führen. Dabei kann die bestehende App vom App store nochmals gratis installiert werden.";
+
+"FAQ_Answer_9" = "Beide Versionen sind grundsätzlich identisch. Die IAP Version ermöglicht es, eine gratis Grundversion kennenzulernen wobei die Zeiteingaben auf eine Bestandeshistorie von 14 Tagen eingeschränkt sind und einige Möglichkeiten gesperrt sind. Diese Einschränkungen können mittels In-App-Kauf freigeschaltet werden. Es gibt keinen Grund, zwischen den Versionen zu wechseln da beide Versionen die gleichen Möglichkeiten bieten und im Rahmen von Updates gleichmässig weiterentwickelt werden.";
+
+"FAQ_Answer_10" = "Dieser Bericht ermöglicht das auswerten von Tätigkeiten mit einem Guthaben. Meist wird damit das Urlaubs-Restguthaben ausgewertet. Um diesen Bericht kennenzulernen, fügen Sie die vordefinierte Urlaubs-Tätigkeit auf Ihren Zeiteingaben ein und schauen anschliessend das Berichtsresultat an. Grundsätzlich können Sie für jede Tätigkeit ein Guthaben (in Stunden) setzen. Ein Beispiel: Wenn Ihr Urlaubs-Jahresguthaben 20 Tagen beträgt, dann rechnen Sie diese in Stunden um (8 Std * 20 Urlaubstage = 160.00 Stunden) und erfassen diesen als Guthaben. Dieser Bericht berücksichtigt nur diejenigen Tätigkeiten bei denen einen Guthabenwert gesetzt wurde.";
+
+"FAQ_Answer_11" = "Benutzen Sie die Email Möglichkeit und öffnen Sie die csv oder html Datei auf einem Computer mit einem Tabellenkalkulationsprogramm (z.B. MS-Excel) und kopieren Sie oder importieren Sie die Daten dorthin um zum Beispiel weitere Filter, Kommentare und grafische Elemente hinzufügen.";
+
+"FAQ_Answer_12" = "Sie führen den gewünschten Bericht aus und senden die Daten per Email. Aus dem Email heraus haben Sie folgende Möglichkeit:\na) Oeffnen Sie den Datei-Anhang auf einem Computer mit Druckeranschluss\nb) Oeffnen Sie den Datei-Anhang auf Ihrem iOS Gerät wenn Sie einen Wireless Drucker eingerichtet haben.";
+
+"FAQ_Answer_13" = "- um per Email, Ihre Zeiteingaben auf ein anderes iOS Gerät zu kopieren.\n- um per Email, eine Sicherungs-Kopie Ihrer Zeiteingaben anzulegen\n- der Sicherungsplan ermöglicht ein regelmässiges sichern Ihrer Daten";
+
+"FAQ_Answer_14" = "Falls Ihre App-Daten verloren gingen (z.B. Gerät verloren, App gelöscht) und Sie möchten diese auf einem anderen Gerät zurückholen, kann dies entweder a) durch eine zuvor getätigte Gesamtsicherung per iCloud/iTunes wiederhergestellt werden wobei hiermit das Gerät neu aufgesetzt wird oder b) um nur diese App-Daten wiederherzustellen, kann auf die Sicherungsmails (per 'Sichern + Senden' erstellt) zurückgegriffen werden. Da das 'Sichern + Senden' sämtliche Zeiteingaben in komprimierter Form als Email-Datei aufbewahrt, braucht es wenig Speicher und kann von dort aus direkt wiederhergestellt werden.\nUm eine Email Sicherung zurückzuholen, bitte folgendes beachten:\na) Stellen Sie sicher, dass die App auf dem Gerät installiert ist (Die nochmalige Installation direkt aus dem App Store ist gratis).\nb) Oeffnen Sie die Email, tippen Sie auf den Datei-Anhang und werden aufgefordert das 'öffnen mit My Overtime' zu bestätigen.\nc) Nun startet das App und alle Ihre Zeiteingaben stehen wieder zum Abruf bereit.\nd) Die vormalige Standard-Einstellungen (Arbeitstage, Minuten-Schritte, etc) müssen nochmals eingerichtet werden.\nEine weitere Methode steht nun mit 'Dropbox Cloud' zur Verfügung wonach Datensicherungen auf ein persönliches Dropbox Konto abgelegt werden und von dort wieder hergestellt werden (weiteres unter Frage Nr. 16). ";
+
+"FAQ_Answer_15" = "a) installieren Sie diese App auf Ihr neues Gerät. (Die nochmalige Installation direkt aus dem App Store ist gratis).\nb) Führen Sie das 'Sichern und senden' aus dem alten Gerät durch und senden Sie das Resultat an die Email auf dem neuen Gerät\nc) Oeffnen Sie die Email, tippen Sie auf den Datei-Anhang und werden aufgefordert das 'öffnen mit My Overtime' zu bestätigen.\nd) Nun startet das App und alle Ihre Zeiteingaben stehen wieder zum Abruf bereit.\ne) Die vormalige Standard-Einstellungen (Arbeitstage, Minuten-Schritte, etc) müssen nochmals eingerichtet werden.\nEs besteht zudem die Möglichkeit, Ihre Daten im Format .motad auf ein Android-Gerät zu installieren. ";
+
+"FAQ_Answer_16" = "Damit können Sie sich regelmässige Datensicherungen (d.h. alle historischen Zeiteingaben) auf einem externen Server (Cloud) mit einem Anbieter namens 'Dropbox' anlegen. Dieser Dienst ermöglicht eine teilautomatisierte Sicherung was auf die Dauer angenehmer ist als die Variante mit E-mail (siehe Frage 13). Ihre Daten können wieder hergestellt werden falls Ihre Daten aus irgendwelchen Gründen verloren gingen oder falls Sie Ihre Daten auf ein anderes Gerät überspielen möchten (bedingt, dass die App dort installiert ist). Bitte beachten Sie, dass dies kein Datenbank-Synchronisierungsdienst zwischen Geräten ist.\n\nUm diese Möglichkeit zu nutzen, brauchen Sie ein Dropbox Konto und eine Internetverbindung. Während der Einrichtung können Sie ein Dropbox Konto erstellen bzw. sich anmelden um sich mit Ihrem Konto zu verlinken. Bei erfolgreicher (einmaliger) Verlinkung können Sie nun eine Sicherung ausführen womit eine Datei (.motd) bei jeder Sicherung samt Zeitstempel auf einem bestimmten Pfad (APPS\..) angelegt wird. Die Dateien haben eine Grösse von unter 10KB, so dass mit dem Grundpaket von Dropbox keine Kosten anfallen. Des weiteren, bitte beachten Sie folgende Punkte:\n\na) Bei fehlender Internetverbindung wird die Sicherungsdatei vorübergehend auf Ihren Gerät zwischengelagert bis zum Zeitpunkt der nächsten Internetverbindung und sowohl die App gestartet wird.\nb) Datensicherungen per Sicherungsplanner werden dann ausgeführt wenn am jeweiligen Tag die App gestartet wird.\nc) Das motd Dateiformat kann nur durch diese App als Teil des Wiederherstellungsvorgang gelesen werden\nd) Um eine Übersicht Ihrer Datensicherungen zu erhalten, benutzen Sie den 'Wiederherstellen' Knopf oder gehen direkt auf Ihre Dropbox Konto\ne) Um eine Datensicherung wieder herzustellen, tippen Sie bitte auf den Dateinamen und folgen den Anweisungen\nf)  Sie können die alten bzw. unerwünschten Datensicherungen direkt auf Ihrem Dropbox Konto löschen";
+
+"FAQ_Answer_17" = "Durch Vorlagen können Sie typische Tätigkeiten, die sich in einem verändernden Zeitplan wiederholen als vor definierte Zeiteingabe speichern. Als Beispiel könnten bestimmte wöchentliche Zeiteingaben oder Zeiteingaben, die Sie monatlich zu besonderen Anlässen benötigen zu einer Vorlage zusammengefasst werden. Sie können die unter 'Meine Vorlagen' bereitgestellten Vorlagen nutzen bzw. ändern, um an Ihre Bedürfnisse anzupassen. Darüber hinaus können Sie eine Vorlage für jeden Tag der Woche im Bereich 'Arbeitstage einrichten' erstellen.";
+
+"FAQ_Answer_18" = "Seit der Einführung im August 2011 gab es reichlich Feedback. Viele Probleme wurden gelöst und interessante Vorschläge umgesetzt mit dem Ziel, diese App zum zuverlässigen täglichen Begleiter zu machen. Aus App Store Sicht gibt es weitere Anbieter welche sich mehrheitlich auf Projekt-Arbeiten bzw. Zeitverrechnungslösungen mit Zeiterfassung für verschiedene Berufsgruppen konzentrieren. Gerne möchte ich Ihre erste Wahl sein wenn es um Ihre persönliche Zeiterfassung mit Sollzeitabgleich geht. Je mehr ich von Ihnen über das positive und das zu verbessernde mitbekomme, desto besser kann ich diese App optimieren bzw. mit weiteren Möglichkeiten ausstatten. Bitte mailen Sie mir einfach oder schauen Sie mal auf meiner Facebook-Seite rein. Nicht zuletzt hoffe ich, dass ich mit dieser Lösung einen positiven Beitrag zu Ihrem Berufs- und Freizeit-Ausgleich anbieten kann. Als Teil einer wachsenden Benutzer-Gemeinde, sage ich: Glückwünsche zur Entdeckung dieser App!";
+
+// Dropboz Texts
+
+"LINK_DB" = "Mit Dropbox verbinden";
+"UNLINK_DB" = "Dropbox trennen";
+"DB_ALERT_HEADING" = "Warnung";
+"DB_ALERT_MSG" = "Sind Sie sicher, dass Sie die Verbindung zur App trennen wollen?";
+"DB_ALERT_CANCEL" = "Abbrechen";
+"DB_ALERT_YES" = "Ja";
+"DB_LABEL_TITLE" = "Nie";
+"DB_ALERT_DONE_TITLE" = "Datensicherung erfolgreich";
+"DB_ALERT_DONE_MSG" = "Es wurde eine Datensicherung Ihrer Zeiteingaben erstellt.";
+"RESTORE_TITLE" = "Datensicherung wiederherstellen";
+"TITLE_RESTORE" = "Wiederherstellen";
+
+"RESTORE_LOGIN_ERROR" = "Bitte zuerst mit Dropbox verbinden";
+"CREATE_LOGIN_ERROR" = "Bitte zuerst mit Dropbox verbinden";
+"LOGIN_ALERT" = "Bitte zuerst mit Dropbox verbinden";
+"FILE" = "Dateien";
+"NO_FILE" = "Keine Dateien gefunden";
+"DM_RESTORE_SUCCESS" = "Wiederherstellen abgeschlosssen";
+
+"DB_LOGIN_FAILED" = "Anmelden fehlgeschlagen";
+"DB_BACKUP_ERROR" = "Fehlerhafte Verbindung. Die Datensicherung konnte nicht erstellt werden. Bitte später nochmals versuchen";
+
+// inApp Purchase Texts
+"LOADING_TITLE" = "Bitte warten...";
+
+"UPGRADE_FAIL_TITLE" = "In-App-Kauf Mislungen";
+"UPGRADE_FAIL_MESSAGE" = "Der Vorgang konnte nicht abgeschlossen werden. Bitte versuchen Sie es nochmals.";
+"RESTORE_COMPLETE_TITLE" = "Wiederherstellen abgeschlossen";
+"RESTORE_COMPLETE_MESSAGE" = "Ihre zuvor erworbenen Artikel wurden wiederhergestellt.";
+"IAP_TITLE" = "In-App Kauf";
+"IAP_SUCCESS_MSG" = "In-App-Kauf Transaktion erfolgreich";
+
+// FAQ page item title
+"TITLE_FAQ" = "Fragen & Antworten";
+"TITLE_SUPPORT" = "News & Kontakt";
+"TITLE_REVIEW" = "Auf iTunes bewerten";
+
+//Allowance Alert
+"EMPTY_ALLOWANCE_ALERT" = "Kein Resultat. Es fehlen Zeiteingaben welche zu einer Tätigkeit erfasst wurden bei der ein Guthaben eingerichtet ist (z.B. Urlaubs-Guthaben bzw. Jahressoll). Bitte lesen Sie auf der Hilfe-Seite unter 'Fragen und Antworten' bei Frage Nr. 10 nach.";

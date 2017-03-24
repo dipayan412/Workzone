@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VerificationViewController">
+            <connections>
+                <outlet property="countryCodeLabel" destination="8Xt-NM-RAg" id="5s3-jx-lyq"/>
+                <outlet property="countryPicker" destination="sXl-j1-98d" id="whZ-3K-sRq"/>
+                <outlet property="phoneNumberField" destination="Zzw-cO-oyk" id="kVU-MH-07n"/>
+                <outlet property="selectCountryField" destination="f9z-cj-ot2" id="waf-fN-iP5"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select country code" minimumFontSize="17" id="f9z-cj-ot2">
+                    <rect key="frame" x="20" y="177" width="280" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.99607843137254903" green="0.88627450980392153" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.46274509803921571" green="0.3529411764705882" blue="0.086274509803921567" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="0p8-cM-yPP"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your phone number..." minimumFontSize="17" id="Zzw-cO-oyk">
+                    <rect key="frame" x="20" y="232" width="280" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.99607843139999996" green="0.8862745098" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.46274509800000002" green="0.35294117650000001" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="go"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="wFD-3M-baK"/>
+                    </connections>
+                </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VerificationPageHeader.png" id="HO0-fJ-sgM">
+                    <rect key="frame" x="43" y="80" width="235" height="71"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="A0d-EV-s3n">
+                    <rect key="frame" x="98" y="296" width="124" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" image="VerifyButton.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="veriFyButtonAction:" destination="-1" eventType="touchUpInside" id="2u8-gd-96p"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We will send you a verification SMS to activate Wake" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZmS-M4-5qh">
+                    <rect key="frame" x="20" y="334" width="280" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.46274509800000002" green="0.35294117650000001" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Xt-NM-RAg">
+                    <rect key="frame" x="206" y="177" width="85" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" red="0.46274509800000002" green="0.35294117650000001" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AuT-WO-GLP">
+                    <rect key="frame" x="104" y="51" width="112" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.99215686274509807" green="0.73725490196078436" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+        <pickerView contentMode="scaleToFill" id="sXl-j1-98d">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <connections>
+                <outlet property="dataSource" destination="-1" id="Ip0-bD-rzs"/>
+                <outlet property="delegate" destination="-1" id="zOb-v2-vrg"/>
+            </connections>
+        </pickerView>
+    </objects>
+    <resources>
+        <image name="VerificationPageHeader.png" width="235" height="71"/>
+        <image name="VerifyButton.png" width="124" height="30"/>
+    </resources>
+</document>

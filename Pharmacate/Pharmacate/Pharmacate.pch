@@ -1,0 +1,262 @@
+//
+//  Pharmacate.pch
+//  Pharmacate
+//
+//  Created by Dipayan Banik on 6/24/16.
+//  Copyright © 2016 Gravalabs. All rights reserved.
+//
+
+#ifndef Pharmacate_pch
+#define Pharmacate_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define productDetailURL        @"https://1fvbzr8nb6.execute-api.us-west-2.amazonaws.com/dev/search/product-detail"
+#define signInURL               @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/insert/user-sign-in-through-pharmacate"
+#define insertUserURL           @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/insert/single-user"
+#define isTokenValidURL         @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/insert/is-token-valid"
+#define skipSignInURL           @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/insert/skip-sign-in"
+#define userSignInWithFBURL     @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/insert/user-sign-in-with-fb"
+#define getUserIdURL            @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/insert/get-user-id"
+#define userSignInWithGoogleURL @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/insert/user-sign-in-with-google"
+#define insertIntoHistoryURL    @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/insert/insert-into-history"
+#define getSearchHistory        @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/history/get-user-search-history"
+#define deleteHistoryURL        @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/delete/delete-history"
+#define getAllProductsURL       @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/local-store/get-all-products"
+#define getAllDiseasesURL       @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/local-store/get-all-diseases"
+#define getAllAllergensUrl      @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/local-store/get-all-allergens"
+#define updateUserProducts      @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/user-profile/update-user-products"
+#define getUserProducts         @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/user-profile/get-user-products"
+#define bingSearchApiCall       @"https://api.cognitive.microsoft.com/bing/v5.0/news/search?"
+#define termsPdfAddress         @"http://www.auburn.edu/~robicfj/papers/prl110.213001.pdf"
+#define searchProduct           @"https://1fvbzr8nb6.execute-api.us-west-2.amazonaws.com/dev/search/products"
+#define searchDisease           @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/local-store/get-disease-by-name"
+#define searchAllergens         @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/local-store/get-allergens-by-name"
+#define getProductNews          @"https://1fvbzr8nb6.execute-api.us-west-2.amazonaws.com/dev/search/product-news/simple"
+#define getProductDetail        @"https://1fvbzr8nb6.execute-api.us-west-2.amazonaws.com/dev/search/product-detail"
+#define getUserReviews          @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/reviews/get-user-reviews"
+#define userReviews             @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/search/product-reviews"
+#define getBingNews             @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/news/get-news"
+#define insertReview            @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/reviews/insert-review"
+#define insertUserFeedback      @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/feedback/insert-user-feedback"
+#define productGenericSearch    @"https://1fvbzr8nb6.execute-api.us-west-2.amazonaws.com/dev/product-search/generic"
+#define productGenericAutoComplete  @"https://1fvbzr8nb6.execute-api.us-west-2.amazonaws.com/dev/product-search/generic/auto-complete"
+#define getUserReviewsOfUser    @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/reviews/get-user-reviews-for-user"
+#define deleteReviewByUser      @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/reviews/delete-review-by-user"
+#define getProductRecalls       @"https://1fvbzr8nb6.execute-api.us-west-2.amazonaws.com/dev/search/product-recalls"
+#define productReviews2         @"https://1fvbzr8nb6.execute-api.us-west-2.amazonaws.com/dev/search/product-reviews"
+#define updateUserProducts2     @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/user-profile/update-user-product-for-user"
+#define getSimilarProductUrl    @"https://1fvbzr8nb6.execute-api.us-west-2.amazonaws.com/dev/search/product-alternatives"
+#define getProductImage         @"https://1fvbzr8nb6.execute-api.us-west-2.amazonaws.com/dev/search/product-alternatives"
+#define refreshToken            @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/insert/refresh-token"
+#define relevantNews            @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/news/relevant"
+#define termsLink               @"https://s3-us-west-2.amazonaws.com/pdfs-pharmacate/merged_terms.pdf"
+#define faqLink                 @"https://s3-us-west-2.amazonaws.com/pdfs-pharmacate/Privacy+Policy.pdf"
+#define checkBookmark           @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/user-profile/check-user-product-bookmark"
+#define deleteBookmark          @"https://m6zbw2uc09.execute-api.us-west-2.amazonaws.com/dev/user-profile/delete-user-product"
+
+#define bingSearchApiKey1      @"c695e7724bea462da8781d81cc24aff9"
+#define bingSearchApiKey2      @"28378ea003f4441482663c26304303a6"
+#define appAnalyticsApiKey     @"R5EOia0M6f1zLnAxL4HssA4lTsy8JgWg"
+#define uxCamAccountKey        @"55b8069023e755f"
+#define googleClienId          @"741864180033-cmofondpnuqcvkchhpeqd3ptrn9mlouc.apps.googleusercontent.com"
+#define mailChimpApiKey        @"38c56d4ac5083a99e5b4a02867547133-us12"
+#define mailChimpListId        @"c596368c23"
+
+#define themeColor [UIColor colorWithRed:0.0/255 green:129.0/255 blue:161.0/255 alpha:1.0]
+#define loginPageBGColor [UIColor colorWithRed:243.0/255 green:242.0/255 blue:247.0/255 alpha:1.0]
+#define productQueryLimit @"40000"
+#define kProductDownloadComplete    @"kProductDownloadComplete"
+#define kDiseaseDownloadComplete    @"kDiseaseDownloadComplete"
+#define kGetProfileInfoNotification @"kGetProfileInfoNotification"
+#define kNewsDownloadCompleteNotification   @"kNewsDownloadCompleteNotification"
+#define kReviewPosted   @"kReviewPosted"
+#define kProductImageReceived   @"kProductImageReceived"
+#define kLabelScoresReceived     @"kLabelScoresReceived"
+#define kLabelScoresMissing      @"kLabelScoresMissing"
+
+#import "UserDefaultsManager.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import "MBProgressHUD.h"
+#import "ServerCommunicationUser.h"
+#import <Google/SignIn.h>
+#import <Google/Analytics.h>
+#import "Chimpkit.h"
+#import "UIImageView+WebCache.h"
+#import "RefreshToken.h"
+
+typedef NS_ENUM(NSInteger, OverViewLabel)
+{
+    kBoxWarning = 1,
+    kPregnancy,
+    kSideEffect,
+    kDrugInteraction,
+    kContradiction,
+    kAllergen,
+    kOverAll
+};
+
+//localized strings key
+
+//login
+#define kGuestKey               @"kGuestKey"
+#define kTermsTextKey           @"kTermsTextKey"
+#define kTermsButtonTextKey     @"kTermsButtonTextKey"
+#define kCheckingTokenTextKey   @"kCheckingTokenTextKey"
+#define kLoadingSocialAccounts  @"kLoadingSocialAccounts"
+
+//home
+#define kSearchTextFieldPlaceholder     @"kSearchTextFieldPlaceholder"
+#define kNewsTopText                    @"kNewsTopText"
+#define kNewsBottomText                 @"kNewsBottomText"
+#define kHistoryLoading                 @"kHistoryLoading"
+#define kUserInfoLoading                @"kUserInfoLoading"
+
+//search
+#define kAllHistory @"kAllHistory"
+#define kSearching  @"kSearching"
+#define kNoResult   @"kNoResult"
+
+//productDetail
+#define kForceLogin     @"kForceLogin"
+#define kAlertDismess   @"kAlertDismess"
+#define kAlertLogin     @"kAlertLogin"
+
+//productDetailPanel
+#define kOverView       @"kOverView"
+#define kDetails        @"kDetails"
+#define kNews           @"kNews"
+#define kAlternative    @"kAlternative"
+
+//review
+#define kReviewLoading  @"kReviewLoading"
+#define kReviewNoData   @"kReviewNoData"
+#define kReviewAnonymus @"kReviewAnonymus"
+
+//overViewLegend
+#define kOverViewLegendBoxWarning       @"kOverViewLegendBoxWarning"
+#define kOverViewLegendPregnancy        @"kOverViewLegendPregnancy"
+#define kOverViewLegendSideEffect       @"kOverViewLegendSideEffect"
+#define kOverViewLegendDrugInteractions @"kOverViewLegendDrugInteractions"
+
+//detailLabels
+#define kDetailLabelDescription         @"kDetailLabelDescription"
+#define kDetailLabelIngredient          @"kDetailLabelIngredient"
+#define kDetailLabelDisease             @"kDetailLabelDisease"
+#define kDetailLabelSideEffects         @"kDetailLabelSideEffects"
+#define kDetailLabelSymptoms            @"kDetailLabelSymptoms"
+#define kDetailLabelLoading             @"kDetailLabelLoading"
+
+//news
+#define kNewsLoading    @"kNewsLoading"
+#define kNewsNoData     @"kNewsNoData"
+
+//alternative
+#define kAlternativeSimilarProduct  @"kAlternativeSimilarProduct"
+#define kAlternativeHomeoPath       @"kAlternativeHomeoPath"
+#define kAlternativeLoading         @"kAlternativeLoading"
+#define kAlternativeNoData          @"kAlternativeNoData"
+
+//drawerView
+#define kDrawerHistory          @"kDrawerHistory"
+#define kDrawerfaq              @"kDrawerfaq"
+#define kDrawerProfile          @"kDrawerProfile"
+#define kDrawerFeedback         @"kDrawerFeedback"
+#define kDrawerPillReminder     @"kDrawerPillReminder"
+#define kDrawerMyReviews        @"kDrawerMyReviews"
+
+//postReview
+#define kPostReviewBackButton           @"kPostReviewBackButton"
+#define kPostReviewSubmitButton         @"kPostReviewSubmitButton"
+#define kPostReviewContentPlaceholder   @"kPostReviewContentPlaceholder"
+#define kPostReviewDurationPlaceholder  @"kPostReviewDurationPlaceholder"
+#define kPostReviewConditionPlaceholder @"kPostReviewConditionPlaceholder"
+#define kPostReviewRatingPlaceholder    @"kPostReviewRatingPlaceholder"
+#define kPostReviewAnonymus             @"kPostReviewAnonymus"
+#define kPostReviewAlertMessage         @"kPostReviewAlertMessage"
+#define kPostReviewAlertDismiss         @"kPostReviewAlertDismiss"
+#define kPostReviewPosting              @"kPostReviewPosting"
+
+//profilePanel
+#define kProfilePanelInfo          @"kProfilePanelInfo"
+#define kProfilePanelDisease       @"kProfilePanelDisease"
+#define kProfilePanelAllergy       @"kProfilePanelAllergy"
+#define kProfilePanelSignOut       @"kProfilePanelSignOut"
+
+//profileDetails
+#define kProfileDetailDiseaseTitle          @"kProfileDetailDiseaseTitle"
+#define kProfileDetailDiseasePlaceholder    @"kProfileDetailDiseasePlaceholder"
+#define kProfileDetailAllergyTitle          @"kProfileDetailAllergyTitle"
+#define kProfileDetailAllergyTPlaceholder   @"kProfileDetailAllergyTPlaceholder"
+#define kProfileDetailUserInformation       @"kProfileDetailUserInformation"
+
+//forceLogin
+#define kForceLoginAlertMessage     @"kForceLoginAlertMessage"
+#define kForceLoginAlertDismiss     @"kForceLoginAlertDismiss"
+#define kForceLoginAlertLogin       @"kForceLoginAlertLogin"
+
+//profileSave
+#define kProfileSaveChangeAlertMessage  @"kProfileSaveChangeAlertMessage"
+#define kProfileSaveChangeAlertDismiss  @"kProfileSaveChangeAlertDismiss"
+#define kProfileSaveChangeAlertOK       @"kProfileSaveChangeAlertOK"
+
+//history
+#define kHistoryAlertMessage    @"kHistoryAlertMessage"
+#define kHistoryAlertDismiss    @"kHistoryAlertDismiss"
+#define kHistoryAlertOk         @"kHistoryAlertOk"
+
+//pillReminder
+#define kPillReminderAddButton  @"kPillReminderAddButton"
+#define kPillReminderTitle      @"kPillReminderTitle"
+#define kPillReminderNoData     @"kPillReminderNoData"
+#define kPillReminderLoading    @"kPillReminderLoading"
+
+//pillReminderAlarm
+#define kPillReminderAlarmSubmitButton                  @"kPillReminderAlarmSubmitButton"
+#define kPillReminderAlarmTitle                         @"kPillReminderAlarmTitle"
+#define kPillReminderAlarmSearchPlaceholeder            @"kPillReminderAlarmSearchPlaceholeder"
+#define kPillReminderAlarmStartDatePlaceHolder          @"kPillReminderAlarmStartDatePlaceHolder"
+#define kPillReminderAlarmDurationPlaceholder           @"kPillReminderAlarmDurationPlaceholder"
+#define kPillReminderAlarmStartTimePlaceholder          @"kPillReminderAlarmStartTimePlaceholder"
+#define kPillReminderAlarmIntervalPlaceholder           @"kPillReminderAlarmIntervalPlaceholder"
+#define kPillReminderAlarmPickerDoneButton              @"kPillReminderAlarmPickerDoneButton"
+#define kPillReminderAlarmAlertMessageProduct           @"kPillReminderAlarmAlertMessageProduct"
+#define kPillReminderAlarmAlertMessageStartDate         @"kPillReminderAlarmAlertMessageStartDate"
+#define kPillReminderAlarmAlertMessageDuration          @"kPillReminderAlarmAlertMessageDuration"
+#define kPillReminderAlarmAlertMessageStartTime         @"kPillReminderAlarmAlertMessageStartTime"
+#define kPillReminderAlarmAlertMessageInterval          @"kPillReminderAlarmAlertMessageInterval"
+#define kPillReminderAlarmAlertDismiss                  @"kPillReminderAlarmAlertDismiss"
+#define kPillReminderAlarmLoading                       @"kPillReminderAlarmLoading"
+
+//myReviews
+#define kMyReviewsLoading   @"kMyReviewsLoading"
+#define kMyReviewsNoData    @"kMyReviewsNoData"
+
+//feedBack
+#define kFeedbackCancelButton           @"kFeedbackCancelButton"
+#define kFeedbackSubmitButton           @"kFeedbackSubmitButton"
+#define kFeedbackContentPlaceholder     @"kFeedbackContentPlaceholder"
+#define kFeedbackAlertMessage           @"kFeedbackAlertMessage"
+#define kFeedbackAlertDismiss           @"kFeedbackAlertDismiss"
+#define kFeedbackFeedbackLoading        @"kFeedbackFeedbackLoading"
+
+//filter
+#define kFilterCancel           @"kFilterCancel"
+#define kFilterSearch           @"kFilterSearch"
+#define kFilterTitle            @"kFilterTitle"
+#define kFilterScore            @"kFilterScore"
+#define kFilterOTC              @"kFilterOTC"
+#define kFilterSupplement       @"kFilterSupplement"
+#define kFilterPrescription     @"kFilterPrescription"
+#define kFilterHomeopathic      @"kFilterHomeopathic"
+#define kFilterMedicineName     @"kFilterMedicineName"
+#define kFilterName             @"kFilterName"
+#define kFilterIngredient       @"kFilterIngredient"
+#define kFilterDiseaseName      @"kFilterDiseaseName"
+#define kFilterSymptom          @"kFilterSymptom"
+#define kFilterType             @"kFilterType"
+#define kFilterCategory         @"kFilterCategory"
+
+#endif /* Pharmacate_pch */

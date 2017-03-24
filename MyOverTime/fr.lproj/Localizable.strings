@@ -1,0 +1,358 @@
+"TIME_SHEET_PAGE_TITLE" = "My Overtime";
+
+//Ashif
+
+"LOCAL_AM" = "AM";
+"LOCAL_PM" = "PM";
+
+"SETTINGS_SET_WORK_DAYS" = "Journées de travail";
+
+"REMINDER_MESSAGE_CONTENT" = "Il manque des heures saisies:";
+
+"REPORT_LIST_BALANCE_REPORT" = "Mes heures supplémentaires";
+"REPORT_LIST_ACTIVITY_REPORT" = "Rapport détaillé";
+"REPORT_LIST_ACTIVITY_BALANCE_REPORT" = "Rapport des avoirs";
+"REPORT_LIST_BACK_BUTTON" = "Retour";
+
+"REPORT_MYDATERANGE" = "Mon gamme de données";
+"REPORT_BALANCE_FOR_RANGE" = "Solde pour gamme";
+"REPORT_BALANCE_RANGE_START" = "Solde au début de gamme";
+"REPORT_BALANCE_RANGE_END" = "Solde à la fin de gamme";
+"REPORT_BALANCE_HISTORY" = "Solde journalier";
+
+"BALANCE_REPORT_TITLE" = "Mes heures supplémentaires";
+"ACTIVITY_REPORT_TITLE" = "Rapport détaillé";
+"ACTIVITY_BALANCE_TITLE" = "Rapport des avoirs";
+
+"ACTIVITIES_LIST_TITLE" = "Activités";
+"ACTIVITIES_LIST_NEW_ITEM" = "Appuyer sur '+' pour ajouter une nouvelle activité";
+
+"ACTIVITY_DETAIL_TITLE" = "Activité";
+
+"BALANCE_REPORT_EMAIL_SUBJECT" = "Rapport mes heures supp.";
+"BALANCE_REPORT_EMAIL_CONTENT" = "Ci-joint mes heures supplémentaires";
+"BALANCE_REPORT_EMAIL_ATTACHMENT" = "Mes heures supplémentaires.csv";
+"BALANCE_REPORT_EMAIL_ATTACHMENT_1" = "Mes heures supplémentaires.html";
+"BALANCE_REPORT_EMAIL_ATTACHMENT_2" = "Mes heures supplémentaires.pdf";
+
+"BALANCE_REPORT_HEADER_WEEKDAY" = "Journées de travail";
+"BALANCE_REPORT_HEADER_DATE" = "Date";
+"BALANCE_REPORT_HEADER_TOTAL" = "Total";
+"BALANCE_REPORT_HEADER_OFFSET" = "Offset";
+"BALANCE_REPORT_HEADER_BALANCE" = "Solde";
+"BALANCE_REPORT_HEADER_TOTAL_MIN" = "Total (min)";
+"BALANCE_REPORT_HEADER_OFFSET_MIN" = "Dues (min)";
+"BALANCE_REPORT_HEADER_BALANCE_MIN" = "Solde (min)";
+
+"ACTIVITY_REPORT_EMAIL_SUBJECT" = "Rapport détaillé";
+"ACTIVITY_REPORT_EMAIL_CONTENT" = "Voici le Rapport détaillé";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_0" = "RapportDétaillé.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_1" = "RapportDétailléPourMacOS.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_2" = "RapportDétailléPourWindows.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_3" = "RapportDétaillé.html";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_4" = "RapportDétaillé.pdf";
+
+"ACTIVITY_REPORT_HEADER_MONTH" = "Mois";
+"ACTIVITY_REPORT_HEADER_DATE" = "Date";
+"ACTIVITY_REPORT_HEADER_ACTIVITY" = "Activité";
+"ACTIVITY_REPORT_HEADER_TOTAL" = "Total";
+"ACTIVITY_REPORT_HEADER_START" = "Arrivée";
+"ACTIVITY_REPORT_HEADER_END" = "Départ";
+"ACTIVITY_REPORT_HEADER_BREAK" = "Pause";
+"ACTIVITY_REPORT_HEADER_OFFSET" = "Heures dues";
+"ACTIVITY_REPORT_HEADER_BALANCE" = "Solde";
+"ACTIVITY_REPORT_HEADER_AMOUNT" = "Montant";
+"ACTIVITY_REPORT_HEADER_COMMENTS" = "Remarques";
+"ACTIVITY_REPORT_HEADER_TOTAL_MIN" = "Total (min)";
+"ACTIVITY_REPORT_HEADER_OFFSET_MIN" = "Dues (min)";
+"ACTIVITY_REPORT_HEADER_BALANCE_MIN" = "Solde (min)";
+"ACTIVITY_REPORT_DAILY_TOTAL" = "Total de jour:";
+"ACTIVITY_REPORT_FLAT" = "Entrée standard";
+
+"ACTIVITY_BALANCE_EMAIL_SUBJECT" = "Rapport des avoirs";
+"ACTIVITY_BALANCE_EMAIL_CONTENT" = "Voici le Rapport des avoirs";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_0" = "RapportDesAvoirs.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_1" = "RapportDesAvoirsPourMacOS.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_2" = "RapportDesAvoirsPourWindows.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_3" = "RapportDesAvoirs.html";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_4" = "RapportDesAvoirs.pdf";
+
+"ACTIVITY_BALANCE_HEADER_ACTIVITY" = "Activité";
+"ACTIVITY_BALANCE_HEADER_ALLOWANCE" = "Avoirs(h.)";
+"ACTIVITY_BALANCE_HEADER_DATE" = "Date";
+"ACTIVITY_BALANCE_HEADER_APPLIED" = "Prises";
+"ACTIVITY_BALANCE_HEADER_BALANCE" = "Solde";
+"ACTIVITY_BALANCE_HEADER_ALLOWANCE_MIN" = "Avoirs(min.)";
+"ACTIVITY_BALANCE_HEADER_APPLIED_MIN" = "Prises(min.)";
+"ACTIVITY_BALANCE_HEADER_BALANCE_MIN" = "Solde (min.)";
+"ACTIVITY_BALANCE_TOTAL" = "Total:";
+
+"DEFAULT_ACTIVITY_IN_OFFICE" = "Au bureau";
+"DEFAULT_ACTIVITY_COMPANY_HOLIDAY" = "Fermeture annuelle";
+"DEFAULT_ACTIVITY_WORK_FROM_HOME" = "A distance";
+"DEFAULT_ACTIVITY_ON_VACATION" = "not used";
+"DEFAULT_ACTIVITY_TRAVEL" = "Voyage d'affaires";
+"DEFAULT_ACTIVITY_UNPAID_LEAVE" = "Congés sans solde";
+"DEFAULT_ACTIVITY_COMPENSATION" = "Récupération";
+"DEFAULT_ACTIVITY_OUT_SICK" = "Maladie";
+"DEFAULT_ACTIVITY_VACATION_2011" = "Vacances 2012";
+"DEFAULT_ACTIVITY_VACATION_2012" = "Vacances 2013";
+"DEFAULT_ACTIVITY_HOLIDAY_2011" = "Congés 2012";
+"DEFAULT_ACTIVITY_HOLIDAY_2012" = "Congés 2013";
+"DEFAULT_ACTIVITY_OVERTIME_PAID1.5" = "Taux Heures supp à 1.5x";
+"DEFAULT_ACTIVITY_OVERTIME_PAID2X" = "Taux Heures supp à 2x";
+"DEFAULT_ACTIVITY_OVERTIME_PAID" = "Heures supp standard";
+//"DEFAULT_ACTIVITY_OVERTIME_REDUCER" = "Heures supp payées";
+"DEFAULT_ACTIVITY_FLEXITIME_BURNED" = "Réduction h. flex";
+//"DEFAULT_ACTIVITY_STARTING_BALANCE" = "Solde initial";
+
+"DEFAULT_ACTIVITY_TEMPLATE_1"="Solde d'ouverture";
+"DEFAULT_ACTIVITY_TEMPLATE_2"="Taux des heures supp";
+"DEFAULT_ACTIVITY_TEMPLATE_3"="Compte décaissement";
+//translate
+"DEFAULT_ACTIVITY_TEMPLATE_4"="At work";
+"DEFAULT_ACTIVITY_TEMPLATE_5"="Shift 1";
+
+"BACKGROUND_ACTION_SHEET_TITLE" = "Choisissez l'arrière plan";
+"BACKGROUND_ACTION_SHEET_DEFAULT_BCKGRD_BUTTON" = "plan standard";
+"BACKGROUND_ACTION_SHEET_CHOOSE_PHOTOS_BUTTON" = "Choisissez de photos";
+"BACKGROUND_ACTION_SHEET_CANCEL_BUTTON" = "Interrompre";
+
+
+
+"EXPORT_EMAIL_BODY" = "Ci-joint le fichier de sauvegarde de les heures saisies. Pour importer s'il vous plaît appuyer sur le fichier. Veuillez noter que les données existantes sont écrasées et il n'ya pas d'avertissement.";
+
+
+
+"APPIRATER_MESSAGE" = "Vous avez déjà acquis une certaine expérience avec MyOvertime. S'il vous plaît prendre un moment pour évaluer cette application. \n En outre, une simple évaluation de l'étoiles \ n nous donne une indication de continuer à promouvoir des améliorations.\n\n Merci, que vous utilisez MyOvertime";
+"APPIRATER_RATE_BUTTON" = "m'y emmener";
+"APPIRATER_MESSAGE_TITLE" = "Note sur l'App Store";
+"APPIRATER_CANCEL_BUTTON" = "Non merci";
+"APPIRATER_RATE_LATER" = "Rappelez-moi plus tard";
+
+
+"PRODUCT_INAPP_TITLE_2" = "zzzz ";
+"PRODUCT_INAPP_BUTTON_PURCHASE" = "yyyy ";
+
+
+"PRODUCT_INAPP_NAVIGATION_TITLE" = "Achats intégrés";
+
+"PRODUCT_INAPP_TITLE_1" = "La liste d'achats";
+
+"PRODUCT_INAPP_HEADER3" = "Dropbox";
+"PRODUCT_INAPP_MESSAGE3" = "Pour acheter ce produit allez à la page d'aide et s'il vous plaît consulter 'Achats intégrés'";
+
+"PRODUCT_INAPP_3" = "Activer Dropbox";
+"PRODUCT_INAPP_DETAILS_3" = "Garder une copie de mes données sur Dropbox";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_3" = "Activer cette application pour créer un lien vers Dropbox, sauvegarder mes données sur Dropbox et récupérer mes données à partir de Dropbox.";
+
+
+"PRODUCT_INAPP_HEADER2" = "Débloquer calendrier";
+"PRODUCT_INAPP_MESSAGE2" = "La limite de 14 jours le temps de saisie a été atteint. La feuille la plus ancienne du temps sera supprimé sur une base continue.Vous pouvez acheter ce produit. S'il vous plaît aller à la page d'aide et de 'Achats intégrés' pour plus d'informations";
+
+
+"PRODUCT_INAPP_1" = "Débloquer calendrier";
+"PRODUCT_INAPP_DETAILS_1" = "Autoriser l'historique complet de saisie heures ";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_1" = "Débloquer ma limite de l'histoire des feuilles de temps (14 jours calendaires rouler l'histoire). Cela va me permettre de garder un historique complet de mes heures, y compris l'interrogation et l'exécution de mes rapports avec aucune restriction des dates.";
+
+
+
+"PRODUCT_INAPP_HEADER" = "Envoyer mes données";
+"PRODUCT_INAPP_MESSAGE" = "Pour acheter ce produit allez à la page d'aide et s'il vous plaît consulter 'Achats intégrés'";
+
+"PRODUCT_INAPP_2" = "Envoyer mes données";
+"PRODUCT_INAPP_DETAILS_2" = "Exporter et envoyer mes données rapportées";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_2" = "Permet moi d'exporter mes données du rapport dans les fichiers pdf, HTML et CSV et envoyer comme un e-mail. Les fichiers peuvent être transmis et utilisé pour l'impression de mes données. Les versions HTML et CSV peuvent être copiés ou importés au format MS-Excel";
+
+
+"PRODUCT_INAPP_BUY_BUTTON_TITLE" = "Acheter maintenant à: ";
+
+
+
+"PRODUCT_INAPP_TITLE_3" = "En cas de réinitialiser";
+"PRODUCT_INAPP_TITLE_BUTTON" = "Maintenant";
+"PRODUCT_INAPP_RESTORE_TITLE" = "Rétablir";
+"PRODUCT_INAPP_RESTORE_DESC_TITLE" = "Rétablir les achats antérieurs";
+
+
+"kINAPP_Failure" = "Product Error:";
+"kPDF_PageNumber" = "Page";
+
+//Reset Timesheet Settings
+"RESET_HEADER" = "Réinitialiser mes heures saisies";
+"RESET_SUBHEADER" = "Veuillez indiquer la période pour la suppression de vos heures anciennes. Cette option est pratique lorsque vous changez l’emploi ou simplement à accélérer vos rapports et l’éxecution de email. Il est recommandé de sauvegarder vos données au préalable.";
+
+"RESET_SUCCESS" = "La période choisie a été supprimé!";
+"RESET_GO_BUTTON" = "Exécuter";
+"DELETE_MESSAGE" = "Voulez-vous supprimer la période sélectionnée ?";
+"OK" = "OK";
+"CANCEL" = "Interrompre";
+"DELETE" = "Supprimer";
+"LATER" = "Plus tard";
+"TAKE_ME_THERE" = "Montrez-moi";
+
+//New Report header
+"MY_OVERTIME_GRAPH_TITLE" = "Solde";
+"SEGMENT_WEEKLY" = "Hebdom..";
+"SEGMENT_MONTHLY" = "Mensuel";
+"SEGMENT_YEARLY" = "Annuel";
+"EMAIL_BUTTON" = "E-mail";
+
+"TITLE_WEEK" = "Semaine";
+"TITLE_YEAR" = "Année";
+
+"INGOING" = "Au début";
+"INRANGE" = "Période";
+"OUTGOING" = "Total";
+
+"FLAT_STRING" = "Entrée std.";
+
+//New Report Email Output
+
+"MY_OVERTIME_SUMMARY" = "Statistiques heures supplémentaires";
+"MY_OVERTIME_GRAPH" = "Graphiques heures supplémentaires";
+"MY_OVERTIME_SUMMARY_SUBJECT" = "Rapport: Statistiques heures supplémentaires";
+"MY_OVERTIME_GRAPH_SUBJECT" = "Rapport: Graphiques heures supplémentaires";
+"MY_OVERTIME_SUMMARY_BODY" = "Voici Les Statistiques heures supplémentairess";
+"MY_OVERTIME_GRAPH_BODY" = "Voici Les Graphiques heures supplémentaires";
+
+//Move order
+"TITLE_EDIT" = "Edit";
+"TITLE_DONE" = "OK";
+
+
+"TITLE_ACTIVITY_REPORT" = "Rapport détaillé";
+"TITLE_ALL" = "Tous";
+"TITLE_FILTER" = "Filtre:";
+"TITLE_BACKUP" = "Sauvegarder et e-mail";
+"BACKUP_FILENAME" = "Sauvegarde";
+"TOTAL_ACTIVITY_RESULT" = "le total des heures";
+"FILTER_HEADER" = "Filtre:";
+"TOTAL_AMOUNT_HEADER" = "Montant total:";
+
+
+"TITLE_EMAIL" = "Entrez E-Mail";
+"BACKUP_EMAIL_VALIDATION_ERROR_MESSAGE" = "Svp, entrez une adresse email valide";
+"BACKUP_ERROR_MESSAGE" = "E-Mail vérification";
+"ERROR" = "Erreur!";
+
+"TEMPLATE"="Modèle";
+"TEMPLATE_LIST_HEADER"="Mes modèles";
+"TEMPLATE_ACTION_MESSAGE" = "Choisissez le modèle";
+"DEFAULT_TEMPLATE_NAME_1"="Mon solde d'ouverture";
+"DEFAULT_TEMPLATE_NAME_2"="Mon taux des heures supp";
+"DEFAULT_TEMPLATE_NAME_3"="Mon compte décaissement";
+// need to translate
+"DEFAULT_TEMPLATE_NAME_4"="My typical day";
+"DEFAULT_TEMPLATE_NAME_5"="My shift 1";
+"DEFAULT_TEMPLATE_NAME_6"="Template 6";
+"DEFAULT_TEMPLATE_NAME_7"="Template 7";
+
+"USER_IDENTIFICATION_DESCRIPTION" = "Ce détail sera utilisé par défaut pour les e-mails et dans les rubriques des rapports";
+"MY_HEADING" = "Mes coordonnées";
+"BACKUP_TEXT_MESSAGE" = "Un e-mail sera créé et les heures saisies sera jointe dans un fichier de sauvegarde (.motd). * Si vous souhaitez importer vos données à un appareil fonctionnant sur Android, vous avez la possibilité de créer un fichier au format .motad";
+
+// FAQ Texts
+
+// Questions
+
+"FAQ_Question_1" = "1) Comment puis-je saisir un solde \n     d'ouverture ?";
+"FAQ_Question_2" = "2) Comment puis-je compenser mes heures\n     supplémentaires ?";
+"FAQ_Question_3" = "3) Qu'est-ce qu'on entend par “heures\n     supplémentaires“ ?";
+"FAQ_Question_4" = "4) Qu'est-ce qu'on entend par “heures dues“ ?";
+"FAQ_Question_5" = "5) Qu'est-ce qu'on entend par “activité“ ?";
+"FAQ_Question_6" = "6) Comment puis-je personnaliser mes\n     activités ?";
+"FAQ_Question_7" = "7) Si je change une activité pourquoi n'est-il pas\n     appliquée aux heures saisies historiques ?";
+"FAQ_Question_8" = "8) Si j'ai deux emplois que je veux suivre, est\n     il possible ?";
+"FAQ_Question_9" = "9) Quelle est la différence entre les deux\n    versions de l'app vendus sur l'App Store ?";
+"FAQ_Question_10" = "10) Qu'est ce que c'est le rapport des avoirs ?";
+"FAQ_Question_11" = "11) Comment puis-je analyser mes données\n      au-delà des rapports standard ?";
+"FAQ_Question_12" = "12) Comment puis-je imprimer mes données ?";
+"FAQ_Question_13" = "13) Qu'est ce que c'est le “sauvegarde\n      et e-mail“ ?";
+"FAQ_Question_14" = "14) Comment puis-je récupérer mes données ?";
+"FAQ_Question_15" = "15) Comment puis-je transférer mes données\n      vers un autre dispositif ?";
+"FAQ_Question_16" = "16) Qu'est ce que c'est 'Dropbox Cloud'\n      et comment ça marche ?";
+"FAQ_Question_17" = "17) Qu'est-ce qu'on entend par “modèles“ ?";
+"FAQ_Question_18" = "18) Quels sont les plans d'avenir de cette\n      appli ?";
+
+// Answers
+
+"FAQ_Answer_1" = "a) Allez à la date à laquelle vous voulez commencer le suivi de votre temps ou un jour avant \nb) Tapez sur “Mes modèles“ et choisissez “Mon solde d'ouverture“ * \nc) Mettez à jour la valeur forfaitaire défaut à la valeur que vous souhaitez démarrer avec \nd) Page au lendemain pour commencer vos entrées quotidiennes \n* Alternativement, si vous ne trouvez pas une activité prédéfini, vous pouvez en créer un. S'il vous plaît vérifier question n° 6 et allez dans les réglages pour créer un nouveau enrigistrement d'activité.";
+
+"FAQ_Answer_2" = "Si vous voulez compenser vos horaires variables en démarrant tard ou partir plus tôt il n'ya pas besoin d'entrée particulier car ce jour-là montre un solde négatif si vos heures de travail sont inférieures aux heures dues pour cette journée qui réduit votre bilan général. Si vous souhaitez compenser vos heures supplémentaires par horaires flexibles ou avoir ces heures rémunérées, vous disposez des options suivantes: \n \nOption A (Vous prenez un jour de congé): \na) Allez à la journée de calendrier que vous souhaitez compenser \nb) Appuyez sur le “+“ pour créer un nouveau enregistrement \nc) Vérifiez que les heures de valeur due représentent les heures heures normales de travail (par exemple 8,00) \nd) Sélectionnez “Réduction h. flex“ ou l'activité de “Récupération“ (celui qui convient le mieux) \ne) Ensuite, le total des heures de travail montrera zéro et le solde de la journée montrera un résultat négatif (par exemple -8.00). \nf) Exécutez vos rapports pour vérifier que votre solde total des heures supplémentaires a été réduit. \n \nOption B (registre paiement dû et réduire les heures supplémentaires balance): \na) Trouvez une date pas encore utilisé (par exemple, le dimanche) \nb) Tapez sur “Mes modèles“ et choisissez “Mon compte décaissement“ \nc) Maintenant, mettez à jour les le total des heures pour tenir compte des heures rémunérées (mettez à jour la valeur par défaut de 40,00 à votre valeur). En outre, vous pouvez remplir le quantité monétaire total si vous désirez.\nd) Et voilà, cela se traduira par une réduction du total du bilan.\ne) Exécutez vos rapports pour vérifier que votre solde total des heures supplémentaires a été réduit. \n* Alternativement, si vous ne trouvez pas une activité de versement prédéfini qui vous convient, vous pouvez le renommer ou en créer un nouveau enrigestrement. S'il vous plaît vérifier la question 6 et allez dans les réglages pour gérer les enregistrements d'activité \n \nVeuillez noter: Les étapes ci-dessus peuvent également être effectués combinée à une activité d'une journée de travail (par exemple, “Au bureau“ ayant une heure de valeur due)";
+
+"FAQ_Answer_3" = "Aux fins de cette application il s'agit de la quantité de temps qui dépasse vos heures quotidiennes nécessaires qui est indiqué au bas des heures saisies comme “solde du jour“. Par exemple, vous avez 8,00 heures nécessaires chaque jour (ce qui est votre “heures dues“) et les activités de votre journée de travail s'élèvent à 09:15 Cela se traduit par des heures supplémentaires de 1:15. Vous voudrez peut-être une trace de ce temps supplémentaire et l'échanger plus tard pour le temps libre ou une rémunération supplémentaire. Dans les entreprises et les emplois où un modèle d'horaire de travail flexible existe ce qu'on appelle “horaires variables“. Si vous avez un horaire variable, vous pouvez commencer à travailler plus tard ou partir plus tôt pour compenser vos heures supplémentaires. Certaines industries ont des réglementations spéciales où la rémunération supplémentaire peut être envisagée lorsque le nombre total d'heures de travail par semaine dépasse 40 heures ainsi que des tarifs spéciaux sur certains jours (par exemple, pour travailler le week-end les heures comptent 1,5 x ou 2x)\nPar exemple: 7 heures de travail le samedi, vous ajoutez aux heures saisies l'activité suivante: \n \n-ajoutez Activité 1: “Au bureau“ Arrivée: 9h00 et Départ: 17:00 (1,00 repos) = 7.00 heures au total \n \n-ajoutez Activité 2: “Taux Heures supp à 1.5x“ et entrez une valeur forfaitaire de 3,30 heures (1,5 x 7 heures = 10.30, 10:30 - 7.00 = 3.30 h) qui représente les heures de bonus sur le taux de rémunération standard. Vous pouvez également ajouter le montant du paiement dans le champ indiqué. Accédez au rapport d'activité pour suivre toutes les heures supplémentaires accumulées et les montants \n \n-Le total d'heures pour la journée résultera en 10.30 contre les heures dues à valeur de 7h va produire un solde d'heures supplémentaires de 3,30 heures. \n \n-Quand arrive le jour de paie, vous ajoutez l'activité “compte décaissement“ (ou utilisez le modèle “Mon compte décaissement“) et entrez le nombre d'heures et le montant compensé. Cela permettra de réduire le solde global sur vos rapports. Voir aussi la question 2 et l'option B. \n \n-Si vous utilisez plus d'un enregistrement de l'activité à compiler vos heures de travail quotidiennes sur une base récurrente vous pouvez combiner ces activités en un modèle. S'il vous plaît aller à “Journées de travail“ ou “Mes modèles“ sur la page de réglages pour créer ou personnaliser un modèle (voir la question n° 17 pour plus de détails).";
+
+"FAQ_Answer_4" = "C'est le temps de travail journalier applicable également connu sous le nom “heures cibles“ établies par votre employeur. Certains emplois peuvent avoir un accord d'heures de travail hebdomadaire ou mensuelle qui ne peut être décomposé en heures normale quotidienne. Cependant, cette application est conçue pour permettre le suivi de votre temps de travail par rapport à vos heures dues par jour";
+
+"FAQ_Answer_5" = "“Activité“ en ce qui concerne cette application se référe au enregistrement auquel vous organisez vos heures. Selon le niveau que vous souhaitez utiliser l'activité, il pourrait plutôt être appelé une tâche, un projet, un compte ou décalage. En outre, vous pouvez utiliser une activité come un “compte“ pour les dépôts ou les soldes (soldes des taux d'heures supplémentaires, par exemple). \nUne gamme d'activités standard (y compris “Mes modèles“) ont été mis en place par le téléchargement initial pour vous aider à interpréter les moyens possibles. Néanmoins, vous êtes libre de les modifier à des actions plus détaillées (par exemple, “au bureau“ peut être décomposé en “Tâche A“,“Tâche B“, etc) ou créer des comptes (tarif spécial des heures supplémentaires par exemple, les paiements de taux). Vous pouvez définir comment chaque activité calcule et affiche les saisies de temps dans le registre (voir question 6 pour plus de détails).";
+
+"FAQ_Answer_6" = "- Accédez à réglages et “Définir les activités“\n- La liste prédéfinie des activités peut être mis à jour comme suit: chaque enregistrement de l'activité peut être renommé, supprimé, changer l'ordre ou ou de nouveaux peuvent être créés\n- Vous pouvez remplir les avoirs d'heures et contrôler par le rapport des avoirs le temps alloué (généralement utilisé pour le contrôle de jours de vacances annuelles restants). Voir la question 10 pour plus de détails. \n- Si vous passez du mode “entrée standard“ ceci remplacera les points d'arrivée et de départ avec un champ total des heures (valuer forfaitaire). De plus, ce mode est prédéfini pour remplir le valuer des heures dues (consultez les enregistrements d'activité de vacances et de maladie qui ont été defini de cette façon).\n - mode “Entréee standard“ vous permet également d'activer un champ de montant et il ya un réglage “réducteur“ (voir question 2 option-B pour un scénario où il est utilisé) \n- le sélectionneur de l'activité dans le registre donnera la liste des activités dans le même ordre que l'on trouve dans les réglages";
+
+"FAQ_Answer_7" = "Les changements dans les réglages d'activité seront appliquées sur les nouvelles heures saisies afin de protéger les données historiques. Pour modifier des données historiques, vous devez retourner à chaque heure saisie et sélectionnez à nouveau l'activité pour appliquer la modification (Scénarios: Changement de nom, activer mode entréee standard, Deduire/Pas deduire les Hs. dues, la valeur hs. de crédit).";
+
+"FAQ_Answer_8" = "L'application était essentiellement conçue pour un seul emploi comme les rapports seront calculer avec un seul solde d'heures supplémentaires mondiale plutôt qu'une balance séparée par métier. Cependant, vous disposez de les alternatives suivantes: \n \na) Si votre deuxième emploi est à des jours différents vous pouvez définir l’heure due pour cette journée (allez à “Journées de Travail“). Vous pouvez créer une activité pour ce travail, par exemple: “Job 2 au bureau“\nb) Une autre façon est d'installer l'autre version de la même application (il y’a la version complète et la version IAP (ruban rouge)) conservant ainsi deux applications en parallèle. Cette méthode sera vous obliger d’acheter l'autre version. \nc) une autre approche est à installer l'application sur un autre appareil iOS pour suivre l'emploi 2. La réinstallation de application achetée précédemment à partir de l'App Store est gratuite. ";
+
+"FAQ_Answer_9" = "Les deux versions sont identiques, sauf pour le fait que la version IAP (icône avec le ruban rouge), comporte quelques restrictions qui peuvent être débloqués grâce à un achat intégré (IAP), et plus particulièrement la limite de l'histoire de 14 jours. La version IAP donne à l'utilisateur la possibilité d'installer l'application gratuite et d'explorer la plupart des fonctionnalités pour avoir une idée de la façon dont le produit fonctionne et acheter par achat intégré les autres fonctions de faire pleinement usage de l'application. Il n'est pas nécessaire de basculer entre ces versions que les deux versions ont les mêmes caractéristiques et recevront les mêmes mises à jour.";
+
+"FAQ_Answer_10" = "Permet de suivre vos vacances et vérifier les avoirs annuelles restantes. Pour utiliser ce rapport, vous devez indiquer vos avoirs annuelles sur les paramètres d'activité en heures (se référer à l'activité existante de vacances). Par exemple, si vous avez une indemnité de congé annuel de 20 jours avec 8 heures de travail par jour, cela équivaut à 160,00 heures d'avoirs (8 heures * 20 jours).";
+
+"FAQ_Answer_11" = "Utilisez l'option e-mail et ouvrez le fichier CSV ou HTML à partir d'un ordinateur avec MS Excel (ou un programme similaire) et de copier ou d'importer les données vers MS-Excel où vous pouvez ajouter des filtres, des commentaires et des éléments graphiques (table de pivot) pour vos données. ";
+
+"FAQ_Answer_12" = "Exécutez le rapport désiré et courriel les données qui vous donne les options suivantes: \na) Ouvrez le fichier ci-joint à partir d'un ordinateur qui a une capacité d'impression \nb) Ouvrez le fichier ci-joint au sein de votre appareil iOS boîte de réception si vous avez une connexion d'imprimante sans fil.";
+
+"FAQ_Answer_13" = "- à transférer vos données vers un autre appareil par e-mail \n- à conserver une copie de sauvegarde de vos données par e-mail en cas où quelque chose arrive à votre appareil \n-pour la planification des sauvegardes il est conseillé que vous utilisez l'installation Dropbox (voir question 16)";
+
+"FAQ_Answer_14" = "Vous devriez exécuter une sauvegarde régulièrement pour éviter la perte de données si quelque chose arrive à votre appareil. Une façon de faire cela est la pour utiliser la fonction “Sauvegarde et e-mail“ régulièrement pour conserver une copie de vos données dans votre boîte de récéption. Pour récupérer vos sauvegarde à partir d'un e-mail, suivez ces étapes: \na) assurez-vous que cette application est installée sur l'appareil cible (vous pouvez ré-installer gratuitement à partir de l'App Store) \nb) ouvrir l'e-mail et appuyez sur la pièce jointe et confirmer “Ouvrir avec My Overtime“. \nc) l'application démarre et vous devriez voir toutes vos données à partir de ce sauvegarde. \nd) enfin, vous devrez mettre à jour manuellement vos paramètres de préférences (Journées de Travail, etc ). \nVous pouvez également utiliser l'option “Dropbox Cloud“ où vous pouvez créer des fichiers de sauvegarde sur votre compte Dropbox (voir question 16) et restaurer à partir de là. Enfin, si vous utilisez la fonction de sauvegarde par Apple iCloud/iTunes cela permettra de rétablir et de récupérer tout le contenu de l'appareil (Suivez les instructions d'Apple)";
+
+"FAQ_Answer_15" = "Suivez ces étapes: \na) installez cette application sur le nouveau dispositif. Vous pouvez réinstaller franc direct de l'App Store \nb) exécutez le “Sauvegarde et e-mail“ à partir de l'ancien appareil et l'envoyez au nouveau dispositif. \nc) Dans le boîte de réception ouvrez le message, puis appuyez sur la pièce jointe et confirmez “Ouvrir avec My Overtime“. \nd) l'application démarre et voilà, vous devriez voir toutes vos données. Vérifiez le contenu en exécutant les rapports. \ne) Enfin, vous devrez définir vos préférences de nouveau (Journées de travail, etc) \n Il ya aussi une option pour enregistrer vos données dans le format “.motad“ pour la migration vers un dispositif avec la version Android de l'application.";
+
+"FAQ_Answer_16" = "C'est un service qui vous permet de stocker une sauvegarde régulière de vos données (un historique de toutes vos heures saisies) sur un serveur externe (cloud) avec un fournisseur nommé Dropbox. Cette méthode est plus simple que de créer des sauvegardes manuellement via e-mail (voir question 13). Votre fichier de sauvegarde peut être restauré sur votre appareil dans le cas où vous avez perdu vos données ou si vous souhaitez transférer vos données vers un autre appareil (l'application doit être installée sur cet appareil). Veuillez noter que ce n'est pas un service de synchronisation de base de données automatique entre plusieurs périphériques.\nPour utiliser cette fonction, vous devez posséder un compte Dropbox et une connexion internet. Lors de l'installation (liens vers Dropbox), vous serez invité à créer un compte Dropbox ou connectez-vous à votre compte existant. Dropbox vous donne un stockage limité qui est suffisant pour les fichiers de sauvegarde (sous 10kb par fichier). Dans le cadre du processus un nouveau fichier est créé (Format .motd) pour chaque sauvegarde effectuée avec un horodatage dans un chemin de dossier spécifique sur Dropbox (APPS \ ..). En outre, s'il vous plaît prendre note des points suivants: \na) lors de la sauvegarde si votre appareil n'est pas connecté à Internet, le fichier de sauvegarde restera sur votre appareil et le transfert vers le cloud au prochain démarrage de l'application avec connexion à l'internet. \nb) les sauvegardes planifiées (par exemple, tous les mardis) seront lancés automatiquement lorsque vous ouvrez l'application, le jour la sauvegarde est programmée. \nc) le format de fichier motd ne peut être lu que par cette application dans le cadre du processus de restauration \nd) Pour voir un historique de tous vos fichiers de sauvegarde, utilisez le bouton “List & restaurer“ ou recherche dans le chemin du fichier concerné directement sur votre compte Dropbox. \ne) Pour restaurer un fichier de sauvegarde appuyez simplement sur le nom du fichier et suivez les instructions \nf) vous avez la possibilité de supprimer les anciennes versions directement sur votre compte Dropbox. ";
+
+"FAQ_Answer_17" = "Les modèles permettent d'enregistrer les activités typiques que vous souhaitez utiliser de façon répétitive dans un horaire changeant comme une feuille de préesence prédéfini. Par exemple, vous souhaitez réutiliser des heures saisies d'un semaine précédente, utilisez mêmes opérations chaque semaine ou une combinaison d'activités une fois par mois pour des occasions spéciales. Il y a des modèles disponibles par défaut sous “Mes modèles“ qui peut être modifié selon vos besoins. De plus, vous avez la possibilité de joindre un modèle pour chaque jour de la semaine dans les paramètres “Journées de Travail“";
+
+"FAQ_Answer_18" = "Il y avait de nombreuses réactions depuis la première version en Août 2011. Beaucoup de questions et de suggestions rapportés ont été mises en œuvre à transformer cette application dans un outil stable, robuste et utile. En regardant l'app store, d'une part, il y a les applications axées sur la gestion de projets et la facturation et de l'autre côté il y a des outils de suivi pour les employés de certaines industries et métiers. J'aimerais certainement être votre premier choix pour le suivi de votre temps personnel et la gestion des heures supplémentaires et horaires variables. Plus j'entends de votre part sur la façon dont vous utilisez l'application la mieux que je peux recherer de nouvelles fonctionnalités. S'il vous plaît écrivez-moi ou consultez ma page Facebook. Last but not least, j'espère que cette application facilite votre équilibre travail-vie. Dans le cadre d'une communauté croissante d'utilisateurs, félicitations de découvrir cette application et bienvenue au club!";
+
+// Dropboz Texts
+
+"LINK_DB" = "Lien avec Dropbox";
+"UNLINK_DB" = "Délier Dropbox";
+"DB_ALERT_HEADING" = "Attention";
+"DB_ALERT_MSG" = "Êtes-vous sûr de vouloir dissocier l'application?";
+"DB_ALERT_CANCEL" = "Annuler";
+"DB_ALERT_YES" = "Oui";
+"DB_LABEL_TITLE" = "Jamais";
+"DB_ALERT_DONE_TITLE" = "Sauvegarder effectuées";
+"DB_ALERT_DONE_MSG" = "Un fichier de sauvegarde de vos données a été créée";
+"RESTORE_TITLE" = "Restaurer la sauvegarde";
+"TITLE_RESTORE" = "Rétablir";
+
+"RESTORE_LOGIN_ERROR" = "S'il vous plaît lien Dropbox pour restaurer la sauvegarde.";
+"CREATE_LOGIN_ERROR" = "S'il vous plaît lien Dropbox pour créer une sauvegarde.";
+"LOGIN_ALERT" = "S'il vous plaît lien Dropbox avant de choisir les jours de semaine.";
+"FILE" = "Fichiers";
+"NO_FILE" = "Aucun fichier disponible";
+"DM_RESTORE_SUCCESS" = "Restaurer réussie";
+
+"DB_LOGIN_FAILED" = "Echec de la connexion";
+"DB_BACKUP_ERROR" = "Une erreur est survenue lors de la sauvegarde des données. S'il vous plaît essayer plus tard.";
+
+// inApp Purchase Texts
+"LOADING_TITLE" = "S'il vous plaît attendre ..";
+
+"UPGRADE_FAIL_TITLE" = "Achat pas réussi";
+"UPGRADE_FAIL_MESSAGE" = "La transaction a échoué. Réessayez plus tard";
+
+"RESTORE_COMPLETE_TITLE" = "Restaurer terminé";
+"RESTORE_COMPLETE_MESSAGE" = "Vos produits déjà achetés ont été restaurés";
+"IAP_TITLE" = "Achat intégré";
+"IAP_SUCCESS_MSG" = "Transaction d'achat intégré est réussie.";
+
+// FAQ page item title
+"TITLE_FAQ" = "Foire aux questions";
+"TITLE_SUPPORT" = "Nouvelles et contact";
+"TITLE_REVIEW" = "Evaluer sur iTunes";
+
+//Allowance Alert
+
+"EMPTY_ALLOWANCE_ALERT" = "Il manque les saisies de temps qui ont été enregistrés avec une activité dans laquelle un crédit a été établie (par exemple, les soldes de vacances ou de l'objectif annuel). Plus de détails sur la page d'aide à 'Foire aux questions' à la question n° 10.";

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1024" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingPage">
+            <connections>
+                <outlet property="bottomAds" destination="22" id="34"/>
+                <outlet property="moreButton" destination="36" id="37"/>
+                <outlet property="sound" destination="8" id="31"/>
+                <outlet property="soundSwitch" destination="56" id="65"/>
+                <outlet property="tabBar" destination="39" id="42"/>
+                <outlet property="topAds" destination="21" id="35"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="main_background.png" id="44">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="login_bg.png" id="45">
+                    <rect key="frame" x="24" y="42" width="273" height="164"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <switch hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="8">
+                    <rect key="frame" x="243" y="306" width="51" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="soundSwitch:" destination="-1" eventType="valueChanged" id="27"/>
+                    </connections>
+                </switch>
+                <switch hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="21">
+                    <rect key="frame" x="243" y="342" width="51" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="topAdsSwitch:" destination="-1" eventType="valueChanged" id="29"/>
+                    </connections>
+                </switch>
+                <switch hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="22">
+                    <rect key="frame" x="243" y="382" width="51" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="bottomAdsSwitch:" destination="-1" eventType="valueChanged" id="30"/>
+                    </connections>
+                </switch>
+                <tabBar hidden="YES" contentMode="scaleAspectFill" id="39">
+                    <rect key="frame" x="0.0" y="367" width="320" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <tabBarItem title="My Network" image="mynetwork.png" id="40"/>
+                        <tabBarItem tag="1" title="Photos" image="cameraicon.png" id="41"/>
+                    </items>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="43"/>
+                    </connections>
+                </tabBar>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="button_.png" id="46">
+                    <rect key="frame" x="56" y="110" width="209" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sound" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="49">
+                    <rect key="frame" x="68" y="121" width="86" height="26"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="19"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="50">
+                    <rect key="frame" x="171" y="124" width="70" height="20"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" backgroundImage="switchBgOff.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="soundButton:" destination="-1" eventType="touchUpInside" id="60"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="56">
+                    <rect key="frame" x="202" y="118" width="40" height="32"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" backgroundImage="slider_btn.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="soundButton:" destination="-1" eventType="touchUpInside" id="59"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="36">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="15"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+            <state key="normal" backgroundImage="morebtn.png">
+                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+            </state>
+            <state key="highlighted">
+                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </state>
+            <connections>
+                <action selector="moreButtonPressed:" destination="-1" eventType="touchUpInside" id="38"/>
+            </connections>
+        </button>
+        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="text.png" id="26">
+            <rect key="frame" x="0.0" y="0.0" width="205" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+        </imageView>
+        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Remove Bottom Ads" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="25">
+            <rect key="frame" x="0.0" y="0.0" width="136" height="33"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+            <nil key="highlightedColor"/>
+        </label>
+        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Remove Top Ads" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="23">
+            <rect key="frame" x="0.0" y="0.0" width="116" height="33"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+            <nil key="highlightedColor"/>
+        </label>
+        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sound" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="5">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+            <nil key="highlightedColor"/>
+        </label>
+    </objects>
+    <resources>
+        <image name="button_.png" width="422" height="110"/>
+        <image name="cameraicon.png" width="38" height="35"/>
+        <image name="login_bg.png" width="564" height="703"/>
+        <image name="main_background.png" width="640" height="960"/>
+        <image name="morebtn.png" width="50" height="25"/>
+        <image name="mynetwork.png" width="38" height="35"/>
+        <image name="slider_btn.png" width="92" height="57"/>
+        <image name="switchBgOff.png" width="184" height="33"/>
+        <image name="text.png" width="268" height="100"/>
+    </resources>
+</document>

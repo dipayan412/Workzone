@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="12D78" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CheckInOut" representedClassName="CheckInOut" syncable="YES">
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isCheckedIn" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isSynced" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="odometer" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="syncedOn" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="CountryStates" representedClassName="CountryStates" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdatedOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Customers" representedClassName="Customers" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="custId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdatedOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Devices" representedClassName="Devices" syncable="YES">
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DriverLog" representedClassName="DriverLog" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="driverStatusId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="durationMins" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isSynced" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="odometer" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="postalCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="stateId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncedOn" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="DriverStatusList" representedClassName="DriverStatusList" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FuelPurchases" representedClassName="FuelPurchases" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isSynced" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="odometer" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="postalCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qty" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="stateId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncedOn" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="InspectionList" representedClassName="InspectionList" syncable="YES">
+        <attribute name="lastUpdatedOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="listId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="InspectionListItems" representedClassName="InspectionListItems" syncable="YES">
+        <attribute name="itenId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdatedOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="listId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Inspections" representedClassName="Inspections" syncable="YES">
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="failed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isSynced" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="itemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="listId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="odometer" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="passed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="repaired" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="syncedOn" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="JobNotesLog" representedClassName="JobNotesLog" syncable="YES">
+        <attribute name="eventDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isSynced" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="jobId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncedOn" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Jobs" representedClassName="Jobs" syncable="YES">
+        <attribute name="createdOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="custId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dueDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isSynced" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="jobId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jobNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastLat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lastLng" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lastUpdatedOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncedOn" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="JobsRemoved" representedClassName="JobsRemoved" syncable="YES">
+        <attribute name="eventDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isSynced" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="jobId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="syncedOn" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="JobStatusList" representedClassName="JobStatusList" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="JobStatusLog" representedClassName="JobStatusLog" syncable="YES">
+        <attribute name="eventDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isSynced" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="jobId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="statusId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncedOn" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CheckInOut" positionX="160" positionY="192" width="128" height="165"/>
+        <element name="CountryStates" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Customers" positionX="180" positionY="360" width="128" height="150"/>
+        <element name="Devices" positionX="162" positionY="279" width="128" height="75"/>
+        <element name="DriverLog" positionX="160" positionY="192" width="128" height="240"/>
+        <element name="DriverStatusList" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="FuelPurchases" positionX="160" positionY="192" width="128" height="225"/>
+        <element name="InspectionList" positionX="216" positionY="378" width="128" height="90"/>
+        <element name="InspectionListItems" positionX="234" positionY="387" width="128" height="105"/>
+        <element name="Inspections" positionX="252" positionY="396" width="128" height="238"/>
+        <element name="JobNotesLog" positionX="160" positionY="192" width="128" height="150"/>
+        <element name="Jobs" positionX="171" positionY="288" width="128" height="240"/>
+        <element name="JobsRemoved" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="JobStatusList" positionX="198" positionY="369" width="128" height="75"/>
+        <element name="JobStatusLog" positionX="160" positionY="192" width="128" height="150"/>
+    </elements>
+</model>

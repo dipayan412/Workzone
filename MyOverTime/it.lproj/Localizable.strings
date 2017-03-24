@@ -1,0 +1,357 @@
+"TIME_SHEET_PAGE_TITLE" = "My Overtime";
+
+//Ashif
+
+"LOCAL_AM" = "m.";
+"LOCAL_PM" = "p.";
+
+"SETTINGS_SET_WORK_DAYS" = "Giorni lavorativi";
+
+"REMINDER_MESSAGE_CONTENT" = "Ci sono date vuote";
+
+"REPORT_LIST_BALANCE_REPORT" = "Straordinari";
+"REPORT_LIST_ACTIVITY_REPORT" = "Rapporto di attività";
+"REPORT_LIST_ACTIVITY_BALANCE_REPORT" = "Rapporto credito";
+"REPORT_LIST_BACK_BUTTON" = "Indietro";
+
+"REPORT_MYDATERANGE" = "Periodo";
+"REPORT_BALANCE_FOR_RANGE" = "Saldo periodo";
+"REPORT_BALANCE_RANGE_START" = "Saldo ante-periodo";
+"REPORT_BALANCE_RANGE_END" = "Saldo successivo";
+"REPORT_BALANCE_HISTORY" = "Dettaglio Saldo";
+
+"BALANCE_REPORT_TITLE" = "Straordinari";
+"ACTIVITY_REPORT_TITLE" = "Resoconto delle attività";
+"ACTIVITY_BALANCE_TITLE" = "Rapporto credito";
+
+"ACTIVITIES_LIST_TITLE" = "Attività";
+"ACTIVITIES_LIST_NEW_ITEM" = "Premerlo sul '+' per aggiungere nuova attività";
+
+"ACTIVITY_DETAIL_TITLE" = "Attività";
+
+"BALANCE_REPORT_EMAIL_SUBJECT" = "Rapporto Straordinari";
+"BALANCE_REPORT_EMAIL_CONTENT" = "In allegato il mio rapporto straordinari";
+"BALANCE_REPORT_EMAIL_ATTACHMENT" = "Straordinari.csv";
+"BALANCE_REPORT_EMAIL_ATTACHMENT_1" = "Straordinari.html";
+"BALANCE_REPORT_EMAIL_ATTACHMENT_2" = "Straordinari.pdf";
+
+"BALANCE_REPORT_HEADER_WEEKDAY" = "Giorni lavorativi";
+"BALANCE_REPORT_HEADER_DATE" = "Data";
+"BALANCE_REPORT_HEADER_TOTAL" = "Totale";
+"BALANCE_REPORT_HEADER_OFFSET" = "Ore dovute";
+"BALANCE_REPORT_HEADER_BALANCE" = "Saldo";
+"BALANCE_REPORT_HEADER_TOTAL_MIN" = "Totale (min)";
+"BALANCE_REPORT_HEADER_OFFSET_MIN" = "Ore dovute (min)";
+"BALANCE_REPORT_HEADER_BALANCE_MIN" = "Saldo (min)";
+
+"ACTIVITY_REPORT_EMAIL_SUBJECT" = "Rapporto di attività";
+"ACTIVITY_REPORT_EMAIL_CONTENT" = "In allegato il mio Rapporto di attività";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_0" = "RapportoAttività.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_1" = "RapportoAttivitàPerMacOS.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_2" = "RapportoAttivitàPerWindows.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_3" = "RapportoAttività.html";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_4" = "RapportoAttività.pdf";
+
+"ACTIVITY_REPORT_HEADER_MONTH" = "Mese";
+"ACTIVITY_REPORT_HEADER_DATE" = "Data";
+"ACTIVITY_REPORT_HEADER_ACTIVITY" = "Attività";
+"ACTIVITY_REPORT_HEADER_TOTAL" = "Totale";
+"ACTIVITY_REPORT_HEADER_START" = "Inizio";
+"ACTIVITY_REPORT_HEADER_END" = "Termine";
+"ACTIVITY_REPORT_HEADER_BREAK" = "Pausa";
+"ACTIVITY_REPORT_HEADER_OFFSET" = "Ore dovute";
+"ACTIVITY_REPORT_HEADER_BALANCE" = "Saldo";
+"ACTIVITY_REPORT_HEADER_AMOUNT" = "Importo";
+"ACTIVITY_REPORT_HEADER_COMMENTS" = "Commenti";
+"ACTIVITY_REPORT_HEADER_TOTAL_MIN" = "Totale (min)";
+"ACTIVITY_REPORT_HEADER_OFFSET_MIN" = "Ore dovute (min)";
+"ACTIVITY_REPORT_HEADER_BALANCE_MIN" = "Saldo (min)";
+"ACTIVITY_REPORT_DAILY_TOTAL" = "Totale giornaliero:";
+"ACTIVITY_REPORT_FLAT" = "Forfetario";
+
+"ACTIVITY_BALANCE_EMAIL_SUBJECT" = "Rapporto di Credito";
+"ACTIVITY_BALANCE_EMAIL_CONTENT" = "In allegato il mio rapporto die credito";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_0" = "RapportoDiCredito.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_1" = "RapportoDiCreditoPerMacOS.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_2" = "RapportoDiCreditoPerWindows.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_3" = "RapportoDiCredito.html";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_4" = "RapportoDiCredito.pdf";
+
+"ACTIVITY_BALANCE_HEADER_ACTIVITY" = "Attività";
+"ACTIVITY_BALANCE_HEADER_ALLOWANCE" = "Credito (ore)";
+"ACTIVITY_BALANCE_HEADER_DATE" = "Data";
+"ACTIVITY_BALANCE_HEADER_APPLIED" = "Recupero";
+"ACTIVITY_BALANCE_HEADER_BALANCE" = "Saldo";
+"ACTIVITY_BALANCE_HEADER_ALLOWANCE_MIN" = "Credito(min)";
+"ACTIVITY_BALANCE_HEADER_APPLIED_MIN" = "Recupero(min)";
+"ACTIVITY_BALANCE_HEADER_BALANCE_MIN" = "Saldo(min)";
+"ACTIVITY_BALANCE_TOTAL" = "Totale:";
+
+"DEFAULT_ACTIVITY_IN_OFFICE" = "In ufficio";
+"DEFAULT_ACTIVITY_COMPANY_HOLIDAY" = "Vacanze aziendali";
+"DEFAULT_ACTIVITY_WORK_FROM_HOME" = "Lavoro fuori ufficio";
+"DEFAULT_ACTIVITY_ON_VACATION" = "not used";
+"DEFAULT_ACTIVITY_TRAVEL" = "Viaggio di lavoro";
+"DEFAULT_ACTIVITY_UNPAID_LEAVE" = "Vacanze non pagate";
+"DEFAULT_ACTIVITY_COMPENSATION" = "Compensazione";
+"DEFAULT_ACTIVITY_OUT_SICK" = "Malattia";
+"DEFAULT_ACTIVITY_VACATION_2011" = "Vacanze 2012";
+"DEFAULT_ACTIVITY_VACATION_2012" = "Vacanze 2013";
+"DEFAULT_ACTIVITY_HOLIDAY_2011" = "Vacanze 2014";
+"DEFAULT_ACTIVITY_HOLIDAY_2012" = "Vacanze 2015";
+"DEFAULT_ACTIVITY_OVERTIME_PAID1.5" = "Straord. tasso 1.5x";
+"DEFAULT_ACTIVITY_OVERTIME_PAID2X" = "Straord. tasso 2x";
+"DEFAULT_ACTIVITY_OVERTIME_PAID" = "Straord. standard";
+//"DEFAULT_ACTIVITY_OVERTIME_REDUCER" = "Straordinario pagato";
+"DEFAULT_ACTIVITY_FLEXITIME_BURNED" = "Riduz. ore fles.";
+//"DEFAULT_ACTIVITY_STARTING_BALANCE" = "Saldo iniziale";
+
+"DEFAULT_ACTIVITY_TEMPLATE_1"="Saldo di apertura";
+"DEFAULT_ACTIVITY_TEMPLATE_2"="Straordinario tasso";
+"DEFAULT_ACTIVITY_TEMPLATE_3"="Stipendio conto";
+//translate
+"DEFAULT_ACTIVITY_TEMPLATE_4"="At work";
+"DEFAULT_ACTIVITY_TEMPLATE_5"="Shift 1";
+
+"BACKGROUND_ACTION_SHEET_TITLE" = "Scegli sfondo";
+"BACKGROUND_ACTION_SHEET_DEFAULT_BCKGRD_BUTTON" = "Sfondo standard";
+"BACKGROUND_ACTION_SHEET_CHOOSE_PHOTOS_BUTTON" = "Scegliere tra le fotos";
+"BACKGROUND_ACTION_SHEET_CANCEL_BUTTON" = "Annullare";
+
+
+
+"EXPORT_EMAIL_BODY" = "In allegato il file di backup delle ore rilevate. Per importarle vogliate premere sul file ed aprirlo con “My Overtime”.  Vi facciamo presente che quest’azione sovrascrivera i dati esistenti senza messaggio di avvertimento.";
+
+
+"APPIRATER_MESSAGE" = "Lei ha già maturato una certa esperienza con MyOvertime. Si prega di prendere un momento per votare questa applicazione. \ N anche una valutazione facile con le \ n Stelle dà un indizio per promuovere ulteriori miglioramenti.\n\n Grazie per aver utilizzato My Overtime";
+"APPIRATER_RATE_BUTTON" = "Portami là ora";
+"APPIRATER_MESSAGE_TITLE" = "Valutare in AppStore";
+"APPIRATER_CANCEL_BUTTON" = "No, Thanks";
+"APPIRATER_RATE_LATER" = "mi ricordano un'altra volta";
+
+
+"PRODUCT_INAPP_TITLE_2" = " zzzz ";
+"PRODUCT_INAPP_BUTTON_PURCHASE" = "yyyyy ";
+
+
+"PRODUCT_INAPP_NAVIGATION_TITLE" = "Acquisto in-app";
+
+"PRODUCT_INAPP_TITLE_1" = "Lista della spesa";
+
+"PRODUCT_INAPP_HEADER3" = "Dropbox";
+"PRODUCT_INAPP_MESSAGE3" = "Per acquistare questo prodotto, vai alla pagina di aiuto e vi prego di controllare la 'Acquisto in-app'";
+
+"PRODUCT_INAPP_3" = "Attiva Dropbox";
+"PRODUCT_INAPP_DETAILS_3" = "Conservare una copia di backup su Dropbox";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_3" = "Abilitare questa applicazione per creare un collegamento a Dropbox, eseguire il backup dei dati su Dropbox e recuperare i miei dati da Dropbox.";
+
+
+"PRODUCT_INAPP_HEADER2" = "Sblocca il calendario";
+"PRODUCT_INAPP_MESSAGE2" = "Il limite di 14 giorni per le ore aggiunti è stato raggiunto. Le più antiche notizie verranno eliminate definitivamente. È possibile acquistare questo prodotto. Per favore vai alla pagina di aiuto e fare clic su 'Acquisto in-app' per maggiori informazioni";
+
+"PRODUCT_INAPP_1" = "Sblocca il calendario";
+"PRODUCT_INAPP_DETAILS_1" = "Lasciare tutta la storia registrati";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_1" = "Sbloccare il mio limite nel registro storia (14 giorni di calendario della storia in sequenza). Questo mi permetterà di avere una storia completa delle mie ore, tra cui l'interrogatorio e l'esecuzione del mio rapporto con alcuna limitazione di tempo.";
+
+
+
+"PRODUCT_INAPP_HEADER" = "Inviare i miei dati";
+"PRODUCT_INAPP_MESSAGE" = "Per acquistare questo prodotto, vai alla pagina di aiuto e vi prego di controllare la 'Acquisto in-app'";
+
+"PRODUCT_INAPP_2" = "Inviare i miei dati";
+"PRODUCT_INAPP_DETAILS_2" = "Esporta e inviare i miei dati riportati";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_2" = "Posso esportare i miei dati riportati in PDF, HTML e CSV e invia una e-mail. I file possono essere trasmessi e utilizzato per stampare i dati. HTML e file CSV possono essere copiati o importati in MS-Excel";
+
+
+"PRODUCT_INAPP_BUY_BUTTON_TITLE" = "Acquista ora per: ";
+
+
+"PRODUCT_INAPP_TITLE_3" = "Dopo aver reinstallato questa app";
+"PRODUCT_INAPP_TITLE_BUTTON" = "Ora";
+"PRODUCT_INAPP_RESTORE_TITLE" = "Restaurare";
+"PRODUCT_INAPP_RESTORE_DESC_TITLE" = "Vedi acquisti precedenti";
+
+
+"kINAPP_Failure" = "Product Error:";
+"kPDF_PageNumber" = "Pagina";
+
+//Reset Timesheet Settings
+"RESET_HEADER" = "Ripristina il mio registro tempo";
+"RESET_SUBHEADER" = "Si prega di indicare il periodo per la rimozione delle ore antiche. Questa opzione è utile quando si cambia lavoro o semplicemente per accelerare i rapporti e l'esecuzione effettiva di e-mail. Si consiglia di eseguire il backup dei dati in anticipo.";
+
+
+"RESET_SUCCESS" = "Il periodo scelto è stato cancellato !";
+"RESET_GO_BUTTON" = "Vai";
+"DELETE_MESSAGE" ="Volete eliminare il periodo selezionato ?";
+"OK" = "OK";
+"CANCEL" = "Annullare";
+"DELETE" = "Cancellare";
+"LATER" = "Dopo";
+"TAKE_ME_THERE" = "Mostrami";
+
+//New Report header
+"MY_OVERTIME_GRAPH_TITLE" = "Saldo";
+"SEGMENT_WEEKLY" = "Settim..";
+"SEGMENT_MONTHLY" = "Mensile";
+"SEGMENT_YEARLY" = "Annuale";
+"EMAIL_BUTTON" = "E-mail";
+
+"TITLE_WEEK" = "Settimana";
+"TITLE_YEAR" = "Anno";
+
+"INGOING" = "All'inizio";
+"INRANGE" = "Periodo";
+"OUTGOING" = "Totale";
+
+"FLAT_STRING" = "Forfetario";
+
+//New Report Email Output
+
+"MY_OVERTIME_SUMMARY" = "Statistiche straordinari";
+"MY_OVERTIME_GRAPH" = "Grafica straordinari";
+"MY_OVERTIME_SUMMARY_SUBJECT" = "Rapporto: Statistiche straordinari";
+"MY_OVERTIME_GRAPH_SUBJECT" = "Rapporto: Grafica straordinari";
+"MY_OVERTIME_SUMMARY_BODY" = "In allegato Statistiche straordinari";
+"MY_OVERTIME_GRAPH_BODY" = "In allegato Grafica straordinari";
+
+//Move order
+"TITLE_EDIT" = "Edit";
+"TITLE_DONE" = "OK";
+
+
+"TITLE_ACTIVITY_REPORT" = "Rapporto di attività";
+"TITLE_ALL" = "Tutti";
+"TITLE_FILTER" = "Filtro:";
+"TITLE_BACKUP" = "Backup ed Inviare";
+"BACKUP_FILENAME" = "Backup";
+"TOTAL_ACTIVITY_RESULT" = "le ore totali";
+"FILTER_HEADER" = "Filtro:";
+"TOTAL_AMOUNT_HEADER" = "Importo totale:";
+
+
+"TITLE_EMAIL" = "Inserisci e-mail";
+"BACKUP_EMAIL_VALIDATION_ERROR_MESSAGE" = "Si prega di inserire un indirizzo email valido";
+"BACKUP_ERROR_MESSAGE" = "Controllo E-mail";
+"ERROR" = "Errore!";
+
+"TEMPLATE"="Modello";
+"TEMPLATE_LIST_HEADER"="I miei modelli";
+"TEMPLATE_ACTION_MESSAGE" = "Scegli modello";
+"DEFAULT_TEMPLATE_NAME_1"="Il mio saldo di apertura";
+"DEFAULT_TEMPLATE_NAME_2"="Il mio straordinario tasso";
+"DEFAULT_TEMPLATE_NAME_3"="Il mio stipendio conto";
+// need to translate
+"DEFAULT_TEMPLATE_NAME_4"="My typical day";
+"DEFAULT_TEMPLATE_NAME_5"="My shift 1";
+"DEFAULT_TEMPLATE_NAME_6"="Template 6";
+"DEFAULT_TEMPLATE_NAME_7"="Template 7";
+
+"USER_IDENTIFICATION_DESCRIPTION" = "Questo dettaglio sarà utilizzato come predefinito per la posta elettronica e nelle intestazioni dei rapporti";
+"MY_HEADING" = "Il mio coordinate";
+"BACKUP_TEXT_MESSAGE" = "Una e-mail verrà creato ed i vostri dati sarà allegato come file di backup (.motd). * Se si desidera importare i dati in un dispositivo in esecuzione su Android si ha la possibilità di creare un file nel formato .motad";
+
+// FAQ Texts
+
+// Questions
+
+"FAQ_Question_1" = "1) Avete qualche suggerimento su come creare\n     il saldo di apertura ?";
+"FAQ_Question_2" = "2) Come si compensa il saldo di ore di\n     straordinario/orario flessibile ?";
+"FAQ_Question_3" = "3) Cosa si intende per “straordinario“ ?";
+"FAQ_Question_4" = "4) Cosa si intende per “ore dovute“ ?";
+"FAQ_Question_5" = "5) Cosa si intende per “attività“ nel contesto\n     dell’applicazione?";
+"FAQ_Question_6" = "6) Come posso personalizzare le mie attività ?";
+"FAQ_Question_7" = "7) Perché se cambio un’attività questi non\n     vengono applicati ai miei registri esistenti ?";
+"FAQ_Question_8" = "8) Se volessi tracciare due lavori, come dovrei\n     fare ?";
+"FAQ_Question_9" = "9) Come differiscono la versione IAP (icona\n    con la striscia rossa) e quella completa ?";
+"FAQ_Question_10" = "10) A cosa serve il rapporto di credito ?";
+"FAQ_Question_11" = "11) Esiste un modo per analizzare più\n      approfonditamente i resoconti standard ?";
+"FAQ_Question_12" = "12) Come stampo i miei dati ?";
+"FAQ_Question_13" = "13) Per cosa si usa “Backup ed Inviare“ ?";
+"FAQ_Question_14" = "14) Come posso ripristinare i miei dati ?";
+"FAQ_Question_15" = "15) Come posso trasferire i miei dati su di un\n      altro dispositivo ?";
+"FAQ_Question_16" = "16) Cos'è 'Dropbox cloud' e come funziona ?";
+"FAQ_Question_17" = "17) Cosa si intende per “modelli“ ?";
+"FAQ_Question_18" = "18) Qual è il futuro di questa applicazione ?";
+
+// Answers
+
+"FAQ_Answer_1" = "a) Vai alla data dalla quale vuoi cominciare a registrare gli orari (o il giorno prima)\nb) Seleziona “I miei modelli“ e scegli “il mio saldo di apertura“*\nc) Cambia gli orari predefiniti con quelli da cui vuoi cominciare\nd) Vai al giorno successivo per iniziare con i tuoi inserimenti giornalieri\n*In alternativa se non trovi il saldo di apertura predefinito ne puoi creare uno. Leggi anche la domanda 6 e vai alle impostazioni per creare una nuova attività e impostare Dalla ore dovute = detrarre, Forfetario delle ore = sì e Ore default = inserisci il tuo saldo di apertura complessivo in ore.";
+
+"FAQ_Answer_2" = "Se vuoi aggiustare il tuo orario flessibile entrando più tardi o uscendo prima, non c’è nessun tipo di voce particolare da selezionare in quanto la differenza indicherà un saldo negativo se le tue ore lavorative sono minori rispetto al valore predefinito per quel giorno. Questo ridurrà il tuo saldo totale. In caso tu voglia utilizzare le tue ore di straordinario come recupero ore lavorative o tu le voglia avere pagate, devi seguire una delle seguenti opzioni:\n\nOpzione A (Prendi un giorno libero come pagamento)\na) Vai al giorno che vuoi recuperare\nb) Seleziona “+” per creare un foglio vuoto\nc) Assicurati che la differenza mostri le ore richieste (es: 8.00)\nd) Seleziona “Riduz. ore fles.” o “Compensazione” a seconda della più adatta\ne) Il totale di ore lavorative mostrerà 0 ed il saldo giornaliero mostrerà le ore dovute in negativo (es: -8.00)\nf) Crea il resoconto per controllare che il saldo totale delle ore di straordinario sia stato ridotto.\n\nOpzione B (riduci il saldo delle ore di straordinario e conferma il pagamento)\na) Vai ad una data inutilizzata (es. una Domenica)\nb) Seleziona 'I miei modelli' e scegli 'Il mio stipendio conto'\nc) Questo riduce le ore di lavoro dovute a zero. Aggiorna quindi il totale delle ore per cui vuoi essere pagato (aggiorna il valore predefinito di 40.00 al valore richiesto). Inoltre puoi inserire l’importo totale se vuoi che il programma tenga conto anche di quello\nd) Il saldo del giorno mostrerà un valore negativo (40.00 è il valore predefinito) che ridurrà il totale annuale al saldo del giorno\ne) Crea il resoconto per controllare che il saldo totale delle ore di straordinario sia stato ridotto. Il campo dell’importo è incluso nel repporto di attività.\n* In alternativa se non trovi un’attività di pagamento predefinita puoi crearne una. Leggi anche la domanda 6 e vai alle impostazioni per creare una nuova attività e impostare Dalla ore dovute = detrarre, Forfetario delle ore = sì, Ridurre Saldo = sì.\nNB: il procedimento sopra descritto può anche essere combinato con un’attività riguardante il giorno lavorativo (es. 'In ufficio' con un valore Ore dovute).";
+
+"FAQ_Answer_3" = "Nel contesto del programma 'straordinario' si riferisce al numero di ore che esubera l’orario lavorativo giornaliero, come mostrato in basso nel modulo dell’orario sotto la voce 'Saldo'. Per esempio se il tuo giorno lavorativo è di 8.00 ore lavorative dovute (questo è il tuo ore dovute) ed invece hai lavorato 9.15 ore, il tuo straordinario sarà 1.15 ore. Potresti voler usufruire di questo straordinario, che in alcune aziende viene chiamato 'ore flessibile', mentre altre ancora offrono un modello lavorativo con orario flessibile. Se hai orari flessibili puoi entrare più tardi o uscire prima da lavoro per usufruire delle ore di straordinario oppure fartele pagare. Alcuni settori lavorativi hanno contratti di lavoro particolari dove le ore di straordinario vengono pagate dopo aver superato le 40 ore lavorative settimanali, oppure hanno delle tariffe orarie particolari per determinati giorni (es. ogni singola ora lavorata durante il fine settimana viene considerata come 1.5 o 2 ore). Negli Stati Uniti il Labor Act classifica i lavoratori come “exempt” o “non-exempt”.\nPer esempio se hai lavorato 7 ore durante il Sabato, le aggiungerai al modulo dell’orario nel seguente modo:\n⁃ Inserisci “attività 1”: “In office” inizio: 9.00am e fine: 5:00pm (1.00 pausa)=7.00 ore totali.\n⁃ Inserisci “attività 2”: “Straord. tasso 1.5x” ed inserisci il valore netto di 3.30 ore (1.5x7 ore=10.30 ore – 7.00 = 3.30 ore) che rappresentano le ore di bonus con un tasso di pagamento 1.5.\n⁃ Se vuoi puoi anche aggiungere la paga di straordinario che ti spetta nel campo dell’importo. Vai al rapporto di attività per tracciare sia le ore di straordinario accumulate che la paga.\n⁃ Il totale delle ore lavorative per quel giorno mostrerà 10.30 contro le 7.00 dovute che risulterà in uno saldo straordinario di 3.30 ore.\n⁃ Nel giorno di paga puoi aggiungere una attività chiamata 'Stipendio conto' (o usare il modello 'Il mio stipendio conto') ed inserire il totale delle ore e l’importo. Questo ridurrà il saldo totale nei tuoi resoconti. Sullo stesso argomento vedi anche la domanda 2 opzione B.\n⁃ Se usi più di un’attività per registrare l’ammontare delle tue ore lavorative giornaliere in modo regolare puoi combinare queste attività in un “modello“. Sotto le impostazione vai a “Definire giorni lavorativi” oppure “I miei modelli” per creare o personalizzare un modello predefinito (controlla la domanda 17 per avere più informazioni).";
+
+
+"FAQ_Answer_4" = "Con questa definizione ci si riferisce alle ore lavorative giornaliere richieste dal datore di lavoro. Alcuni lavori hanno un accordo sulle ore lavorative totali su base settimanale o mensile che non può essere spezzato a livello giornaliero. Questo programma è comunque progettato in modo tale da permettere la registrazione dei tuoi orari lavorativi rispetto alle tue ore giornaliere.";
+
+"FAQ_Answer_5" = "Il termine “attività“ è usato per descrivere il modo con il quale puoi tenere conto delle tue ore lavorative. E’ possibile rinominare l’attività con un nome differente in modo da rendere l’applicazione più appropriata alle tue esigenze. Per esempio in alcuni impieghi invece di 'attività' vengono utilizzati termini come “compito“, “progetto“ o “turno“. Inoltre è possibile utilizzare un “attività“ come un conto per depositi o saldi (es: saldo degli straordinari). Una serie di attività standard (incluso “i miei modelli”) è già impostata per dare un esempio dei diversi modi in cui è possibile tracciare le ore lavorative. Sei comunque libero di cambiare queste attività con azioni più dettagliate (es. “in ufficio” può essere diviso in “Ufficio compito A”, “Ufficio compito B”, ecc.) o creare conti (es. tassi di straordinario particolari o tassi di pagamenti  delle ore particolari).";
+
+"FAQ_Answer_6" = "Vai a impostazione e “Definire le attività“\n⁃ La lista di attività predefinite può essere aggiornata, rinominata, cancellata, cambiata di ordine o creata ex novo\n⁃ Puoi impostare una 'banca credit' per controllare il credito rimanente rispetto al tuo schema lavorativo. Normalmente si usa come credito ferie. Controlla la domanda 10\n⁃ E’ possibile impostare un metodo “forfetario” che sostituirà gli orari di entrata ed uscita nel campo per il totale delle ore come predefinito a seconda del numero delle ore dovute. Per esempio le attività di ferie e malattia sono state configurate in questo modo a livello predefinito\n⁃ Il metodo “forfetario” permette di accedere agli importi e ad un riduttore del saldo delle ore di straordinario (vedi pagamento straordinario e domanda 2 opzione B)\n⁃ Il selettore di attività mostrerà la lista delle attività nello stesso ordine mostrato nelle impostazioni.";
+
+"FAQ_Answer_7" = "I cambiamenti delle impostazioni nelle attività verranno applicati solamente nei nuovi inserimenti in modo da preservare i dati preesistenti. Per apportare cambiamenti ai dati preesistenti devi tornare ad ogni inserimento e riselezionare l’attività.";
+
+"FAQ_Answer_8" = "L’applicazione è stata progettata per un solo lavoro in quanto i resoconti mostrano solo un totale di ore di straordinario piuttosto che la divisione per lavoro. In ogni caso ci sono le seguenti opzioni.\na. Se il tuo secondo lavoro avviene in giorni diversi dal primo lavoro, puoi impostare le ore dovute per quei giorni e creare un’attività differente chiamata per esempio “Lavoro 2”.\nb. Un’altra possibilità è quella di installare l’altra versione dell’applicazione sullo stesso dispositivo iOS (versione completa e versione con IAP - quella con la striscia rossa nell’icona) avendo quindi due applicazioni in parallelo. Questo richiede l’acquisto dell’altra versione.\nc. Un approccio differente è quello di installare l’applicazione su un altro dispositivo iOS per registrare il secondo lavoro. Reinstallare la stessa applicazione dall’app store è gratis.";
+
+"FAQ_Answer_9" = "Sia la versione IAP che quella non IAP sono uguali ad eccezione del fatto che la versione IAP ha degli elementi che possono essere sbloccati tramite una microtransazione e questi elementi sono già disponibili nella versione non IAP. La versione IAP permette all’utente di provare le caratteristiche dell’applicazione gratis prima di comprarla con un limite di 14 giorni di dati storici. Non c’è bisogno di passare da una versione all’altra, in quanto entrambe le versioni hanno le stesse caratteristiche e vengono aggiornate allo stesso modo.";
+
+"FAQ_Answer_10" = "Serve a tracciare il credito ferie, il credito dei giorni di malattia o simili. Per usare questo resoconto devi compilare il tuo credito annuale in ore sulle impostazioni dell’attività (per le ferie puoi usare l’attività predefinita). Per esempio se hai un credito ferie di 20 giorni e devi lavorare per otto ore al giorno devi inserire 160.00 ore (8 ore * 20 giorni).";
+
+"FAQ_Answer_11" = "Usa l’opzione email per inviare inviare i tuoi dati al computer ed apri il file CSV o HTML con Microsoft Excel o un programma simile. In Excel potrai copiare o importare i dati ed aggiungere filtri, commenti ed elementi grafici (tabelle pivot) ai tuoi dati.";
+
+"FAQ_Answer_12" = "Apri il resoconto desiderato ed invia i dati tramite email. Dall’email hai le seguenti opzioni:\na. Aprire l’allegato in un computer collegato ad una stampante.\nb. Aprire l’allegato dal programma di posta elettronica dal tuo dispositivo iOS se è connesso in modalità wireless ad una stampante.";
+
+"FAQ_Answer_13" = "- Per trasferire i tuoi dati ad un altro dispositivo tramite posta elettronica.\n⁃ Per salvare una copia dei tuoi dati tramite posta elettronica in caso succeda qualcosa al tuo dispositivo.\n- Per la pianificazione dei backup si prega di utilizzare la funzione Dropbox (vedi domanda 16).";
+
+"FAQ_Answer_14" = "Devi creare regolarmente un backup in modo da avere una copia di salvataggio nell’eventualità che qualcosa accada al tuo dispositivo. Un modo per farlo è l’utilizzo regolare dell’opzione “Backup ed Inviare” per mantenere una copia di riserva nella casella di posta elettronica. Per ripristinare una copia di salvataggio dalla posta elettronica devi:\na. Assicurarti che l’applicazione sia installata sul dispositivo che vuoi utilizzare (puoi reinstallare gratuitamente il programma dall’App Store).\nb. Apri il messaggio di posta elettronica e seleziona l’allegato, confermando “aprire con My Overtime” quando richiesto.\nc. L’applicazione verrà eseguita e dovresti poter vedere tutti i tuoi dati dal backup selezionato.\nd. Infine dovrai aggiornare manualmente le impostazioni standard.\nIn alternativa, se si utilizza l'opzione 'Dropbox Cloud' è possibile ripristinare dal file di backup sul proprio account di Dropbox (vedi domanda 16). Inoltre, se si utilizza la funzione die Backup di iCloud/iTunes questa vi permetterà di ripristinare e recuperare tutti i contenuti del dispositivo (Seguire istruzioni di Apple)";
+
+"FAQ_Answer_15" = "a. Installa l’applicazione sul nuovo dispositivo. Puoi reinstallarla gratuitamente dall’App Store.\nb. Esegui l’opzione “Backup ed Inviare” dal vecchio dispositivo e seleziona l’indirizzo di posta elettronica del nuovo dispositivo.\nc. Dal nuovo dispositivo apri la casella di posta elettronica e seleziona l’allegato, confermando “aprire con My Overtime” quando richiesto.\nd. L’applicazione verrà eseguita e dovresti poter vedere tutti i tuoi dati presenti sul vecchio dispositivo.\ne. Infine dovrai manualmente aggiornare le impostazioni standard.\nC'è anche la possibilità di salvare i dati in formato .motad per la migrazione a un dispositivo con la versione Android dell'applicazione.";
+
+"FAQ_Answer_16" = "Questo è un servizio che permette di salvare un backup regolare dei dati (l'intero registro) su un server esterno (cloud) con un fornitore di nome 'Dropbox'. Questo è più conveniente rispetto alla creazione di copie di backup manualmente tramite e-mail (vedi domanda 13). Il file di backup può essere ripristinato di nuovo al vostro dispositivo nel caso in cui hai perso i tuoi dati o desidera trasferire i dati su un altro dispositivo (l'applicazione deve essere installato sul dispositivo). Si prega di notare che questo non è un servizio di sincronizzazione dati automatica tra più dispositivi. \nPer utilizzare questa funzionalità è necessario un account Dropbox e connessione internet. Durante l'installazione vi verrà chiesto di creare un account Dropbox o Login e collegamento a un account esistente. Dropbox offre spazio gratuito limitato che è sufficiente per lo scopo dei file di backup (sotto 10kb per file). Come parte del processo di backup viene creato un nuovo file (. motd) per ogni backup fatto con un bollo di tempo in un percorso cartella specifica su Dropbox (APPS \ ..). Inoltre, si prega di prendere nota dei seguenti punti: \na) durante il backup, se il dispositivo non è connesso a internet il file di backup rimarrà sul vostro dispositivo e la sincronizzazione con la nuvola la prossima volta che si avvia l'applicazione e si è connessi al internet. \nb) I backup pianificati (es. ogni Martedì) verranno attivati ​​se si apre l'applicazione, il giorno del backup è in programma. \nc) il formato del file motd può essere letto solo da questa applicazione come parte del processo di ripristino \nd) Per visualizzare un elenco di tutti i file di backup è possibile utilizzare il pulsante 'Elenco dei file e Ripristino' o cercare il tuo account Dropbox. \ne) Per ripristinare un file di backup è sufficiente toccare il nome del file e seguire le istruzioni. \nf) è possibile eliminare le vecchie versioni del percorso di backup come vuoi dal tuo account Dropbox";
+
+"FAQ_Answer_17" = "I “modelli” ti danno la possibilità di salvare attività ricorrenti come un modulo di lavoro predefinito anche in un programma lavorativo che cambia. Ad esempio puoi voler riutilizzare l’orario della settimana precedente, aver bisogno delle stesse attività tutte le settimane oppure aver bisogno di una combinazione delle attività una volta al mese in occasioni particolari. Puoi usare i template predefiniti da “I miei modelli” e puoi cambiarli a seconda delle tue necessità. Puoi inoltre creare un template per ogni giorno della settimana utilizzando l’opzione “Definire giorni lavorativi”.";
+
+"FAQ_Answer_18" = "Abbiamo ricevuto molte recensioni da quando abbiamo rilasciato l’applicazione nell’Agosto 2011. Molti dei problemi e dei suggerimenti riportati sono stati corrretti ed aggiunti per rendere l’applicazione stabile, robusta ed utile. Nell’App Store ci sono sia applicazioni di project management e fatturazione, che applicazioni di gestione degli orari per impiegati di settori lavorativi specifici. Noi vorremmo essere il punto di riferimento per la tua gestione degli orari lavorativi inclusi di straordinari ed ore di recupero. Con i tuoi suggerimenti e critiche sull’applicazione potremo sviluppare nuove opzioni – contattateci tramite posta elettronica o sulla nostra pagina Facebook. Infine, speriamo che questa applicazione possa aiutarvi ad avere un giusto equilibrio tra la vostra vita privata e professionale. Fai parte di una comunità di utenti in crescita, congratulazioni per avere scoperto questa applicazione e benvenuti a bordo !";
+
+// Dropboz Texts
+
+"LINK_DB" = "Collegare Dropbox";
+"UNLINK_DB" = "Scollega Dropbox";
+"DB_ALERT_HEADING" = "Attenzione";
+"DB_ALERT_MSG" = "Sei sicuro che si desidera scollegare l'app?";
+"DB_ALERT_CANCEL" = "Annullare";
+"DB_ALERT_YES" = "Sì";
+"DB_LABEL_TITLE" = "Mai";
+"DB_ALERT_DONE_TITLE" = "Il backup finito";
+"DB_ALERT_DONE_MSG" = "Un file di backup dei dati è stato realizzato";
+"RESTORE_TITLE" = "Backup Ripristino";
+"TITLE_RESTORE" = "Ripristinare";
+
+"RESTORE_LOGIN_ERROR" = "Si prega di collegare Dropbox per ripristinare il backup.";
+"CREATE_LOGIN_ERROR" = "Si prega di collegare Dropbox per creare il backup.";
+"LOGIN_ALERT" = "Si prega di collegare Dropbox prima di selezionare i giorni feriali.";
+"FILE" = "Files";
+"NO_FILE" = "Nessun file disponibile.";
+"DM_RESTORE_SUCCESS" = "Ripristino di successo.";
+
+"DB_LOGIN_FAILED" = "Log in fallito";
+"DB_BACKUP_ERROR" = "Verificato un errore durante il backup dei dati. Si prega di riprovare più tardi.";
+
+
+// inApp Purchase Texts
+"LOADING_TITLE" = "Per favore aspetta ...";
+
+"UPGRADE_FAIL_TITLE" = "Acquisto fallito";
+"UPGRADE_FAIL_MESSAGE" = "Operazione non riuscita. Riprovare più tardi.";
+"RESTORE_COMPLETE_TITLE" = "Ripristino completato";
+"RESTORE_COMPLETE_MESSAGE" = "I vostri prodotti acquistati in precedenza sono stati restaurati.";
+"IAP_TITLE" = "Acquisto in-app";
+"IAP_SUCCESS_MSG" = "In-App operazione di acquisto è successo..";
+
+// FAQ page item title
+"TITLE_FAQ" = "Domande frequenti";
+"TITLE_SUPPORT" = "Attualità e contatto";
+"TITLE_REVIEW" = "Valuta e commenta su iTunes";
+
+//Allowance Alert
+
+"EMPTY_ALLOWANCE_ALERT" = "E 'mancante voci di tempo che sono stati registrati con una attività in cui è stato stabilito un credito (ad esempio i saldi di vacanza o di destinazione annuale). Tutto nella pagina Aiuto 'Domande frequenti' alla domanda n° 10";

@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'PhotoPuzzle' target in the 'PhotoPuzzle' project
+//
+
+#import <Availability.h>
+#import "CWLSynthesizeSingleton.h"
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "SNAdsManager.h"
+#endif
+
+
+#define PLAYHAVEN_APP_TOKEN  @"cad70c098a014d19bf769e49e079bc55"  // New token on playhaven
+//@"ac5fde106a434782b5cefeb9d0049e6c"
+#define PLAYHAVEN_APP_SECRET @"3e942f2964f24f58aa3c814791e29b5e"
+//@"57798d75b2444d4a8517450cd86ee4b4"
+
+#define ALERT_NAME @"Alert Name"

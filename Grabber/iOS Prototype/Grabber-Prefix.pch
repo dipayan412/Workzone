@@ -1,0 +1,100 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <FacebookSDK/FacebookSDK.h>
+    #import "ASIHTTPRequest.h"
+    #import "ASIHTTPRequestDelegate.h"
+    #import "UserDefaultsManager.h"
+    #import "ReceiverSide.h"
+    #import <CoreData/CoreData.h>
+    #import <PassKit/PassKit.h>
+    #import "BingMaps.h"
+    #import "PromoScanner.h"
+    #import <Social/Social.h>
+
+#endif
+
+#define kNavigationBarTextColor     [UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:1.0]
+#define kNavigationBarShadowColor   [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8]
+#define kNavigationBarColor         [UIColor colorWithRed:222.0f/255.0f green:68.0f/255.0f blue:66.0f/255.0f alpha:1.0f]
+//[UIColor colorWithRed:202.0f/255.0f green:52.0f/255.0f blue:56.0f/255.0f alpha:1.0f]
+
+#define fbAppID         @"589622177788053"
+#define fbAppSecret     @"3e58f6ea6b3f7ca30285a1758c4bcdad"
+#define bingMapAPIKeys  @"As96h3kM79H2gttxq9IZddTBWYf_WKx1GZSglqBMbr51EGiEN398psZ6jZGGtI4j"
+#define kPinterestAppID @"pin1437138"
+
+//#define baseUrl         @"http://162.243.230.41:8081/api/"
+//#define baseUrl         @"http://192.168.1.120:5000/api/"
+//#define baseUrl         @"http://192.168.1.112:5000/api/"
+//#define baseUrl         @"http://192.168.1.121:5000/api/"
+#define baseUrl                 @"http://ec2-54-186-77-78.us-west-2.compute.amazonaws.com/api/"
+#define loginApi                @"login/"
+#define registerapi             @"registeruser/"
+#define registerShopApi         @"registershop/"
+#define getShopListApi          @"get_shops/"
+#define createPromoApi          @"createpromo/"
+#define getPromoApi             @"getpromo/"
+#define grabPromoApi            @"graboffer/"
+#define getmyoffer              @"getmyoffer/"
+#define forgotPasswordApi       @"forgot_password/"
+#define getStorePromoApi        @"get_store_promo/"
+#define getShopsByLatLon        @"get_shops_by_lat_lon/"
+#define getPromoBytLatLonApi    @"get_promo_by_lat_lon/"
+#define getProfileAPI           @"get_profile/"
+#define facebookLoginApi        @"fblogin/"
+#define getMyRewardPointsApi    @"get_reward/"
+#define addGrabApi              @"grab/"
+#define leaderBoardApi          @"leader_board/"
+#define fbSendInvitationApi     @"invite_friends/"
+#define addRewardPoinApi        @"add_reward/"
+#define getGrabByLocationApi    @"get_grab_by_location/"
+
+typedef enum cellTypes{
+    kMerchantCell,
+    kBecomeMerchantCell,
+    kBeaconCell,
+    kEmailCell,
+    kSocialCell,
+    kFacebookCell,
+    kTwitterCell,
+    kInstagramCell,
+    kRenRenCell,
+    kWeiboCell,
+    kGooglePlusCell,
+    kPinterestCell
+} kCellTypes;
+
+typedef enum pageTypesConsumer{
+    kProfile,
+    kOffers,
+    kActivity,
+    kGrabbers,
+    kLocations,
+    kReports,
+    kSettings,
+    kLogout
+} kPageTypes;
+
+typedef enum pageTypesMerchant{
+    kEditProfile,
+    kManageStores,
+    kManageLocationOffers,
+    kSocialPages,
+    kAnalytics,
+    kSettingsMerchant,
+    kCredits,
+    kLogoutMerchant
+} pageTypesMerchant;

@@ -1,0 +1,348 @@
+"TIME_SHEET_PAGE_TITLE" = "Ek Mesailerim";
+
+//Ashif
+
+"LOCAL_AM" = "AM";
+"LOCAL_PM" = "PM";
+
+"SETTINGS_SET_WORK_DAYS" = "İş günlerini göster";
+
+"REMINDER_MESSAGE_CONTENT" = "Boş iş cetvelleriniz var";
+
+"REPORT_LIST_BALANCE_REPORT" = "Ek Mesailerim";
+"REPORT_LIST_ACTIVITY_REPORT" = "Faaliyet Raporu";
+"REPORT_LIST_ACTIVITY_BALANCE_REPORT" = "Faaliyet Kalan Süresi Raporu";
+"REPORT_LIST_BACK_BUTTON" = "Geri";
+
+"REPORT_MYDATERANGE" = "Tarih Aralığım";
+"REPORT_BALANCE_FOR_RANGE" = "Kalan Zaman Aralığı";
+"REPORT_BALANCE_RANGE_START" = "Zaman Aralığı Başı Kalan";
+"REPORT_BALANCE_RANGE_END" = "Zaman Aralığı Sonu Kalan";
+"REPORT_BALANCE_HISTORY" = "Kalan Süre Geçmişi";
+
+"BALANCE_REPORT_TITLE" = "Ek Mesailerim";
+"ACTIVITY_REPORT_TITLE" = "Faaliyet Raporu";
+"ACTIVITY_BALANCE_TITLE" = "Faaliyet Kalan Süresi";
+
+"ACTIVITIES_LIST_TITLE" = "Faaliyetler";
+"ACTIVITIES_LIST_NEW_ITEM" = "Yeni faaliyet eklemek için '+'ya tıkla";
+
+"ACTIVITY_DETAIL_TITLE" = "Faaliyet";
+
+"BALANCE_REPORT_EMAIL_SUBJECT" = "Ek Mesailerim Raporu";
+"BALANCE_REPORT_EMAIL_CONTENT" = "Ek Mesailerim raporu eklentidedir";
+"BALANCE_REPORT_EMAIL_ATTACHMENT" = "EkMesailerim.csv";
+"BALANCE_REPORT_EMAIL_ATTACHMENT_1" = "EkMesailerim.html";
+"BALANCE_REPORT_EMAIL_ATTACHMENT_2" = "EkMesailerim.pdf";
+
+"BALANCE_REPORT_HEADER_WEEKDAY" = "İşgünü";
+"BALANCE_REPORT_HEADER_DATE" = "Tarih";
+"BALANCE_REPORT_HEADER_TOTAL" = "Toplam";
+"BALANCE_REPORT_HEADER_OFFSET" = "Mesai";
+"BALANCE_REPORT_HEADER_BALANCE" = "Kalan";
+"BALANCE_REPORT_HEADER_TOTAL_MIN" = "Toplam (dk)";
+"BALANCE_REPORT_HEADER_OFFSET_MIN" = "Mesai (dk)";
+"BALANCE_REPORT_HEADER_BALANCE_MIN" = "Kalan (dk)";
+
+"ACTIVITY_REPORT_EMAIL_SUBJECT" = "Faaliyet Raporu";
+"ACTIVITY_REPORT_EMAIL_CONTENT" = "Faaliyet ayrıntılarına ait rapor eklentidedir";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_0" = "FaaliyetRaporu.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_1" = "ActivityReportForMacOS.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_2" = "ActivityReportForWindows.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_3" = "FaaliyetRaporu.html";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_4" = "FaaliyetRaporu.pdf";
+
+"ACTIVITY_REPORT_HEADER_MONTH" = "Ay";
+"ACTIVITY_REPORT_HEADER_DATE" = "Tarih";
+"ACTIVITY_REPORT_HEADER_ACTIVITY" = "Faaliyet";
+"ACTIVITY_REPORT_HEADER_TOTAL" = "Toplam";
+"ACTIVITY_REPORT_HEADER_START" = "Başlama";
+"ACTIVITY_REPORT_HEADER_END" = "Bitiş";
+"ACTIVITY_REPORT_HEADER_BREAK" = "Mola";
+"ACTIVITY_REPORT_HEADER_OFFSET" = "Mesai";
+"ACTIVITY_REPORT_HEADER_BALANCE" = "Kalan";
+"ACTIVITY_REPORT_HEADER_AMOUNT" = "Tutarı";
+"ACTIVITY_REPORT_HEADER_COMMENTS" = "Yorumlar";
+"ACTIVITY_REPORT_HEADER_TOTAL_MIN" = "Toplam (dk)";
+"ACTIVITY_REPORT_HEADER_OFFSET_MIN" = "Mesai (dk)";
+"ACTIVITY_REPORT_HEADER_BALANCE_MIN" = "Kalan (dk)";
+"ACTIVITY_REPORT_DAILY_TOTAL" = "Günlük toplam:";
+"ACTIVITY_REPORT_FLAT" = "Tümü";
+
+"ACTIVITY_BALANCE_EMAIL_SUBJECT" = "Faaliyet Kalanı";
+"ACTIVITY_BALANCE_EMAIL_CONTENT" = "Faaliyet kalan süresine ait rapor eklentidedir";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_0" = "FaaliyetKalanı.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_1" = "ActivityBalanceForMacOS.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_2" = "ActivityBalanceForWindows.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_3" = "FaaliyetKalanı.html";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_4" = "FaaliyetKalanı.pdf";
+
+"ACTIVITY_BALANCE_HEADER_ACTIVITY" = "Faaliyet";
+"ACTIVITY_BALANCE_HEADER_ALLOWANCE" = "İzin (saat)";
+"ACTIVITY_BALANCE_HEADER_DATE" = "Tarih";
+"ACTIVITY_BALANCE_HEADER_APPLIED" = "Tatbiki";
+"ACTIVITY_BALANCE_HEADER_BALANCE" = "Kalan";
+"ACTIVITY_BALANCE_HEADER_ALLOWANCE_MIN" = "İzin(dk)";
+"ACTIVITY_BALANCE_HEADER_APPLIED_MIN" = "Tatbiki(dk)";
+"ACTIVITY_BALANCE_HEADER_BALANCE_MIN" = "Kalan(dk)";
+"ACTIVITY_BALANCE_TOTAL" = "Toplam:";
+
+"DEFAULT_ACTIVITY_IN_OFFICE" = "İşyerinde";
+"DEFAULT_ACTIVITY_COMPANY_HOLIDAY" = "Şirket Tatili";
+"DEFAULT_ACTIVITY_WORK_FROM_HOME" = "Evde Çalışma";
+"DEFAULT_ACTIVITY_ON_VACATION" = "not used";
+"DEFAULT_ACTIVITY_TRAVEL" = "iş gezisi";
+"DEFAULT_ACTIVITY_UNPAID_LEAVE" = "Ücretsiz İzin";
+"DEFAULT_ACTIVITY_COMPENSATION" = "Tazminat";
+"DEFAULT_ACTIVITY_OUT_SICK" = "Raporlu";
+"DEFAULT_ACTIVITY_VACATION_2011" = "2012 yılı izinler";
+"DEFAULT_ACTIVITY_VACATION_2012" = "2013 yılı izinler";
+"DEFAULT_ACTIVITY_HOLIDAY_2011" = "2012 yılı genel tatili";
+"DEFAULT_ACTIVITY_HOLIDAY_2012" = "2013 yılı genel tatili";
+"DEFAULT_ACTIVITY_OVERTIME_PAID1.5" = "Fazla mesai oranı 1.5x";
+"DEFAULT_ACTIVITY_OVERTIME_PAID2X" = "Fazla mesai oranı 2x";
+"DEFAULT_ACTIVITY_OVERTIME_PAID" = "Standart mesai oranı";
+//"DEFAULT_ACTIVITY_OVERTIME_REDUCER" = "Mesai ödemesi";
+"DEFAULT_ACTIVITY_FLEXITIME_BURNED" = "Redüktör esnek saatler";
+//"DEFAULT_ACTIVITY_STARTING_BALANCE" = "Başlangıç bakiyesi";
+"DEFAULT_ACTIVITY_TEMPLATE_1"="Başlangıç bakiyesi";
+"DEFAULT_ACTIVITY_TEMPLATE_2"="Ek mesai ücreti";
+"DEFAULT_ACTIVITY_TEMPLATE_3"="Ödeme hesabı";
+//translate
+"DEFAULT_ACTIVITY_TEMPLATE_4"="At work";
+"DEFAULT_ACTIVITY_TEMPLATE_5"="Shift 1";
+
+"BACKGROUND_ACTION_SHEET_TITLE" = "Arka plan seç";
+"BACKGROUND_ACTION_SHEET_DEFAULT_BCKGRD_BUTTON" = "Varsayılan arka plan";
+"BACKGROUND_ACTION_SHEET_CHOOSE_PHOTOS_BUTTON" = "Fotoğraflardan seç";
+"BACKGROUND_ACTION_SHEET_CANCEL_BUTTON" = "İptal et";
+
+"EXPORT_EMAIL_BODY" = "Lütfen, eklentide bulunan yedek iş cetveli dosyasını indirin. Bu verileri almak için dosya üzerine dokunun ve Ek Mesailerim ile açın. Bu işlem ile birlikte mevcut verilerinizin üstüne yeni verilerin yazılacağını ve hiçbir uyarı iletisi gönderilmeyeceğini lütfen dikkate alın.";
+
+"APPIRATER_MESSAGE" = "Ek Mesailerim'i kullanmaktan keyif aldıysanız, lütfen birkaç dakika ayırıp puan verip yorum yapınız. \n Yıldızlı puanlama yapmanız bile\n büyük katkı sağlayacak ve uygulamanın iyileştirilmesini mümkün kılacaktır.\n\n Ek Mesailerim'i kullandığınız için teşekkürler!";
+"APPIRATER_RATE_BUTTON" = "Şimdi puanla";
+"APPIRATER_MESSAGE_TITLE" = "Uygulama Mağazası puanlaması";
+"APPIRATER_CANCEL_BUTTON" = "Hayır, teşekkürler";
+"APPIRATER_RATE_LATER" = "Daha sonra bana hatırlat";
+
+"PRODUCT_INAPP_NAVIGATION_TITLE" = "  Satın Al  ";
+
+"PRODUCT_INAPP_TITLE_1" = "Alışveriş listesi";
+
+"PRODUCT_INAPP_HEADER3" = "Dropbox. etkinleştir";
+"PRODUCT_INAPP_MESSAGE3" = "Ürünü satın almak için, yardım sayfasına gidin ve ‘satın al’ başlığını bulun";
+
+"PRODUCT_INAPP_3" = "Dropbox. etkinleştir";
+"PRODUCT_INAPP_DETAILS_3" = "Dropbox verilerinizin bir yedeğini tutun";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_3" = "Bu uygulama Dropbox bağlantı sağlar. Dropbox için verilerinizi kaydedin. Dropbox verilerinizi kurtarmak.";
+
+
+"PRODUCT_INAPP_HEADER2" = "Takvimimin Kilidini Aç";
+"PRODUCT_INAPP_MESSAGE2" = "14 takvim günlük iş cetveli limitine ulaşıldı. En eski iş cetveli, periyodik olarak silinecektir. Bu ürünü satın alabilirsiniz. Lütfen, yardım sayfasına gidin ve daha fazla bilgi için ‘satın alın’";
+
+"PRODUCT_INAPP_1" = "Takvimimin Kilidini Aç";
+"PRODUCT_INAPP_DETAILS_1" = "Tam iş cetveli geçmişine izin ver";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_1" = "İş cetvelim geçmişi limitinin kilidini aç (14 takvim günü periyotluk geçmiş). Böylece; hiçbir zaman aralığı kısıtlaması olmadan raporlarımın sorgulanmasını ve hazırlanmasını içerecek biçimde iş cetvellerime ait tam geçmiş kaydedilmesi sağlanacaktır.";
+
+
+
+"PRODUCT_INAPP_HEADER" = "Verilerimi e-postayla gönder";
+"PRODUCT_INAPP_MESSAGE" = "Ürünü satın almak için, yardım sayfasına gidin ve ‘satın al’ başlığını bulun";
+
+"PRODUCT_INAPP_2" = "Verilerimi e-postayla gönder";
+"PRODUCT_INAPP_DETAILS_2" = "Rapor verilerimi aktar ve gönder";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_2" = "Rapor verilerimi pdf, html ve csv dosyaları olarak aktarabilmemi sağlar. Bu dosyalar, gönderilebilir ve verilerimin çıktı olarak alınabilmesi için kullanılabilir. Html ve csv sürümleri kopyalanabilir ya da ms-excel yazılımına alınabilir";
+
+
+"PRODUCT_INAPP_BUY_BUTTON_TITLE" = "Hemen al: ";
+
+"PRODUCT_INAPP_TITLE_3" = "Bu Uygulamayı yeniden yükledikten sonra";
+"PRODUCT_INAPP_TITLE_BUTTON" = "Hemen";
+"PRODUCT_INAPP_RESTORE_TITLE" = "Geri Yükle";
+"PRODUCT_INAPP_RESTORE_DESC_TITLE" = "Daha önce satın aldıklarımı yükle";
+
+"kPDF_PageNumber" = "Sayfa";
+"kINAPP_Failure" = "Product Error:";
+"PRODUCT_INAPP_TITLE_2" = "zzzz ";
+"PRODUCT_INAPP_BUTTON_PURCHASE" = "yyyy ";
+
+//Reset timesheet text
+"RESET_HEADER" = "İş cetvellerimi sıfırla";
+"RESET_SUBHEADER" = "Lütfen, silmek istediğiniz süreyi belirtiniz. Eğer personelde değişikliğe giriyorsanız ya da raporlarınızı ve e-posta aktarımını hızlandırmak amacıyla eski verileri kaldırmak istiyorsanız bu seçenek kullanışlıdır. Acak, bu işlemden önce yedekleme yapmanız önerilir.";
+
+"RESET_SUCCESS" = "Seçili süre silindi !";
+"RESET_GO_BUTTON" = "Çalıştır";
+"OK" = "Tamam";
+"CANCEL" = "İptal";
+"DELETE" = "Sil";
+"DELETE_MESSAGE" = "Seçili süreyi silmek istiyor musunuz ?";
+"LATER" = "Daha sonra";
+"TAKE_ME_THERE" = "Bana göster";
+
+//New Report header
+"MY_OVERTIME_GRAPH_TITLE" = "Bakiye";
+"SEGMENT_WEEKLY" = "Haftalık";
+"SEGMENT_MONTHLY" = "Aylık";
+"SEGMENT_YEARLY" = "Yıllık";
+"EMAIL_BUTTON" = "E-Posta";
+
+"TITLE_WEEK" = "Hafta";
+"TITLE_YEAR" = "Yıl";
+
+"INGOING" = "Başlangıçta";
+"INRANGE" = "Süreyle";
+"OUTGOING" = "Toplam";
+
+"FLAT_STRING" = "Tümü";
+
+//New Report Email Output
+
+"MY_OVERTIME_SUMMARY" = "Ek Mesai istatistikleri";
+"MY_OVERTIME_GRAPH" = "Ek Mesai grafiği";
+"MY_OVERTIME_SUMMARY_SUBJECT" = "Ek Mesai istatistikleri";
+"MY_OVERTIME_GRAPH_SUBJECT" = "Ek Mesai grafiği";
+"MY_OVERTIME_SUMMARY_BODY" = "Ek Mesailerim istatistikleri ektedir";
+"MY_OVERTIME_GRAPH_BODY" = "Ek Mesailerim grafiği ektedir";
+
+//Move order
+"TITLE_EDIT" = "Edit";
+"TITLE_DONE" = "Tamam";
+
+
+"TITLE_ACTIVITY_REPORT" = "Faaliyet Raporu";
+"TITLE_ALL" = "tüm";
+"TITLE_FILTER" = "Veri filtresi:";
+"TITLE_BACKUP" = "Yedekleme ve e-Posta";
+"BACKUP_FILENAME" = "Yedekleme";
+"TOTAL_ACTIVITY_RESULT" = "Toplam saat";
+"FILTER_HEADER" = "Veri filtresi:";
+"TOTAL_AMOUNT_HEADER" = "Toplam tutarı:";
+
+
+"TITLE_EMAIL" = "E-posta takın";
+"BACKUP_EMAIL_VALIDATION_ERROR_MESSAGE" = "Geçerli bir e-posta adresi girin";
+"BACKUP_ERROR_MESSAGE" = "E-posta Doğrulaması";
+"ERROR" = "hata!";
+
+"TEMPLATE"="Şablon";
+"TEMPLATE_LIST_HEADER"="Şablonlarım";
+"TEMPLATE_ACTION_MESSAGE" = "Şablonumu ekle";
+"DEFAULT_TEMPLATE_NAME_1"="Başlangıç bakiyem";
+"DEFAULT_TEMPLATE_NAME_2"="Ek mesai ücretim";
+"DEFAULT_TEMPLATE_NAME_3"="Ödeme hesabım";
+// need to translate
+"DEFAULT_TEMPLATE_NAME_4"="My typical day";
+"DEFAULT_TEMPLATE_NAME_5"="My shift 1";
+"DEFAULT_TEMPLATE_NAME_6"="Template 6";
+"DEFAULT_TEMPLATE_NAME_7"="Template 7";
+
+"USER_IDENTIFICATION_DESCRIPTION" = "Bu ayrıntı e-postalar için varsayılan olarak ve raporların başlıkları kullanılacak olan.";
+"MY_HEADING" = "Benim koordinatları";
+"BACKUP_TEXT_MESSAGE" = "Bir e-posta oluşturulur ve veri bir yedekleme dosyası (.motd) olarak eklenecektir. * Eğer biçimi “.motad“ bir dosya oluşturma seçeneğine sahip Android üzerinde çalışan bir cihaza veri almak istiyorum.";
+
+
+// FAQ Texts
+
+// Questions
+
+"FAQ_Question_1" = "1) Any suggestions on how to enter a starting\n    overtime/flextime balance ?";
+"FAQ_Question_2" = "2) How do I enter a compensation of my\n    overtime/flextime balance ?";
+"FAQ_Question_3" = "3) What is meant by 'overtime' ?";
+"FAQ_Question_4" = "4) What is meant by 'offset' ?";
+"FAQ_Question_5" = "5) What is the definition of 'Activity' in the\n    context of this app ?";
+"FAQ_Question_6" = "6) How can I customize my activities ?";
+"FAQ_Question_7" = "7) If I change an activity why is this not\n    applied to existing time sheets ?";
+"FAQ_Question_8" = "8) If I have two jobs which I want to track, does\n    that work ?";
+"FAQ_Question_9" = "9) How is the IAP version (red ribbon icon)\n    different ?";
+"FAQ_Question_10" = "10) What is the allowance balance report for ?";
+"FAQ_Question_11" = "11) How can I further analyze my data beyond\n      the standard reports ?";
+"FAQ_Question_12" = "12) How do I print my data ?";
+"FAQ_Question_13" = "13) What is the 'backup + mail' used for ?";
+"FAQ_Question_14" = "14) How can I recover my data ?";
+"FAQ_Question_15" = "15) How can I transfer my data to another\n      device ?";
+"FAQ_Question_16" = "16) What is 'Dropbox cloud' and how does it\n      work ?";
+"FAQ_Question_17" = "17) What is meant by 'templates' ?";
+"FAQ_Question_18" = "18) What are the future plans for this App ?";
+
+// Answers
+
+"FAQ_Answer_1" = "a) Go to the date you want to start tracking (or one day before)\nb) Tap on 'my templates' and choose 'my startup balance'*\nc) Update the default flat hours value to the value you want to start with\nd) Page to the next day to start your daily entries * alternatively, if you do not find a predefined startup balance activity then you can create one. Please check FAQ 6 and go to settings to create a new activity and define as Against Offset = Count, Flat time = ON and Default Hrs = enter your total starting balance in hours.";
+
+"FAQ_Answer_2" = "If you want to compensate your flextime by starting late or leaving early there is no special entry required as the offset will show a negative balance if your work hours are less than the offset value for that day which reduces your overall balance. If you would like to compensate your overtime through flexitime or have these paid out, you have the following additional options:\n\nOption A (Take work day off as compensation):\na) Go to the calendar day you want to compensate\nb) Tap the '+' to create a blank sheet\nc) Ensure the offset shows the required hours (eg. 8.00)\nd) Select 'Flexitime burn' or 'Compensation' activity (whichever suits best)\ne) The total work hours will show 0 and the day’s balance will show a negative offset amount (eg. -8.00).\nf) Run your reports to check that your total overtime balance has been reduced.\n\nOption B (Reduce Overtime balance and pay out):\na) Go to an unused date (eg. a Sunday)\nb) Tap on 'My templates' and choose 'My payments bank'\nc) This sets the offset value to zero. Now update the total hours you are getting paid for (update the default value of 40.00 to your value). In addition, you may fill in the total money amount if you would like to track that as well.\nd) The day's balance will show a negative value (default = 40.00) which will reduce the overall year to date balance.\ne) Run your reports to check that your total overtime balance has been reduced. The amount field is included in the Activity report.\n* alternatively, if you do not find a predefined payment activity then you can create one. Please check FAQ 6 and go to settings to create a new activity and define as Against Offset = Count, Flat time = ON, Overtime reducer = ON.\n\nTake note: The above steps can also be done combined with a working day activity (eg. 'In Office' and Offset value).";
+
+"FAQ_Answer_3" = "For the purpose of this app this refers to the amount of time which exceeds your daily required hours which is shown at the bottom of the timesheet as the 'Balance'. For example, you have 8.00 daily required hours (this is your 'offset') and your workday's activities totaled to 9:15 so your overtime is 1:15. You might want to redeem this overtime. Overtime is also known as 'flextime' in those companies and jobs where a flexible work time model exists. If you have flexible hours you can come in late or leave earlier to compensate your overtime or get extra pay. Some industries have special regulations where extra pay may be considered when the total work hours per week exceed 40 hours as well as special rates on certain days (eg. for weekend work hours count 1.5x or 2x). The United States labor act classifies workers as 'exempt' or 'non-exempt'.'\n\nFor example: if you did Weekend work of 7 hours on a Saturday you would add to the timesheet the following activities:\n\n- add Activity 1: 'In Office' Start: 9.00am and End: 5.00pm (1.00 break) = 7.00 hours total\n\n- add Activity 2: 'Overtime pay 1.5x' and enter a flat value of 3.30 hours (1.5 x 7 hrs = 10.30hrs, 10:30 - 7.00 = 3.30 hrs) which represents the bonus hours at the 1.5 pay rate. You may also want to add the overtime pay you expect into the amount field. Go to the Activity report to track all accumulated overtime hours and amounts\n\n- Total hours for the day will show 10.30 against an the Offset of 7:00 will produce an Overtime balance of 3.30 hrs.\n\n- On your pay day you can add Activity 'Payments bank' (or use the 'My payments bank' template) and enter the total hours and amount. This will reduce the overall balance on your reports. See also related topic FAQ 2 option B.\n\n- If you use more than one activity record to tally up your daily working hours on a recurring basis then you may wish to combine these activities into a 'template'. Please go to 'Set Working days' or 'My templates' within the settings page to create or customize a template (refer to FAQ 17 for more).";
+
+"FAQ_Answer_4" = "This is the applicable daily working hours a.k.a. target hours set by your employer. Some jobs may have a weekly or monthly total working hours agreement which may not be broken down to daily offset hours. However, this app is designed to enable tracking your work time against your daily offset.";
+
+"FAQ_Answer_5" = "The term 'Activity' is used to describe a unit for which you would like to track your hours against. You may decide that a different term is more appropriate for the way you would like to use this app. For example, in some jobs this unit might rather be called a ''Task' or 'Project' or 'Shift'. In addition, you may consider using an Activity as an 'account' for deposits or balances (eg. overtime rate balances).\nA range of standard activities (including 'my templates') have been set up for you as part of the initial download to give you an understanding of possible ways to track your hours. However, you are free to change these to more detailed actions (eg. 'in Office' can be broken out to 'Office task A', 'Office task B', etc) or create accounts (eg. overtime special rate, special rate payouts).";
+
+"FAQ_Answer_6" = "- Go to Settings and Activities.\n- The list of default activities can be updated: rename, delete, change order or create new ones.\n- You can set an allowance bank to check the remaining credit against your timesheets. Commonly used for Vacation allowance. See FAQ 10 for more.\n- You may set a ‚flat‘ mode which will replace start and end time with a total hours field and this is defaulted to taking the offset value. For example, the Vacation and Sick day activities have been set up this way by default.\n- Flat mode allows you to switch on an amounts field and an overtime balance reducer (see Overtime paid and FAQ 2-Option B)\n- The Activity picker will list the activities in the same order as found in the settings.";
+
+"FAQ_Answer_7" = "Changes in Activity settings will be applied on new time sheets in order to protect historic data. To apply changes to historic data you must go back to each existing sheet and reselect the activity for the change to become effective (for example: name change, flat on/off, Count against Offset yes/no, allowance value, etc).";
+
+"FAQ_Answer_8" = "The app was basically designed for one job as the reports will show just one overtime total rather than a breakout out by job. However, you have the following options:\n\na) If your second job is on a different day you can set a different offset on that day. You may want to create an activity for that job, for example: 'Job 2'.\nb) Another way is to install the other App version on the same iOS device (Full version and IAP version (red ribbon) thereby maintaining two apps in parallel. This will require you to purchase the other version.\nc) A different approach is to install the App on another iOS device to track that job. Re-installing the same app from app store is free.";
+
+
+"FAQ_Answer_9" = "Both the IAP and non-IAP version are identical with the exception that the IAP version is free giving you the opportunity to get familiar with the app but with a limitation of 14 days of timesheet history and several features which can be unlocked through an in-app-purchase (IAP) within the purchase pge. There is no need to switch between these versions. Both versions have the same features and will receive the same updates.";
+
+"FAQ_Answer_10" = "Allows tracking your vacation credit or sick days credit or other. To use this report you must fill-in your annual allowance on the activity settings in hours (refer to the existing activity for Vacation). For example, if you have a vacation allowance of 20 days and 8 hrs required per work day then you fill in 160.00 hours (8 hours * 20 days).";
+
+"FAQ_Answer_11" = "Use the email option and open the csv or html file from a computer with ms-excel (or similar program) and copy or import the data to ms-excel where you can add filters, comments and graphical elements (pivot graph) to your data.";
+
+"FAQ_Answer_12" = "Run the desired report and email the data. From the email you have the following options:\na) Open the file attachment from a computer which has printing capability.\nb) Open the file attachment within your iOS device mailbox if you have a wireless printer connected.";
+
+
+"FAQ_Answer_13" = "- to transfer your data to another device per e-mail\n- to keep a copy of your data per e-mail in case something happens to your device\n- for scheduling backups use the Dropbox facility (see FAQ 16)";
+
+"FAQ_Answer_14" = "You must do a backup regularly to avoid data loss if something happens to your device. One way to do this is the to use the 'backup + mail' feature regularly to keep a copy of your data in your email inbox. To recover from an e-mail back-up follow these steps:\na) make sure this app is installed on the target device (you can re-install it for free from the app store)\nb) open the email and tap on the attachment and confirm 'open with my overtime' when asked.\nc) the app starts and you should now see all your time sheets from that back-up.\nd) finally, you will have to manually update your preference settings (set working days, etc).\nAlternatively, if you use the 'Dropbox Cloud' option you can restore from backup files made to your Dropbox account (see FAQ 16). Furthermore, if you use the Apple iCloud/iTunes back-up feature this will allow you to reset and recover all device content (Follow Apple's insructions).\n\n";
+
+"FAQ_Answer_15" = "Follow these steps:\na) install this app on the new device. You can re-install it free direct from the app store.\nb) run the 'backup and mail' from the old device and send it to the new device’s mailbox.\nc) open the email and tap on the attachment and confirm 'open with my overtime' when asked.\nd) the app starts and you should now see all your old time sheets on the new device.\ne) finally, please update your default settings.";
+
+"FAQ_Answer_16" = "This is a service which allows you to store a regular backup of your data (a history of all your time sheets) on an external server (cloud) with a provider named 'Dropbox'. This is more convenient than creating backups manually via e-mail (see FAQ 13). Your backup file can be restored back to your device in case you you have lost your data or would like to transfer your data to another device (the app must be installed on that device). Please note that this is not an automatic database synchronization service between multiple devices.\nTo use this feature you will need a Dropbox account and internet connection. During setup you will be asked to create a Dropbox account or Login and link to an existing account. Dropbox gives you limited free space which is sufficient for the purpose of the backup files (under 10kb per file). As part of the backup process a new file is created (.motd) for every backup made along with a timestamp in a specific folder path on Dropbox (APPS\..). Further, please take note of the following points:\na) During backup if your device is not connected to the internet the backup file will stay on your device and synchronize with the cloud the next time you start the app and you are connected to the internet.\nb) Scheduled backups (eg. every Tuesday) will be triggered if you open the app on the day the backup is scheduled.\nc) The motd file format can only be read by this app as part of the restore process\nd) To view a list of all your backup files you can use the 'restore' button or look up your Dropbox account.\ne) To restore a backup file simply tap on that file name and follow the instructions.\nf) You can delete older versions from the backup path as you wish from within your Dropbox account.";
+
+"FAQ_Answer_17" = "Templates enable you to store typical activities which you would use repetitively in a changing schedule as a pre-defined timesheet. For example, you might like to re-use a previous week's timesheet, need same activities every week or a combination of activities you need once a month for special occasions. You can use the default templates from 'My Templates' which you can change to suit your needs. In addition, you can create a template for each day of the week within the 'Set working days' option.";
+
+"FAQ_Answer_18" = "A lot of feedback has come in since its first release in August 2011. Many of the reported issues and suggestions have been implemented to make this app a stable, robust and useful companion. Looking at the app store, on one hand there are apps focusing on project management and billing and on the other hand there are time tracking tools for employees for specific industries and trades. I would certainly like to be your first choice for your personal time tracking with overtime/flextime management. The more I hear back from you about the good and the bad the better I can explore new features – just email me or check my facebook page. Last but not least, I hope this app can contribute to keeping the right work-life balance for you. As part of a growing user community, congratulations for discovering this app and welcome to the club !";
+
+// Dropboz Texts
+
+"LINK_DB" = "Dropbox bağlayın";
+"UNLINK_DB" = "Bağlantıyı kes Dropbox";
+"DB_ALERT_HEADING" = "Uyarı";
+"DB_ALERT_MSG" = "Eğer uygulama için bağlantıyı kesmek için istediğinizden emin misiniz ?";
+"DB_ALERT_CANCEL" = "Iptal";
+"DB_ALERT_YES" = "Evet";
+"DB_LABEL_TITLE" = "Asla";
+"DB_ALERT_DONE_TITLE" = "Yapılan yedekleme";
+"DB_ALERT_DONE_MSG" = "Verilerinizin bir yedekleme dosyası oluşturuldu";
+"RESTORE_TITLE" = "Yedekleme geri Yükleme";
+"TITLE_RESTORE" = "geri Yükleme";
+
+"RESTORE_LOGIN_ERROR" = "Yedekleme geri Dropbox bağlayın.";
+"CREATE_LOGIN_ERROR" = "Yedek oluşturmak için Dropbox bağlayın.";
+"LOGIN_ALERT" = "Hafta içi her gün seçmeden önce Dropbox bağlayın.";
+"FILE" = "Dosyalar";
+"NO_FILE" = "Dosya mevcut değil.";
+"DM_RESTORE_SUCCESS" = "Başarılı geri.";
+
+"DB_LOGIN_FAILED" = "Başarısız oturum";
+"DB_BACKUP_ERROR" = "Veri yedekleme sırasında bir hata oluştu. Daha sonra deneyin.";
+
+// inApp Purchase Texts
+"LOADING_TITLE" = "Lütfen bekleyin ..";
+
+"UPGRADE_FAIL_TITLE" = "In-App satın alma başarısız oldu";
+"UPGRADE_FAIL_MESSAGE" = "İşlem başarısız oldu. Daha sonra tekrar deneyin";
+"RESTORE_COMPLETE_TITLE" = "Tamamlanan geri";
+"RESTORE_COMPLETE_MESSAGE" = "Önceden satın alınan ürünlerin restore edilmiş.";
+"IAP_TITLE" = "In-App satın alma";
+"IAP_SUCCESS_MSG" = "Satın alma işlemi başarılı olduğunu.";
+
+// FAQ page item title
+"TITLE_FAQ" = "Sıkça sorulan sorular (English)";
+"TITLE_SUPPORT" = "Haberler ve iletişim";
+"TITLE_REVIEW" = "ITunes gözden";
+
+//Allowance Alert
+
+"EMPTY_ALLOWANCE_ALERT" = "Sonuçlar elde etmek için, girdiğiniz zaman çizelgeleri bir kredi (örneğin yıllık izin parası) ile kurulmuş olan bir faaliyet ile ilgili olmalıdır. 'Sıkça sorulan sorular' ve soru sayısının 10 altında Yardım sayfasına bakın.";

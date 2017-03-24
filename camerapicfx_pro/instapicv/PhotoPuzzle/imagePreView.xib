@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1024" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="imagePreView">
+            <connections>
+                <outlet property="Complexity" destination="12" id="17"/>
+                <outlet property="Font" destination="14" id="18"/>
+                <outlet property="TextPlacement" destination="16" id="19"/>
+                <outlet property="bottomBtn" destination="43" id="56"/>
+                <outlet property="fontNameLabel" destination="31" id="34"/>
+                <outlet property="imageview" destination="5" id="kcr-dv-Jg6"/>
+                <outlet property="largeBtn" destination="40" id="53"/>
+                <outlet property="mediumBtn" destination="41" id="52"/>
+                <outlet property="middleBtn" destination="44" id="55"/>
+                <outlet property="myTextField" destination="26" id="28"/>
+                <outlet property="smallBtn" destination="39" id="51"/>
+                <outlet property="topBtn" destination="42" id="54"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="main_background.png" id="23">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="544"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="hintTextBg.png" id="5" colorLabel="IBBuiltInLabel-Blue">
+                    <rect key="frame" x="9" y="76" width="300" height="121"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your message here" textAlignment="center" minimumFontSize="17" id="26">
+                    <rect key="frame" x="38" y="88" width="242" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Insert your message here:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="38">
+                    <rect key="frame" x="27" y="184" width="267" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="125" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="42">
+                    <rect key="frame" x="25" y="425" width="73" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" backgroundImage="top_text.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="textPlacementSelected:" destination="-1" eventType="touchUpInside" id="48"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="127" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="43">
+                    <rect key="frame" x="224" y="425" width="73" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="bottom_text.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="textPlacementSelected:" destination="-1" eventType="touchUpInside" id="50"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="126" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="44">
+                    <rect key="frame" x="122" y="425" width="73" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" backgroundImage="middle_text.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="textPlacementSelected:" destination="-1" eventType="touchUpInside" id="49"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="text2.png" id="24">
+                    <rect key="frame" x="28" y="323" width="191" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="text1.png" id="36">
+                    <rect key="frame" x="30" y="391" width="191" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="selectFont.png" id="29">
+                    <rect key="frame" x="19" y="236" width="280" height="63"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="30">
+                    <rect key="frame" x="25" y="246" width="267" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="selectFont:" destination="-1" eventType="touchUpInside" id="32"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="31">
+                    <rect key="frame" x="157" y="257" width="123" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.1229567198" green="0.086815501820000002" blue="0.46248726220000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="122" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="39">
+                    <rect key="frame" x="25" y="345" width="73" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" backgroundImage="small_text.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="textLengthSelected:" destination="-1" eventType="touchUpInside" id="45"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="124" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="40">
+                    <rect key="frame" x="224" y="345" width="73" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="large_text.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="textLengthSelected:" destination="-1" eventType="touchUpInside" id="47"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="123" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="41">
+                    <rect key="frame" x="122" y="345" width="73" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" backgroundImage="medium_text.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="textLengthSelected:" destination="-1" eventType="touchUpInside" id="46"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Difficulty Level" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="11">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="23"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+            <nil key="highlightedColor"/>
+        </label>
+        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="12">
+            <rect key="frame" x="0.0" y="0.0" width="303" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <segments>
+                <segment title="Easy"/>
+                <segment title="Medium"/>
+                <segment title="Hard"/>
+            </segments>
+        </segmentedControl>
+        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="40" sectionHeaderHeight="1" sectionFooterHeight="1" id="4">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+        </tableView>
+        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="16">
+            <rect key="frame" x="0.0" y="0.0" width="303" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <segments>
+                <segment title="Top"/>
+                <segment title="Middle"/>
+                <segment title="Bottom"/>
+            </segments>
+        </segmentedControl>
+        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Text Placement" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="15">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="10"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+            <nil key="highlightedColor"/>
+        </label>
+        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="14">
+            <rect key="frame" x="0.0" y="0.0" width="303" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <segments>
+                <segment title="Small"/>
+                <segment title="Medium"/>
+                <segment title="Large"/>
+            </segments>
+        </segmentedControl>
+        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Font Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="13">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="20"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+            <nil key="highlightedColor"/>
+        </label>
+    </objects>
+    <resources>
+        <image name="bottom_text.png" width="181" height="85"/>
+        <image name="hintTextBg.png" width="618" height="271"/>
+        <image name="large_text.png" width="170" height="85"/>
+        <image name="main_background.png" width="640" height="960"/>
+        <image name="medium_text.png" width="170" height="85"/>
+        <image name="middle_text.png" width="170" height="85"/>
+        <image name="selectFont.png" width="640" height="127"/>
+        <image name="small_text.png" width="170" height="85"/>
+        <image name="text1.png" width="401" height="32"/>
+        <image name="text2.png" width="348" height="31"/>
+        <image name="top_text.png" width="170" height="85"/>
+    </resources>
+</document>

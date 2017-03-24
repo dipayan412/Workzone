@@ -1,0 +1,91 @@
+10
+
+dir
+0
+https://192.168.1.5:8443/svn/myovertime/ios/trunk/Schedules.xcdatamodeld
+https://192.168.1.5:8443/svn/myovertime
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c7bf9468-993e-3144-9929-805ae48bbf0b
+
+.xccurrentversion
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Schedules.xcdatamodel
+dir
+
+
+
+add
+
+Schedules2.xcdatamodel
+dir
+
+
+
+add
+
+Schedules3.xcdatamodel
+dir
+
+
+
+add
+
+Schedules4.xcdatamodel
+dir
+
+
+
+add
+
+Schedules5.xcdatamodel
+dir
+
+
+
+add
+
+Schedules6.xcdatamodel
+dir
+
+
+
+add
+
+Schedules7.xcdatamodel
+dir
+
+
+
+add
+

@@ -1,0 +1,96 @@
+//Tab bar items
+
+"kHome" = "HOME";
+"kMenu" = "THE MENU";
+"kReservation" = "RESERVATION";
+"kFindUs" = "FIND US";
+
+//parent page titles
+
+"kMenuTitle" = "Menu";
+"kFindUsTitle" = "Contact Us";
+"kReservationTitle" = "Reservation";
+
+// Home Page items
+
+"kBack" = "Back";
+"kOurRestaurant" = "Our Restaurant";
+"kImageGallery" = "Image Gallery";
+"kNews_Offers" = "News & Offers";
+
+
+// Settings page items
+
+"kUseItalian" = "Use Italian";
+"kConnectFacebook" = "Connect to Facebook";
+"kConnectTwitter" = "Connect to Twitter";
+"kSettings" = "Settings";
+"kAccountSetting" = "ACCOUNT SETTING";
+
+// Reservation
+
+"kReserveTable" = "Reserve A Table";
+"kTakeAway" = "Take Away";
+
+// itemDetail page
+
+"kSearchPlaceHolder" = "Search Menu Items...";
+"kDescription" = "Description";
+"kOrder" = "Order";
+"kPrice" = "Price";
+"kServe" = "Serve for";
+
+// Find us page
+
+"kOpenNavigator" = "Open Navigator";
+"kEmailUs" = "Email us";
+
+// reserve a table
+
+"kYourName" = "Your name";
+"kNumberOfPeople" = "Number of people";
+"kSetDate" = "Set date";
+"kSetTime" = "Set time";
+"kPhoneNumber" = "Phone number";
+"kComment" = "Comment (Optional)";
+"kSendRervation" = "Send Reservation";
+
+// take away
+
+"kNoOrder" = "No Order";
+"kOrder" = "Order";
+"kTax" = "Tax";
+"kTotal" = "Total";
+"kOrderLaterCheckBox" = "Check if you want to  order later";
+
+// Our Restaurant
+
+"kOurRestaurant" = "Our Restaurant";
+
+// imageGallery
+
+"kImage" = "Image";
+
+// alerts
+
+"kConfirm" = "Confirm";
+"kRemoveOrder" = "Do you want remove your previous order?";
+"kError" = "Error";
+"kParseResponse" = "Failed to parse response";
+"kConnectServer" = "Could not connect to server";
+"kDismiss" = "Dismiss";
+"kPhoneCall" = "You can not make phone calls with this device";
+"kLoadData" = "Failed to load data";
+"kEnterOrder" = "Please enter order";
+"kGiveName" = "Please give a name";
+"kEnterDate" = "Please enter date";
+"kEnterTime" = "Please enter time";
+"kPlaceOrder" = "Please place an order";
+"kGiveNumber" = "Please give your phone number";
+"kTakeAwayTaken" = "Take away taken";
+"kSuccess" = "Success";
+"kReservationSuccessful" = "Reservation Successful";
+"kYes" = "YES";
+"kNo" = "NO";
+"kNumberOfPeople" = "Number Of People";
+"kWait" = "Please wait";

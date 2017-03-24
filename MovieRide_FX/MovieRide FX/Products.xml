@@ -1,0 +1,66 @@
+<Products>
+    
+    <Product>
+        <Name>Space Walk</Name>
+        <Type>Embedded</Type>
+        <Poster>astro_poster.jpg</Poster>
+        <PreviewClip>spacewalk1_preview.mp4</PreviewClip>
+        <TemplateFolder>SpaceWalk</TemplateFolder>
+        <ProductId>tv.waterston.movieridefx.SpaceWalk</ProductId>
+    </Product>
+    
+    <Product>
+        <Name>Transpod Giant</Name>
+        <Type>Downloadable</Type>
+        <Poster>transpod_giant.jpg</Poster>
+        <PreviewClip>transpod2_preview.mp4</PreviewClip>
+        <TemplateFolder>TranspodGiant</TemplateFolder>
+        <ProductId>tv.waterston.movieridefx.TranspodGiant</ProductId>
+    </Product>
+    
+    <Product>
+        <Name>Khumba</Name>
+        <Type>Downloadable</Type>
+        <Poster>khumba_poster.jpg</Poster>
+        <PreviewClip>Khumba_Preview.mp4</PreviewClip>
+        <TemplateFolder>Khumba</TemplateFolder>
+        <ProductId>tv.waterston.movieridefx.Khumba</ProductId>
+    </Product>
+    
+    <Product>
+        <Name>M Racer</Name>
+        <Type>Downloadable</Type>
+        <Poster>m_racer_poster.jpg</Poster>
+        <PreviewClip>m_racer_preview.mp4</PreviewClip>
+        <TemplateFolder>MRacer</TemplateFolder>
+        <ProductId>tv.waterston.movieridefx.MRacer</ProductId>
+    </Product>
+    
+    <Product>
+        <Name>Transpod Splat</Name>
+        <Type>Downloadable</Type>
+        <Poster>transpod_splat.jpg</Poster>
+        <PreviewClip>transpod1_preview.mp4</PreviewClip>
+        <TemplateFolder>TranspodSplat</TemplateFolder>
+        <ProductId>tv.waterston.movieridefx.TranspodSplat</ProductId>
+    </Product>
+
+    <Product>
+        <Name>Love Song</Name>
+        <Type>Downloadable</Type>
+        <Poster>love_song_poster.jpg</Poster>
+        <PreviewClip>lovesong_preview.mp4</PreviewClip>
+        <TemplateFolder>LoveSong</TemplateFolder>
+        <ProductId>tv.waterston.movieridefx.LoveSong</ProductId>
+    </Product>
+    
+    <Product>
+        <Name>Space Wars</Name>
+        <Type>Downloadable</Type>
+        <Poster>spacewars_poster.jpg</Poster>
+        <PreviewClip>spacewars1_preview.mp4</PreviewClip>
+        <TemplateFolder>SpaceWars</TemplateFolder>
+        <ProductId>tv.waterston.movieridefx.SpaceWars</ProductId>
+    </Product>
+
+</Products>

@@ -1,0 +1,166 @@
+/* 
+  Localizable.strings
+  Pharmacate
+
+  Created by Dipayan Banik on 8/7/16.
+  Copyright © 2016 Gravalabs. All rights reserved.
+*/
+
+//login
+"kGuestKey" = "Sign in as a Guest";
+"kTermsTextKey" = "I agree to the";
+"kTermsButtonTextKey" = "Terms & Conditions.";
+"kCheckingTokenTextKey" = "Checking Credentials...";
+"kLoadingSocialAccounts" = "Loading...";
+
+//home
+"kSearchTextFieldPlaceholder" = "Search medicine";
+"kNewsTopText" = "Top ^";
+"kNewsBottomText" = "News v";
+"kHistoryLoading" = "Retrieving history";
+"kUserInfoLoading" = "Populating Profile";
+
+//search
+"kAllHistory" = "See All History";
+"kSearching" = "Searching...";
+"kNoResult" = "Sorry, no matches found";
+
+//productDetail
+"kForceLogin" = "Please login to post a review";
+"kAlertDismess" = "Dismiss";
+"kAlertLogin" = "Login";
+
+//productDetailPanel
+"kOverView" = "OVERVIEW";
+"kDetails" = "DETAILS";
+"kNews" = "NEWS";
+"kAlternative" = "ALTERNATIVES";
+
+//review
+"kReviewLoading" = "Loading...";
+"kReviewNoData" = "No reviews to display";
+"kReviewAnonymus" = "Anonymus";
+
+//overViewLegends
+"kOverViewLegendBoxWarning" = "Box Warning";
+"kOverViewLegendPregnancy" = "Pregnancy & Breastfeeding";
+"kOverViewLegendSideEffect" = "Side Effects";
+"kOverViewLegendDrugInteractions" = "Drug Interactions";
+
+//detailLabels
+"kDetailLabelDescription" = "Description";
+"kDetailLabelIngredient" = "Ingredients";
+"kDetailLabelDisease" = "Treats";
+"kDetailLabelSideEffects" = "Side effects";
+"kDetailLabelSymptoms" = "Uses";
+"kDetailLabelLoading" = "Loading...";
+
+//news
+"kNewsLoading" = "Loading...";
+"kNewsNoData" = "No news to display";
+
+//alternative
+"kAlternativeSimilarProduct" = "Similar Products";
+"kAlternativeHomeoPath" = "Homeopathic";
+"kAlternativeLoading" = "Loading...";
+"kAlternativeNoData" = "No product to display";
+
+//drawerView
+"kDrawerHistory" = "History";
+"kDrawerfaq" = "FAQ";
+"kDrawerProfile" = "Profile";
+"kDrawerFeedback" = "Feedback";
+"kDrawerPillReminder" = "Bookmarks";
+"kDrawerMyReviews" = "My reviews";
+
+//postReview
+"kPostReviewBackButton" = "CANCEL";
+"kPostReviewSubmitButton" = "SUBMIT";
+"kPostReviewContentPlaceholder" = "Write a review...";
+"kPostReviewDurationPlaceholder" = "Duration of medication(Optional)";
+"kPostReviewConditionPlaceholder" = "Disease(Optional)";
+"kPostReviewRatingPlaceholder" = "Rating between 1 (worst) to 10 (best) (Optional)";
+"kPostReviewAnonymus" = "Post anonymously";
+"kPostReviewAlertMessage" = "Cannot post an empty review";
+"kPostReviewAlertDismiss" = "Dismiss";
+"kPostReviewPosting" = "Posting a review..";
+
+//profilePanel
+"kProfilePanelInfo" = "Info";
+"kProfilePanelDisease" = "Conditions";
+"kProfilePanelAllergy" = "Allergies";
+"kProfilePanelSignOut" = "SIGN OUT";
+
+//profileDetails
+"kProfileDetailDiseaseTitle" = "Conditions you are facing";
+"kProfileDetailDiseasePlaceholder" = "Add conditions";
+"kProfileDetailAllergyTitle" = "Elements that cause you an allergy";
+"kProfileDetailAllergyTPlaceholder" = "Add allergens";
+"kProfileDetailUserInformation" = "User Information";
+
+//forceLogin
+"kForceLoginAlertMessage" = "Please login to use this feature";
+"kForceLoginAlertDismiss" = "Dismiss";
+"kForceLoginAlertLogin" = "Login";
+
+//profileSave
+"kProfileSaveChangeAlertMessage" = "Do you want to save changes?";
+"kProfileSaveChangeAlertDismiss" = "CANCEL";
+"kProfileSaveChangeAlertOK" = "OK";
+
+//historyClear
+"kHistoryAlertMessage" = "Are you sure you want to delete all the history?";
+"kHistoryAlertDismiss" = "CANCEL";
+"kHistoryAlertOk" = "OK";
+
+//pillReminder
+"kPillReminderAddButton" = "ADD";
+"kPillReminderTitle" = "Bookmarks";
+"kPillReminderNoData" = "No medicine to display";
+"kPillReminderLoading" = "Loading Medicines..";
+
+//pillReminderAlarm
+"kPillReminderAlarmSubmitButton" = "SUBMIT";
+"kPillReminderAlarmTitle" = "Pill Reminder";
+"kPillReminderAlarmSearchPlaceholeder" = "Add medicine";
+"kPillReminderAlarmStartDatePlaceHolder" = "Start Date";
+"kPillReminderAlarmDurationPlaceholder" = "Duration";
+"kPillReminderAlarmStartTimePlaceholder" = "Start Time";
+"kPillReminderAlarmIntervalPlaceholder" = "Time gap";
+"kPillReminderAlarmPickerDoneButton" = "Done";
+"kPillReminderAlarmAlertMessageProduct" = "Please select a product";
+"kPillReminderAlarmAlertMessageStartDate" = "Please select a start date";
+"kPillReminderAlarmAlertMessageDuration" = "Please select duration of medication";
+"kPillReminderAlarmAlertMessageStartTime" = "Please select a start time";
+"kPillReminderAlarmAlertMessageInterval" = "Please select time gap between two medicines";
+"kPillReminderAlarmAlertDismiss" = "Dismiss";
+"kPillReminderAlarmLoading" = "Setting alarm";
+
+//myReviews
+"kMyReviewsLoading" = "Populating Reviews";
+"kMyReviewsNoData" = "No medicine to display";
+
+//feedback
+"kFeedbackCancelButton" = "CANCEL";
+"kFeedbackSubmitButton" = "SUBMIT";
+"kFeedbackContentPlaceholder" = "Write feedback...";
+"kFeedbackAlertMessage" = "Can not post empty feedback";
+"kFeedbackAlertDismiss" = "Dismiss";
+"kFeedbackFeedbackLoading" = "Posting feedback..";
+
+//filter
+"kFilterCancel" = "Cancel";
+"kFilterSearch" = "Search";
+"kFilterTitle" = "Filter by";
+"kFilterScore" = "Total score";
+"kFilterOTC" = "OTC";
+"kFilterSupplement" = "Supplement";
+"kFilterPrescription" = "Prescription";
+"kFilterHomeopathic" = "Homeopathic";
+"kFilterMedicineName" = "Medicine Name";
+"kFilterName" = "Name";
+"kFilterIngredient" = "Ingredient";
+"kFilterDiseaseName" = "Disease";
+"kFilterSymptom" = "Symptom";
+"kFilterType" = "By type";
+"kFilterCategory" = "By category";

@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		8D9847A0131C1C4D00D903F3 /* BingMaps.Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D98479F131C1C4D00D903F3 /* BingMaps.Resources.bundle */; };
+		8D9865CB120C72DA00763D86 /* MapMarkerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9865C2120C72DA00763D86 /* MapMarkerAppDelegate.m */; };
+		8D9865CC120C72DA00763D86 /* MapMarkersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9865C4120C72DA00763D86 /* MapMarkersViewController.m */; };
+		8D9865CD120C72DA00763D86 /* MarkerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9865C6120C72DA00763D86 /* MarkerViewController.m */; };
+		8D9865CE120C72DA00763D86 /* SeattleMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9865C8120C72DA00763D86 /* SeattleMarker.m */; };
+		8D9865CF120C72DA00763D86 /* SpaceNeedleMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9865CA120C72DA00763D86 /* SpaceNeedleMarker.m */; };
+		8D9865E3120C732100763D86 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9865DD120C732100763D86 /* Home.png */; };
+		8D9865E4120C732100763D86 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9865DE120C732100763D86 /* MainWindow.xib */; };
+		8D9865E5120C732100763D86 /* MapMarkersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9865DF120C732100763D86 /* MapMarkersViewController.xib */; };
+		8D9865E6120C732100763D86 /* MarkerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9865E0120C732100763D86 /* MarkerViewController.xib */; };
+		8D9865E7120C732100763D86 /* pin_Misc.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9865E1120C732100763D86 /* pin_Misc.png */; };
+		8D9865E8120C732100763D86 /* SpaceNeedle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9865E2120C732100763D86 /* SpaceNeedle.png */; };
+		8D9865F9120C738600763D86 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9865F8120C738600763D86 /* CoreData.framework */; };
+		8D9865FB120C738600763D86 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9865FA120C738600763D86 /* CoreLocation.framework */; };
+		8D9865FD120C738600763D86 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9865FC120C738600763D86 /* OpenGLES.framework */; };
+		8D9865FF120C738600763D86 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9865FE120C738600763D86 /* QuartzCore.framework */; };
+		8D986601120C738600763D86 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D986600120C738600763D86 /* SystemConfiguration.framework */; };
+		8D986603120C738600763D86 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D986602120C738600763D86 /* libxml2.dylib */; };
+		8D986605120C738600763D86 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D986604120C738600763D86 /* libz.dylib */; };
+		8D98663F120C75C900763D86 /* libBingMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D986632120C75C800763D86 /* libBingMaps.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* MapMarkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapMarkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* MapMarkers_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapMarkers_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MapMarkers-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MapMarkers-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D98479F131C1C4D00D903F3 /* BingMaps.Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BingMaps.Resources.bundle; path = ../../MapControl/BingMaps.Resources.bundle; sourceTree = SOURCE_ROOT; };
+		8D9865C1120C72DA00763D86 /* MapMarkerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapMarkerAppDelegate.h; sourceTree = "<group>"; };
+		8D9865C2120C72DA00763D86 /* MapMarkerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapMarkerAppDelegate.m; sourceTree = "<group>"; };
+		8D9865C3120C72DA00763D86 /* MapMarkersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapMarkersViewController.h; sourceTree = "<group>"; };
+		8D9865C4120C72DA00763D86 /* MapMarkersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapMarkersViewController.m; sourceTree = "<group>"; };
+		8D9865C5120C72DA00763D86 /* MarkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerViewController.h; sourceTree = "<group>"; };
+		8D9865C6120C72DA00763D86 /* MarkerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerViewController.m; sourceTree = "<group>"; };
+		8D9865C7120C72DA00763D86 /* SeattleMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeattleMarker.h; sourceTree = "<group>"; };
+		8D9865C8120C72DA00763D86 /* SeattleMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeattleMarker.m; sourceTree = "<group>"; };
+		8D9865C9120C72DA00763D86 /* SpaceNeedleMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceNeedleMarker.h; sourceTree = "<group>"; };
+		8D9865CA120C72DA00763D86 /* SpaceNeedleMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceNeedleMarker.m; sourceTree = "<group>"; };
+		8D9865DD120C732100763D86 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		8D9865DE120C732100763D86 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		8D9865DF120C732100763D86 /* MapMarkersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapMarkersViewController.xib; sourceTree = "<group>"; };
+		8D9865E0120C732100763D86 /* MarkerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkerViewController.xib; sourceTree = "<group>"; };
+		8D9865E1120C732100763D86 /* pin_Misc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_Misc.png; sourceTree = "<group>"; };
+		8D9865E2120C732100763D86 /* SpaceNeedle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpaceNeedle.png; sourceTree = "<group>"; };
+		8D9865F8120C738600763D86 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8D9865FA120C738600763D86 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8D9865FC120C738600763D86 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8D9865FE120C738600763D86 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8D986600120C738600763D86 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8D986602120C738600763D86 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		8D986604120C738600763D86 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8D986632120C75C800763D86 /* libBingMaps.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBingMaps.a; path = ../../MapControl/libBingMaps.a; sourceTree = SOURCE_ROOT; };
+		8D986634120C75C900763D86 /* BingMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BingMaps.h; sourceTree = "<group>"; };
+		8D986635120C75C900763D86 /* BMEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMEntity.h; sourceTree = "<group>"; };
+		8D986636120C75C900763D86 /* BMGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMGeometry.h; sourceTree = "<group>"; };
+		8D986637120C75C900763D86 /* BMMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMapView.h; sourceTree = "<group>"; };
+		8D986638120C75C900763D86 /* BMMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMarker.h; sourceTree = "<group>"; };
+		8D986639120C75C900763D86 /* BMMarkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMarkerView.h; sourceTree = "<group>"; };
+		8D98663A120C75C900763D86 /* BMPushpinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPushpinView.h; sourceTree = "<group>"; };
+		8D98663B120C75C900763D86 /* BMReverseGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMReverseGeocoder.h; sourceTree = "<group>"; };
+		8D98663C120C75C900763D86 /* BMTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTypes.h; sourceTree = "<group>"; };
+		8D98663D120C75C900763D86 /* BMUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMUserLocation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				8D9865F9120C738600763D86 /* CoreData.framework in Frameworks */,
+				8D9865FB120C738600763D86 /* CoreLocation.framework in Frameworks */,
+				8D9865FD120C738600763D86 /* OpenGLES.framework in Frameworks */,
+				8D9865FF120C738600763D86 /* QuartzCore.framework in Frameworks */,
+				8D986601120C738600763D86 /* SystemConfiguration.framework in Frameworks */,
+				8D986603120C738600763D86 /* libxml2.dylib in Frameworks */,
+				8D986605120C738600763D86 /* libz.dylib in Frameworks */,
+				8D98663F120C75C900763D86 /* libBingMaps.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8D9865C1120C72DA00763D86 /* MapMarkerAppDelegate.h */,
+				8D9865C2120C72DA00763D86 /* MapMarkerAppDelegate.m */,
+				8D9865C3120C72DA00763D86 /* MapMarkersViewController.h */,
+				8D9865C4120C72DA00763D86 /* MapMarkersViewController.m */,
+				8D9865C5120C72DA00763D86 /* MarkerViewController.h */,
+				8D9865C6120C72DA00763D86 /* MarkerViewController.m */,
+				8D9865C7120C72DA00763D86 /* SeattleMarker.h */,
+				8D9865C8120C72DA00763D86 /* SeattleMarker.m */,
+				8D9865C9120C72DA00763D86 /* SpaceNeedleMarker.h */,
+				8D9865CA120C72DA00763D86 /* SpaceNeedleMarker.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MapMarkers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				8D98479F131C1C4D00D903F3 /* BingMaps.Resources.bundle */,
+				8D986632120C75C800763D86 /* libBingMaps.a */,
+				8D986633120C75C900763D86 /* BingMaps */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* MapMarkers_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D9865DD120C732100763D86 /* Home.png */,
+				8D9865DE120C732100763D86 /* MainWindow.xib */,
+				8D9865DF120C732100763D86 /* MapMarkersViewController.xib */,
+				8D9865E0120C732100763D86 /* MarkerViewController.xib */,
+				8D9865E1120C732100763D86 /* pin_Misc.png */,
+				8D9865E2120C732100763D86 /* SpaceNeedle.png */,
+				8D1107310486CEB800E47090 /* MapMarkers-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				8D9865F8120C738600763D86 /* CoreData.framework */,
+				8D9865FA120C738600763D86 /* CoreLocation.framework */,
+				8D9865FC120C738600763D86 /* OpenGLES.framework */,
+				8D9865FE120C738600763D86 /* QuartzCore.framework */,
+				8D986600120C738600763D86 /* SystemConfiguration.framework */,
+				8D986602120C738600763D86 /* libxml2.dylib */,
+				8D986604120C738600763D86 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D986633120C75C900763D86 /* BingMaps */ = {
+			isa = PBXGroup;
+			children = (
+				8D986634120C75C900763D86 /* BingMaps.h */,
+				8D986635120C75C900763D86 /* BMEntity.h */,
+				8D986636120C75C900763D86 /* BMGeometry.h */,
+				8D986637120C75C900763D86 /* BMMapView.h */,
+				8D986638120C75C900763D86 /* BMMarker.h */,
+				8D986639120C75C900763D86 /* BMMarkerView.h */,
+				8D98663A120C75C900763D86 /* BMPushpinView.h */,
+				8D98663B120C75C900763D86 /* BMReverseGeocoder.h */,
+				8D98663C120C75C900763D86 /* BMTypes.h */,
+				8D98663D120C75C900763D86 /* BMUserLocation.h */,
+			);
+			name = BingMaps;
+			path = ../../MapControl/BingMaps;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MapMarkers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MapMarkers" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapMarkers;
+			productName = MapMarkers;
+			productReference = 1D6058910D05DD3D006BFB54 /* MapMarkers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MapMarkers" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MapMarkers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9865E3120C732100763D86 /* Home.png in Resources */,
+				8D9865E4120C732100763D86 /* MainWindow.xib in Resources */,
+				8D9865E5120C732100763D86 /* MapMarkersViewController.xib in Resources */,
+				8D9865E6120C732100763D86 /* MarkerViewController.xib in Resources */,
+				8D9865E7120C732100763D86 /* pin_Misc.png in Resources */,
+				8D9865E8120C732100763D86 /* SpaceNeedle.png in Resources */,
+				8D9847A0131C1C4D00D903F3 /* BingMaps.Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				8D9865CB120C72DA00763D86 /* MapMarkerAppDelegate.m in Sources */,
+				8D9865CC120C72DA00763D86 /* MapMarkersViewController.m in Sources */,
+				8D9865CD120C72DA00763D86 /* MarkerViewController.m in Sources */,
+				8D9865CE120C72DA00763D86 /* SeattleMarker.m in Sources */,
+				8D9865CF120C72DA00763D86 /* SpaceNeedleMarker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MapMarkers_Prefix.pch;
+				INFOPLIST_FILE = "MapMarkers-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../MapControl\"",
+				);
+				PRODUCT_NAME = MapMarkers;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MapMarkers_Prefix.pch;
+				INFOPLIST_FILE = "MapMarkers-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../MapControl\"",
+				);
+				PRODUCT_NAME = MapMarkers;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../MapControl/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../MapControl/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MapMarkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MapMarkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

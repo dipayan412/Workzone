@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Contact" representedClassName="Contact" syncable="YES">
+        <attribute name="givenName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uphotoId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MessageRoom" representedClassName="MessageRoom" syncable="YES">
+        <attribute name="isSynced" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastMsgText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="partnerPhotoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncTime" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Messages" representedClassName="Messages" syncable="YES">
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="receiverId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sentOn" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Contact" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="MessageRoom" positionX="0" positionY="0" width="128" height="148"/>
+        <element name="Messages" positionX="0" positionY="0" width="128" height="135"/>
+    </elements>
+</model>

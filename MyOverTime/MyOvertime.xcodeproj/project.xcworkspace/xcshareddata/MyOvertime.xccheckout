@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ADEB7810-B788-4B46-9C9E-0554FFB137CB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyOvertime</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EEF68ADA-65AB-454D-B4A4-C16DC272BDB7</key>
+		<string>https://192.168.1.5:8443/svn/myovertime/ios/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyOvertime.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EEF68ADA-65AB-454D-B4A4-C16DC272BDB7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>EEF68ADA-65AB-454D-B4A4-C16DC272BDB7</key>
+		<string>https://192.168.1.5:8443/svn/myovertime</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.1.5:8443/svn/myovertime/ios/trunk/MyOvertime.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EEF68ADA-65AB-454D-B4A4-C16DC272BDB7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EEF68ADA-65AB-454D-B4A4-C16DC272BDB7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyOverTime</string>
+		</dict>
+	</array>
+</dict>
+</plist>

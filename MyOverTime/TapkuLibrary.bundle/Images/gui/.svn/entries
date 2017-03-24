@@ -1,0 +1,168 @@
+10
+
+dir
+0
+https://192.168.1.5:8443/svn/myovertime/ios/trunk/TapkuLibrary.bundle/Images/gui
+https://192.168.1.5:8443/svn/myovertime
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c7bf9468-993e-3144-9929-805ae48bbf0b
+
+ui back button hover.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ui back button hover@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ui back button.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ui back button@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ui done button.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ui done button@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ui plain button hover.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ui plain button hover@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ui plain button.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+ui plain button@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

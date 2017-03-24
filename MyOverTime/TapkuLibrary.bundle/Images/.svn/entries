@@ -1,0 +1,70 @@
+10
+
+dir
+0
+https://192.168.1.5:8443/svn/myovertime/ios/trunk/TapkuLibrary.bundle/Images
+https://192.168.1.5:8443/svn/myovertime
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c7bf9468-993e-3144-9929-805ae48bbf0b
+
+calendar
+dir
+
+
+
+add
+
+coverflow
+dir
+
+
+
+add
+
+empty
+dir
+
+
+
+add
+
+graph
+dir
+
+
+
+add
+
+gui
+dir
+
+
+
+add
+
+overview
+dir
+
+
+
+add
+

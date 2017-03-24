@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContactsViewController">
+            <connections>
+                <outlet property="contactSegment" destination="X2d-KZ-cMb" id="t4u-fw-Z2s"/>
+                <outlet property="gridOrTableButton" destination="bGM-rX-eaE" id="IjD-dP-fZA"/>
+                <outlet property="nonWakeUsersCollectionView" destination="XzS-f4-exr" id="Rog-Y6-Cqb"/>
+                <outlet property="nonWakeUsersTableView" destination="dNC-0d-1qU" id="liP-Uv-0gV"/>
+                <outlet property="view" destination="1" id="3"/>
+                <outlet property="wakeUsersCollectionView" destination="cMw-wy-vRB" id="ysP-JF-qfZ"/>
+                <outlet property="wakeUsersTableView" destination="M8a-e6-mye" id="Ub1-5M-CSS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="M8a-e6-mye" userLabel="WakeUpTable View">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="nit-ev-xRK"/>
+                        <outlet property="delegate" destination="-1" id="8PH-Kr-Dj3"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="dNC-0d-1qU" userLabel="NonWakeUpTable View">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Cda-GO-MMJ"/>
+                        <outlet property="delegate" destination="-1" id="PlC-1t-On3"/>
+                    </connections>
+                </tableView>
+                <view clipsSubviews="YES" contentMode="scaleToFill" id="dkt-gR-AcX">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TopBarBG.png" id="H0Q-Z6-Dcc">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ONT-yo-u7B">
+                            <rect key="frame" x="-15" y="0.0" width="44" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" image="BackButton.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="ME1-GR-NlT"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TopBarTitleWake.png" id="qG4-cX-tqG">
+                            <rect key="frame" x="31" y="10" width="90" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KvO-hg-bmM">
+                            <rect key="frame" x="221" y="0.0" width="99" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <state key="normal" title="Sync Phonebook">
+                                <color key="titleColor" red="0.46274509800000002" green="0.35294117650000001" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="syncPhoneBookButtonAction:" destination="-1" eventType="touchUpInside" id="XeD-4z-Pyc"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="av0-00-2cS">
+                            <rect key="frame" x="279" y="10" width="21" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" image="AlarmButtonBig.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99215686270000003" green="0.73725490199999999" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="Ptw-L9-6Ay">
+                    <rect key="frame" x="0.0" y="44" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TopBarBGReverse.png" id="MZA-wT-5wm">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bGM-rX-eaE">
+                            <rect key="frame" x="248" y="7" width="72" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Grid">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="gridOrTableButtonAction:" destination="-1" eventType="touchUpInside" id="7ch-bI-cYz"/>
+                            </connections>
+                        </button>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="X2d-KZ-cMb">
+                            <rect key="frame" x="20" y="8" width="146" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="Wakeup"/>
+                                <segment title="Invite"/>
+                            </segments>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="contactSengemtValueShanged:" destination="-1" eventType="valueChanged" id="tQZ-2m-q1s"/>
+                            </connections>
+                        </segmentedControl>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99215686270000003" green="0.73725490199999999" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+        <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" id="cMw-wy-vRB" userLabel="WakeUpCollection View">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WOd-3f-1lh">
+                <size key="itemSize" width="140" height="140"/>
+                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="0.0"/>
+            </collectionViewFlowLayout>
+            <cells/>
+            <connections>
+                <outlet property="dataSource" destination="-1" id="EXf-KL-iwA"/>
+                <outlet property="delegate" destination="-1" id="ycr-zV-hU8"/>
+            </connections>
+        </collectionView>
+        <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" id="XzS-f4-exr" userLabel="NonWakeUpCollection View">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pGx-eF-Mg4">
+                <size key="itemSize" width="140" height="177"/>
+                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="0.0"/>
+            </collectionViewFlowLayout>
+            <cells/>
+            <connections>
+                <outlet property="dataSource" destination="-1" id="i07-Ng-xq1"/>
+                <outlet property="delegate" destination="-1" id="cth-a8-ME9"/>
+            </connections>
+        </collectionView>
+    </objects>
+    <resources>
+        <image name="AlarmButtonBig.png" width="28" height="30"/>
+        <image name="BackButton.png" width="19" height="19"/>
+        <image name="TopBarBG.png" width="540" height="69"/>
+        <image name="TopBarBGReverse.png" width="540" height="69"/>
+        <image name="TopBarTitleWake.png" width="105" height="37"/>
+    </resources>
+</document>

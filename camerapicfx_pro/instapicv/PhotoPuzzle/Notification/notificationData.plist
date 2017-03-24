@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Data</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>★COME ON BACK!★ Solve some 4-in-1 Words and Pics Puzzles!</string>
+			<key>Day</key>
+			<integer>1</integer>
+			<key>id</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Open up: Create your own Words &amp; Pics quiz to stump your friends</string>
+			<key>Day</key>
+			<integer>3</integer>
+			<key>id</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>★NEW FREE APP!★ Come back and get a FREE app, check it out.</string>
+			<key>Day</key>
+			<integer>5</integer>
+			<key>id</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Open up and check out the latest!</string>
+			<key>Day</key>
+			<integer>8</integer>
+			<key>id</key>
+			<string>3</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>★Stump friends &amp; family - load and send your latest photos now★ </string>
+			<key>Day</key>
+			<integer>11</integer>
+			<key>id</key>
+			<string>5</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>★Everyone loves solving Photo Puzzle Messages…Try another now!:-)★</string>
+			<key>Day</key>
+			<integer>14</integer>
+			<key>id</key>
+			<string>6</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Open &amp; Share this with your Social Networks…the more the Merrier! (and they&apos;ll thank you for it)</string>
+			<key>Day</key>
+			<integer>21</integer>
+			<key>id</key>
+			<string>7</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>8</string>
+			<key>Day</key>
+			<integer>29</integer>
+			<key>Title</key>
+			<string>★DON&apos;T MISS THE NEW STUFF!★ Open now to checkout the NEW features you&apos;re missing out on.</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Uh-oh!  Can you solve the latest message on the network?</string>
+			<key>Day</key>
+			<integer>34</integer>
+			<key>id</key>
+			<string>9</string>
+		</dict>
+	</array>
+</dict>
+</plist>

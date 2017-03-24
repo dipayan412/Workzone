@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmailRegistrationViewController">
+            <connections>
+                <outlet property="confirmPasswordField" destination="d98-wE-RNT" id="TXZ-nl-fIe"/>
+                <outlet property="credentialsView" destination="bT7-Kp-RtY" id="c3K-QB-9YD"/>
+                <outlet property="emailField" destination="51j-yy-Wo2" id="Z5r-X8-ONT"/>
+                <outlet property="passwordField" destination="UPB-33-Ulx" id="v8o-dZ-DDZ"/>
+                <outlet property="view" destination="upk-gw-6sm" id="xde-Yh-p81"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="upk-gw-6sm">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b2V-KY-g1k" userLabel="TopBar">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="47"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create New Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4j-ab-8kD">
+                            <rect key="frame" x="71" y="13" width="257.5" height="21"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwf-Dd-Ihg">
+                            <rect key="frame" x="4" y="0.0" width="48" height="47"/>
+                            <state key="normal" backgroundImage="backButton.png"/>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="ncC-be-x18"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dz8-1W-cyR" userLabel="Separator">
+                            <rect key="frame" x="0.0" y="46" width="414" height="1"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bT7-Kp-RtY" userLabel="Credentials">
+                    <rect key="frame" x="15" y="62" width="384" height="299"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0je-kw-g38" userLabel="Separator">
+                            <rect key="frame" x="35" y="54" width="315" height="1"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G4r-eb-US1" userLabel="Separator">
+                            <rect key="frame" x="35" y="50" width="1" height="5"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aat-KD-k44" userLabel="Separator">
+                            <rect key="frame" x="349" y="50" width="1" height="5"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pdG-zn-RFU" userLabel="Separator">
+                            <rect key="frame" x="35" y="104" width="315" height="1"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nfz-gn-yPV" userLabel="Separator">
+                            <rect key="frame" x="35" y="100" width="1" height="5"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eBh-Fj-bJQ" userLabel="Separator">
+                            <rect key="frame" x="349" y="100" width="1" height="5"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jI4-sd-r4S" userLabel="Separator">
+                            <rect key="frame" x="35" y="154" width="315" height="1"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oIp-VZ-j6c" userLabel="Separator">
+                            <rect key="frame" x="35" y="150" width="1" height="5"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mdz-r6-bEg" userLabel="Separator">
+                            <rect key="frame" x="349" y="150" width="1" height="5"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="51j-yy-Wo2" userLabel="EmailTextField">
+                            <rect key="frame" x="44" y="16" width="306" height="39"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="xP6-a0-P6I"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d98-wE-RNT" userLabel="ConfirmPasswordTextField">
+                            <rect key="frame" x="44" y="116" width="306" height="39"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="GOH-wm-bJS"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5b4-Yx-qaR">
+                            <rect key="frame" x="35" y="213" width="315" height="37"/>
+                            <color key="backgroundColor" red="0.89019607840000003" green="0.27058823529999998" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <state key="normal" title="SIGN UP">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="singInButtonAction:" destination="-1" eventType="touchUpInside" id="kaA-CI-Lg9"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UPB-33-Ulx" userLabel="PasswordTextField">
+                            <rect key="frame" x="44" y="66" width="306" height="39"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="9iS-tp-2lA"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backButton.png" width="76" height="74"/>
+    </resources>
+</document>

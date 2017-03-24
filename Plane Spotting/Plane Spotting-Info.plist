@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Plane Spotting</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>Icon.png</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>Icon.png</string>
+		<string>Default-Portrait~ipad.png</string>
+		<string>Default.png</string>
+		<string>Default.png</string>
+		<string>Default.png</string>
+		<string>Default-Portrait@2x~ipad.png</string>
+		<string>Icon@2x.png</string>
+		<string>Icon-72.png</string>
+		<string>Icon-144.png</string>
+	</array>
+	<key>CFBundleIcons</key>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
+	<key>CFBundleIdentifier</key>
+	<string>com.theappvault.planespotting</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>db-mgfh1m63przym25</string>
+				<string>fb610435985663476plane</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1.0.1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>MainWindow</string>
+	<key>UIPrerenderedIcon</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,501 @@
+{
+  "Settings": [
+    {
+      "identifier": "56AFBD7C-D989-4131-8527-79B601E524A5",
+      "name": "MyOverTimeSettings"
+    }
+  ],
+  "TimeSheet": [
+    {
+      "flatTime": 1200,
+      "startTime": -1,
+      "amount": 0,
+      "activityId": "2AE33C19-69A6-4F9E-9BE2-04DC8DF4DC4E",
+      "comments": "",
+      "breakTime": -1,
+      "identifier": "510BAC62-997B-4164-B28E-908BA2A55659",
+      "scheduleId": "F2C805BC-6440-4F6A-8553-51469A3A4818",
+      "endTime": -1,
+      "subSequence": 0
+    },
+    {
+      "flatTime": 2400,
+      "startTime": -1,
+      "amount": 0,
+      "activityId": "3467FC1B-56EB-42FE-97F5-DFB94A375F7E",
+      "comments": "",
+      "breakTime": -1,
+      "identifier": "1EA54A52-7233-418B-B3AC-1CECDE3D43B8",
+      "scheduleId": "F8135E79-4D20-440B-964D-FEFFC9DCF7A4",
+      "endTime": -1,
+      "subSequence": 0
+    },
+    {
+      "flatTime": -1,
+      "startTime": -1,
+      "amount": 0,
+      "activityId": "",
+      "comments": "",
+      "breakTime": -1,
+      "identifier": "7681E85A-970B-4F44-B2AE-4FCC11669796",
+      "scheduleId": "EF8962D1-C442-4D33-8B14-CCA88974D710",
+      "endTime": -1,
+      "subSequence": 0
+    },
+    {
+      "flatTime": -1,
+      "startTime": -1,
+      "amount": 0,
+      "activityId": "",
+      "comments": "",
+      "breakTime": -1,
+      "identifier": "59574397-8505-46A4-AD8F-2CC1D8B90617",
+      "scheduleId": "DDBF0405-50F4-4E34-9004-41271CBF56EE",
+      "endTime": -1,
+      "subSequence": 0
+    },
+    {
+      "flatTime": -1,
+      "startTime": -1,
+      "amount": 0,
+      "activityId": "",
+      "comments": "",
+      "breakTime": -1,
+      "identifier": "18205221-7759-4074-8EA6-48A2F8D788C7",
+      "scheduleId": "BA50A725-8DDF-4EA8-99E7-FF63360F464F",
+      "endTime": -1,
+      "subSequence": 0
+    },
+    {
+      "flatTime": -1,
+      "startTime": -1,
+      "amount": 0,
+      "activityId": "",
+      "comments": "",
+      "breakTime": -1,
+      "identifier": "89F40883-E89C-4013-8AD1-28654868A66E",
+      "scheduleId": "60529D0E-B2DF-45A9-8738-11B4848C9AB6",
+      "endTime": -1,
+      "subSequence": 0
+    },
+    {
+      "flatTime": 480,
+      "startTime": -1,
+      "amount": 0,
+      "activityId": "E5386993-A0DB-45B1-90C9-82F06AE51BF3",
+      "comments": "",
+      "breakTime": -1,
+      "identifier": "90C45A59-D3CD-4DB7-9C44-53060D768E72",
+      "scheduleId": "9F0A66E9-DDAE-4059-BF1A-60F946B27272",
+      "endTime": -1,
+      "subSequence": 0
+    },
+    {
+      "flatTime": -1,
+      "startTime": -1,
+      "amount": 0,
+      "activityId": "",
+      "comments": "",
+      "breakTime": -1,
+      "identifier": "EA6CD956-A572-409E-8B7A-93CF86C85F57",
+      "scheduleId": "B6BFE39C-F191-42B3-82FF-A325183962E5",
+      "endTime": -1,
+      "subSequence": 0
+    },
+    {
+      "flatTime": -1,
+      "startTime": -1,
+      "amount": 0,
+      "activityId": "",
+      "comments": "",
+      "breakTime": -1,
+      "identifier": "DE94BB09-90A0-41BC-8683-C9219E9F90E9",
+      "scheduleId": "BA889054-7D7A-481E-BCCF-B9417222ED5A",
+      "endTime": -1,
+      "subSequence": 0
+    },
+    {
+      "flatTime": -1,
+      "startTime": -1,
+      "amount": 0,
+      "activityId": "",
+      "comments": "",
+      "breakTime": -1,
+      "identifier": "C29319B9-7A1B-436E-8E96-64CC3B810E36",
+      "scheduleId": "F487F565-74C2-458D-9CEA-EB3A0387F60D",
+      "endTime": -1,
+      "subSequence": 0
+    },
+    {
+      "flatTime": -1,
+      "startTime": 467,
+      "amount": 0,
+      "activityId": "2977C3F6-0DA7-45C3-B831-9EC194B7B6B0",
+      "comments": "",
+      "breakTime": 60,
+      "identifier": "860E0ADC-64E7-4018-9167-BC5E02FF4226",
+      "scheduleId": "5A6F03EF-557E-43A7-91BF-040DB24AC024",
+      "endTime": 1187,
+      "subSequence": 0
+    },
+    {
+      "flatTime": -1,
+      "startTime": 467,
+      "amount": 0,
+      "activityId": "1AB5FDAA-5984-4272-8E7E-4BAEF02DF342",
+      "comments": "",
+      "breakTime": 60,
+      "identifier": "2AFCA05C-BB5E-4766-AE32-E76FD3EF7BAC",
+      "scheduleId": "5A6F03EF-557E-43A7-91BF-040DB24AC024",
+      "endTime": 1187,
+      "subSequence": 1
+    }
+  ],
+  "Activity": [
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 0,
+      "useDefault": 0,
+      "identifier": "9E6CBD6C-7A6D-4490-A13A-5F10478D4DF7",
+      "flatMode": 1,
+      "subSequence": 5,
+      "activityTitle": "Flexitime burned",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 0
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 0,
+      "useDefault": 0,
+      "identifier": "1778340D-B3AE-451B-9DB8-972058CE997F",
+      "flatMode": 1,
+      "subSequence": 4,
+      "activityTitle": "Local Holiday",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 1
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 0,
+      "useDefault": 0,
+      "identifier": "1AB5FDAA-5984-4272-8E7E-4BAEF02DF342",
+      "flatMode": 0,
+      "subSequence": 1,
+      "activityTitle": "Work from home",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 1
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 0,
+      "useDefault": 0,
+      "identifier": "F1813DE3-511E-43CC-B61A-BDA205704829",
+      "flatMode": 1,
+      "subSequence": 11,
+      "activityTitle": "Compensation",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 0
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 0,
+      "useDefault": 0,
+      "identifier": "41929AB0-B9B5-4354-97A8-DAEA1301D2CC",
+      "flatMode": 0,
+      "subSequence": 10,
+      "activityTitle": "Unpaid Leave",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 0
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 0,
+      "useDefault": 0,
+      "identifier": "5E07DC0B-C924-4522-BE71-8F61D98909D7",
+      "flatMode": 1,
+      "subSequence": 2,
+      "activityTitle": "Business trip",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 1
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 0,
+      "useDefault": 0,
+      "identifier": "2977C3F6-0DA7-45C3-B831-9EC194B7B6B0",
+      "flatMode": 0,
+      "subSequence": 0,
+      "activityTitle": "In Office",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 1
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 1,
+      "allowance": 0,
+      "useDefault": 0,
+      "identifier": "57BFDC8E-4E8D-4F4C-84E6-DDC21AA78C1A",
+      "flatMode": 1,
+      "subSequence": 8,
+      "activityTitle": "Overtime straight",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 1
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 0,
+      "useDefault": 1,
+      "identifier": "2AE33C19-69A6-4F9E-9BE2-04DC8DF4DC4E",
+      "flatMode": 1,
+      "subSequence": 3,
+      "activityTitle": "Startup balance",
+      "offsetValue": 1200,
+      "isEnabled": 1,
+      "estimateMode": 1
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 160,
+      "useDefault": 0,
+      "identifier": "079041A0-99EF-4355-80B4-EC0A8B6CF009",
+      "flatMode": 1,
+      "subSequence": 14,
+      "activityTitle": "Vacation 2012",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 1
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 160,
+      "useDefault": 0,
+      "identifier": "91F0DABF-611D-4EC7-964D-0D245DF04609",
+      "flatMode": 1,
+      "subSequence": 16,
+      "activityTitle": "Holiday 2012",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 1
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 160,
+      "useDefault": 0,
+      "identifier": "2EB41551-18E7-4FC5-9534-61DE1558BE81",
+      "flatMode": 1,
+      "subSequence": 13,
+      "activityTitle": "Vacation 2013",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 1
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 160,
+      "useDefault": 0,
+      "identifier": "798CC640-632E-45ED-B3A6-A78136ED08FF",
+      "flatMode": 1,
+      "subSequence": 15,
+      "activityTitle": "Holiday 2013",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 1
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 0,
+      "allowance": 0,
+      "useDefault": 0,
+      "identifier": "DDF9D4A7-405F-4DCF-BD85-7236627E770B",
+      "flatMode": 1,
+      "subSequence": 12,
+      "activityTitle": "Out Sick",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 1
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 0,
+      "showAmount": 1,
+      "allowance": 0,
+      "useDefault": 0,
+      "identifier": "E5386993-A0DB-45B1-90C9-82F06AE51BF3",
+      "flatMode": 1,
+      "subSequence": 6,
+      "activityTitle": "Extra pay hrs",
+      "offsetValue": 480,
+      "isEnabled": 1,
+      "estimateMode": 1
+    },
+    {
+      "amount": 0,
+      "overtimeReduce": 1,
+      "showAmount": 1,
+      "allowance": 0,
+      "useDefault": 1,
+      "identifier": "3467FC1B-56EB-42FE-97F5-DFB94A375F7E",
+      "flatMode": 1,
+      "subSequence": 9,
+      "activityTitle": "Payments bank",
+      "offsetValue": 2400,
+      "isEnabled": 1,
+      "estimateMode": 1
+    }
+  ],
+  "Schedule": [
+    {
+      "scheduleDate": "01/01/2001",
+      "identifier": "BA889054-7D7A-481E-BCCF-B9417222ED5A",
+      "offset": -1
+    },
+    {
+      "scheduleDate": "01/01/2001",
+      "identifier": "BA50A725-8DDF-4EA8-99E7-FF63360F464F",
+      "offset": -1
+    },
+    {
+      "scheduleDate": "01/01/2001",
+      "identifier": "F8135E79-4D20-440B-964D-FEFFC9DCF7A4",
+      "offset": 0
+    },
+    {
+      "scheduleDate": "01/01/2001",
+      "identifier": "F487F565-74C2-458D-9CEA-EB3A0387F60D",
+      "offset": -1
+    },
+    {
+      "scheduleDate": "01/01/2001",
+      "identifier": "9F0A66E9-DDAE-4059-BF1A-60F946B27272",
+      "offset": 0
+    },
+    {
+      "scheduleDate": "01/01/2001",
+      "identifier": "DDBF0405-50F4-4E34-9004-41271CBF56EE",
+      "offset": -1
+    },
+    {
+      "scheduleDate": "01/01/2001",
+      "identifier": "60529D0E-B2DF-45A9-8738-11B4848C9AB6",
+      "offset": -1
+    },
+    {
+      "scheduleDate": "01/01/2001",
+      "identifier": "B6BFE39C-F191-42B3-82FF-A325183962E5",
+      "offset": -1
+    },
+    {
+      "scheduleDate": "01/01/2001",
+      "identifier": "EF8962D1-C442-4D33-8B14-CCA88974D710",
+      "offset": -1
+    },
+    {
+      "scheduleDate": "01/01/2001",
+      "identifier": "F2C805BC-6440-4F6A-8553-51469A3A4818",
+      "offset": 0
+    },
+    {
+      "scheduleDate": "06/11/2013",
+      "identifier": "5A6F03EF-557E-43A7-91BF-040DB24AC024",
+      "offset": 480
+    }
+  ],
+  "SettingsDayTemplate": [
+    {
+      "scheduleId": "60529D0E-B2DF-45A9-8738-11B4848C9AB6",
+      "templateEnabled": 1,
+      "day": 4,
+      "identifier": "1053CB26-18F7-485A-9D79-A0C6CCB0FD54"
+    },
+    {
+      "scheduleId": "BA889054-7D7A-481E-BCCF-B9417222ED5A",
+      "templateEnabled": 1,
+      "day": 3,
+      "identifier": "040E9129-0FF7-4A7B-BA23-2BCD0DDAF340"
+    },
+    {
+      "scheduleId": "F487F565-74C2-458D-9CEA-EB3A0387F60D",
+      "templateEnabled": 1,
+      "day": 6,
+      "identifier": "719326A6-8939-453E-BBA3-AD3899D562C1"
+    },
+    {
+      "scheduleId": "DDBF0405-50F4-4E34-9004-41271CBF56EE",
+      "templateEnabled": 1,
+      "day": 0,
+      "identifier": "B3B830C7-56E0-45AD-A1BC-8475830570EA"
+    },
+    {
+      "scheduleId": "EF8962D1-C442-4D33-8B14-CCA88974D710",
+      "templateEnabled": 1,
+      "day": 5,
+      "identifier": "E60A54C2-A372-4CEB-AE3E-F055FC62F56F"
+    },
+    {
+      "scheduleId": "B6BFE39C-F191-42B3-82FF-A325183962E5",
+      "templateEnabled": 1,
+      "day": 2,
+      "identifier": "2E88B9FC-1A5D-491B-BC36-D1837E2D347A"
+    },
+    {
+      "scheduleId": "BA50A725-8DDF-4EA8-99E7-FF63360F464F",
+      "templateEnabled": 1,
+      "day": 1,
+      "identifier": "C35406A7-1D4A-4800-AFE9-DC2A17DBF0AF"
+    }
+  ],
+  "MyTemplate": [
+    {
+      "scheduleId": "9F0A66E9-DDAE-4059-BF1A-60F946B27272",
+      "templateName": "My extra pay hours",
+      "identifier": "87EE2832-A192-4864-9615-E1B82251FE2E",
+      "subSequence": 1
+    },
+    {
+      "scheduleId": "F8135E79-4D20-440B-964D-FEFFC9DCF7A4",
+      "templateName": "My payments bank",
+      "identifier": "93EEA24B-7ECA-4F7F-8353-4600FF56E462",
+      "subSequence": 2
+    },
+    {
+      "scheduleId": "F2C805BC-6440-4F6A-8553-51469A3A4818",
+      "templateName": "My startup balance",
+      "identifier": "78952EAC-7D1D-43C1-89BC-769DCF7D2B5B",
+      "subSequence": 0
+    }
+  ]
+}

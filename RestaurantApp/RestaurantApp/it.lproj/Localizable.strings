@@ -1,0 +1,95 @@
+//Tab bar items
+
+"kHome" = "HOME";
+"kMenu" = "IL MENU";
+"kReservation" = "PRENOTA";
+"kFindUs" = "DOVE SIAMO";
+
+//parent page titles
+
+"kMenuTitle" = "Menu";
+"kFindUsTitle" = "Contattaci";
+"kReservationTitle" = "PRENOTA";
+
+// Home Page items
+
+"kBack" = "Indietro";
+"kOurRestaurant" = "Il nostro ristorante";
+"kImageGallery" = "Immagini";
+"kNews_Offers" = "Notizie e offerte";
+
+// Settings page items
+
+"kUseItalian" = "Use Italiana";
+"kConnectFacebook" = "Connetti a Facebook";
+"kConnectTwitter" = "Connetti a Twitter";
+"kSettings" = "Impostazioni";
+"kAccountSetting" = "IMPOSTAZIONE CONTO";
+
+// Reservation
+
+"kReserveTable" = "Prenota un tavolo";
+"kTakeAway" = "Ordina da asporto";
+
+// itemDetail page
+
+"kSearchPlaceHolder" = "Voci di menu ricerca...";
+"kDescription" = "Descrizione";
+"kOrder" = "Ordina";
+"kPrice" = "Prezzo";
+"kServe" = "Porzione";
+
+// Find us page
+
+"kOpenNavigator" = "aperto Navigator";
+"kEmailUs" = "Invia un'email";
+
+// reserve a table
+
+"kYourName" = "Il tuo nome";
+"kNumberOfPeople" = "Numero di persone";
+"kSetDate" = "Data";
+"kSetTime" = "Ora";
+"kPhoneNumber" = "Numero di telefono";
+"kComment" = "Commenti (opzionale)";
+"kSendRervation" = "Invia prenotazione";
+
+// take away
+
+"kNoOrder" = "N. di ordine";
+"kOrder" = "Ordine";
+"kTax" = "IVA";
+"kTotal" = "Totale";
+"kOrderLaterCheckBox" = "Selezione per ordinare più tardi";
+
+// Our Restaurant
+
+"kOurRestaurant" = "Il ristorante";
+
+// imageGallery
+
+"kImage" = "Immagini";
+
+// alerts
+
+"kConfirm" = "Conferma";
+"kRemoveOrder" = "C'è un ordine in sospeso. Rimuoverlo?";
+"kError" = "Errore";
+"kParseResponse" = "Il server non ha risposto";
+"kConnectServer" = "Impossibile connettersi a internet";
+"kDismiss" = "Ok";
+"kPhoneCall" = "Non puoi chiamare con questo dispositivo";
+"kLoadData" = "Impossibile connettersi";
+"kEnterOrder" = "Inserisci un ordine";
+"kGiveName" = "Inserisci un nome";
+"kEnterDate" = "Inserisci una data";
+"kEnterTime" = "Inserisci un'ora";
+"kPlaceOrder" = "Inserisci un ordine";
+"kGiveNumber" = "Inserisci un numero di telefono";
+"kTakeAwayTaken" = "Ordine inoltrato correttamente";
+"kSuccess" = "OK";
+"kReservationSuccessful" = "Prenotazione inviata correttamente";
+"kYes" = "SI";
+"kNo" = "NO";
+"kNumberOfPeople" = "Numero Di Persone";
+"kWait" = "Attendere prego";

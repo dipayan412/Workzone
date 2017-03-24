@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppLovin</key>
+	<dict>
+		<key>OnBecomeActive</key>
+		<integer>0</integer>
+		<key>OnGameOver</key>
+		<integer>0</integer>
+		<key>OnLevelsMenu</key>
+		<integer>0</integer>
+		<key>OnMainMenu</key>
+		<integer>0</integer>
+		<key>OnPauseMenu</key>
+		<integer>0</integer>
+		<key>OnPlaying</key>
+		<integer>0</integer>
+	</dict>
+	<key>PlayHaven</key>
+	<dict>
+		<key>OnBecomeActive</key>
+		<integer>0</integer>
+		<key>OnGameOver</key>
+		<integer>0</integer>
+		<key>OnLevelsMenu</key>
+		<integer>0</integer>
+		<key>OnMainMenu</key>
+		<integer>0</integer>
+		<key>OnPauseMenu</key>
+		<integer>0</integer>
+		<key>OnPlaying</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

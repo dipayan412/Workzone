@@ -1,0 +1,336 @@
+10
+
+dir
+0
+https://192.168.1.5:8443/svn/myovertime/ios/trunk/TapkuLibrary.bundle/Images/calendar
+https://192.168.1.5:8443/svn/myovertime
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c7bf9468-993e-3144-9929-805ae48bbf0b
+
+CalendarMarkedImage.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+CalendarMarkedImage@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Month Calendar Date Tile Gray.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Month Calendar Date Tile Selected.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Month Calendar Date Tile Selected@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Month Calendar Date Tile.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Month Calendar Left Arrow.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Month Calendar Left Arrow@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Month Calendar Right Arrow.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Month Calendar Right Arrow@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Month Calendar Shadow.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Month Calendar Today Selected Tile.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Month Calendar Today Tile.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Month Grid Top Bar.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+datecell.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+datecellselected.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+leftarrow.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+rightarrow.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+shadow.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+today.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+todayselected.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+topbar.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

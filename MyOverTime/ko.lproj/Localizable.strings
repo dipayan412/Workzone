@@ -1,0 +1,348 @@
+"TIME_SHEET_PAGE_TITLE" = "My Overtime";
+
+//Ashif
+
+"LOCAL_AM" = "오전";
+"LOCAL_PM" = "오후";
+
+"SETTINGS_SET_WORK_DAYS" = "근무일 보이기";
+
+"REMINDER_MESSAGE_CONTENT" = "다음에 빈 시간기록이 있습니다";
+
+"REPORT_LIST_BALANCE_REPORT" = "나의 잔업";
+"REPORT_LIST_ACTIVITY_REPORT" = "활동 보고";
+"REPORT_LIST_ACTIVITY_BALANCE_REPORT" = "나머지 활동 보고";
+"REPORT_LIST_BACK_BUTTON" = "뒤로";
+
+"REPORT_MYDATERANGE" = "나의 일자 범위";
+"REPORT_BALANCE_FOR_RANGE" = "나머지 범위";
+"REPORT_BALANCE_RANGE_START" = "시작 범위 나머지";
+"REPORT_BALANCE_RANGE_END" = "시작 범위 끝";
+"REPORT_BALANCE_HISTORY" = "나머지 기록";
+
+"BALANCE_REPORT_TITLE" = "나의 잔업";
+"ACTIVITY_REPORT_TITLE" = "활동 보고";
+"ACTIVITY_BALANCE_TITLE" = "나머지 활동";
+
+"ACTIVITIES_LIST_TITLE" = "활동";
+"ACTIVITIES_LIST_NEW_ITEM" = "새 활동을 추가하려면 '+'에 클릭합니다";
+
+"ACTIVITY_DETAIL_TITLE" = "활동";
+
+"BALANCE_REPORT_EMAIL_SUBJECT" = "나의 잔업 보고";
+"BALANCE_REPORT_EMAIL_CONTENT" = "첨부물은 나의 잔업 보고입니다";
+"BALANCE_REPORT_EMAIL_ATTACHMENT" = "나의잔업.csv";
+"BALANCE_REPORT_EMAIL_ATTACHMENT_1" = "나의잔업.html";
+"BALANCE_REPORT_EMAIL_ATTACHMENT_2" = "나의잔업.pdf";
+
+"BALANCE_REPORT_HEADER_WEEKDAY" = "주중";
+"BALANCE_REPORT_HEADER_DATE" = "일자";
+"BALANCE_REPORT_HEADER_TOTAL" = "총";
+"BALANCE_REPORT_HEADER_OFFSET" = "차감계산";
+"BALANCE_REPORT_HEADER_BALANCE" = "나머지";
+"BALANCE_REPORT_HEADER_TOTAL_MIN" = "총 (분)";
+"BALANCE_REPORT_HEADER_OFFSET_MIN" = "차감계산 (분)";
+"BALANCE_REPORT_HEADER_BALANCE_MIN" = "나머지 (분)";
+
+"ACTIVITY_REPORT_EMAIL_SUBJECT" = "활동 보고";
+"ACTIVITY_REPORT_EMAIL_CONTENT" = "첨부물은 나의 활동 보고입니다";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_0" = "활동보고.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_1" = "MacOS활동보고.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_2" = "Windows활동보고.csv";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_3" = "활동보고.html";
+"ACTIVITY_REPORT_EMAIL_ATTACHMENT_4" = "활동보고.pdf";
+
+"ACTIVITY_REPORT_HEADER_MONTH" = "월";
+"ACTIVITY_REPORT_HEADER_DATE" = "일자";
+"ACTIVITY_REPORT_HEADER_ACTIVITY" = "활동";
+"ACTIVITY_REPORT_HEADER_TOTAL" = "총";
+"ACTIVITY_REPORT_HEADER_START" = "시작";
+"ACTIVITY_REPORT_HEADER_END" = "끝";
+"ACTIVITY_REPORT_HEADER_BREAK" = "휴식";
+"ACTIVITY_REPORT_HEADER_OFFSET" = "차감계산";
+"ACTIVITY_REPORT_HEADER_BALANCE" = "나머지";
+"ACTIVITY_REPORT_HEADER_AMOUNT" = "총액";
+"ACTIVITY_REPORT_HEADER_COMMENTS" = "의견서";
+"ACTIVITY_REPORT_HEADER_TOTAL_MIN" = "총 (분)";
+"ACTIVITY_REPORT_HEADER_OFFSET_MIN" = "차감계산 (분)";
+"ACTIVITY_REPORT_HEADER_BALANCE_MIN" = "나머지 (분)";
+"ACTIVITY_REPORT_DAILY_TOTAL" = "일일 총:";
+"ACTIVITY_REPORT_FLAT" = "정기";
+
+"ACTIVITY_BALANCE_EMAIL_SUBJECT" = "나머지 활동";
+"ACTIVITY_BALANCE_EMAIL_CONTENT" = "첨부물은 나의 나머지 활동 보고입니다";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_0" = "나머지활동보고.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_1" = "MacOS나머지활동보고.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_2" = "Windows나머지활동보고.csv";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_3" = "나머지활동보고.html";
+"ACTIVITY_BALANCE_EMAIL_ATTACHMENT_4" = "나머지활동보고.pdf";
+
+"ACTIVITY_BALANCE_HEADER_ACTIVITY" = "활동";
+"ACTIVITY_BALANCE_HEADER_ALLOWANCE" = "수당 (시)";
+"ACTIVITY_BALANCE_HEADER_DATE" = "일자";
+"ACTIVITY_BALANCE_HEADER_APPLIED" = "적용";
+"ACTIVITY_BALANCE_HEADER_BALANCE" = "나머지";
+"ACTIVITY_BALANCE_HEADER_ALLOWANCE_MIN" = "수당(분)";
+"ACTIVITY_BALANCE_HEADER_APPLIED_MIN" = "적용(분)";
+"ACTIVITY_BALANCE_HEADER_BALANCE_MIN" = "나머지(분)";
+"ACTIVITY_BALANCE_TOTAL" = "총:";
+
+"DEFAULT_ACTIVITY_IN_OFFICE" = "사무실내";
+"DEFAULT_ACTIVITY_COMPANY_HOLIDAY" = "회사 휴일";
+"DEFAULT_ACTIVITY_WORK_FROM_HOME" = "자택 근무";
+"DEFAULT_ACTIVITY_ON_VACATION" = "not used";
+"DEFAULT_ACTIVITY_TRAVEL" = "출장";
+"DEFAULT_ACTIVITY_UNPAID_LEAVE" = "무급 휴가";
+"DEFAULT_ACTIVITY_COMPENSATION" = "보상";
+"DEFAULT_ACTIVITY_OUT_SICK" = "결근";
+"DEFAULT_ACTIVITY_VACATION_2011" = "2012년 휴가";
+"DEFAULT_ACTIVITY_VACATION_2012" = "2013년 휴가";
+"DEFAULT_ACTIVITY_HOLIDAY_2011" = "2012년 공휴일";
+"DEFAULT_ACTIVITY_HOLIDAY_2012" = "2013년 공휴일";
+"DEFAULT_ACTIVITY_OVERTIME_PAID1.5" = "초과 근무 율 1.5 배";
+"DEFAULT_ACTIVITY_OVERTIME_PAID2X" = "초과 근무 율 2 배";
+"DEFAULT_ACTIVITY_OVERTIME_PAID" = "표준 초과 근무 율";
+//"DEFAULT_ACTIVITY_OVERTIME_REDUCER" = "초과 근무 지불";
+"DEFAULT_ACTIVITY_FLEXITIME_BURNED" = "유연한 시간 감속기";
+//"DEFAULT_ACTIVITY_STARTING_BALANCE" = "시작 나머지";
+"DEFAULT_ACTIVITY_TEMPLATE_1"="시작 잔액";
+"DEFAULT_ACTIVITY_TEMPLATE_2"="초과근무율";
+"DEFAULT_ACTIVITY_TEMPLATE_3"="지불금 계정";
+//translate
+"DEFAULT_ACTIVITY_TEMPLATE_4"="At work";
+"DEFAULT_ACTIVITY_TEMPLATE_5"="Shift 1";
+
+"BACKGROUND_ACTION_SHEET_TITLE" = "배경 선택하기";
+"BACKGROUND_ACTION_SHEET_DEFAULT_BCKGRD_BUTTON" = "초기값 배경";
+"BACKGROUND_ACTION_SHEET_CHOOSE_PHOTOS_BUTTON" = "사진에서 고르기";
+"BACKGROUND_ACTION_SHEET_CANCEL_BUTTON" = "취소하기";
+
+
+"EXPORT_EMAIL_BODY" = "시간 작성지의 백업 파일 첨부물을 보십시요. 이 자료를 가져오시려면 파일을 쳐서 나의 잔업으로 여십시요. 이 과정은 귀하의 기존 자료를 덮어 씌우게 됩니다. 경고 메시지가 뜨지 않습니다 .";
+
+"APPIRATER_MESSAGE" = "MyOvertime의 점수를 매겨주세요 혹은 의견을 남겨 주시기 바랍니다.\n 별표 점수로 사이트의 발전에 \n 도움을 주시게 된답니다.\n\n MyOvertime를 사용하여 주셔서 감사합니다!";
+"APPIRATER_RATE_BUTTON" = "지금 그리로 가주세요";
+"APPIRATER_MESSAGE_TITLE" = "앱 상점에서 등급 매기기";
+"APPIRATER_CANCEL_BUTTON" = "점수 매기지 않겠습니다";
+"APPIRATER_RATE_LATER" = "이후에 생각할께요";
+
+"PRODUCT_INAPP_NAVIGATION_TITLE" = "  구매하기  ";
+
+"PRODUCT_INAPP_TITLE_1" = "쇼핑 목록서";
+
+"PRODUCT_INAPP_HEADER3" = "보관 용 사용 (Dropbox) 사용";
+"PRODUCT_INAPP_MESSAGE3" = "이 제품을 구매하시려면 도움란 페이지로 가셔서 ‘구매하기’를 찾으세요'";
+
+"PRODUCT_INAPP_3" = "보관 용 사용 (Dropbox) 사용";
+"PRODUCT_INAPP_DETAILS_3" = "'보관 용'(Dropbox) 에 데이터의 백업 사본을 보관";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_3" = "보관에 연결 보관에 데이터를 백업하고 보관에서 데이터를 복구하려면이 응용 프로그램을 사용합니다.";
+
+
+"PRODUCT_INAPP_HEADER2" = "나의 달력 해제하기";
+"PRODUCT_INAPP_MESSAGE2" = "14역일 근무 시간 기록표 제한량이 도달되었습니다. 가장 오랜 근무 시간 기록표가 차례대로 삭제되게 됩니다. 이 제품을 구매하실 수 있습니다. 자세한 사항은 도움란 페이지 및 “구매하기”를 방문하여 주시기 바랍니다";
+
+"PRODUCT_INAPP_1" = "나의 달력 해제하기";
+"PRODUCT_INAPP_DETAILS_1" = "전체 근무 시간 기록표 기록 허용하기 ";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_1" = "나의 근무 시간 기록표 제한량 (14 역일제 기록) 해제하기. .이는 날짜의 제한없이 나의 보고서를 요청, 실행하는 것을 포함해 나의 전체 근무 시간 기록표를 보유할 수 있게 합니다.";
+
+
+
+"PRODUCT_INAPP_HEADER" = "나의 자료를 이메일하기";
+"PRODUCT_INAPP_MESSAGE" = "이 제품을 구매하시려면 도움란 페이지로 가셔서 ‘구매하기’를 찾으세요'";
+
+"PRODUCT_INAPP_2" = "나의 자료를 이메일하기";
+"PRODUCT_INAPP_DETAILS_2" = "나의 보고된 자료를 보내고 전송하기";
+"PRODUCT_INAPP_NARRATIVE_DETAILS_2" = "나의 기록 자료를 pdf, html and csv 파일로 이메일 첨부물로서 보낼 수 있게 하여 주세요. 파일은 포워딩되어 나의 자료를 출력하는데 사용될 수 있습니다. Html 및 csv 버젼은 복사되어 ms-excel로 가져올 수 있습니다";
+
+
+"PRODUCT_INAPP_BUY_BUTTON_TITLE" = "지금 구매하기: ";
+
+"PRODUCT_INAPP_TITLE_3" = "이 애플리케이션을 다시 설치한 후";
+"PRODUCT_INAPP_TITLE_BUTTON" = "지금";
+"PRODUCT_INAPP_RESTORE_TITLE" = "복귀하기";
+"PRODUCT_INAPP_RESTORE_DESC_TITLE" = "이전 구매 받기";
+
+"kPDF_PageNumber" = "페이지";
+"kINAPP_Failure" = "Product Error:";
+
+"PRODUCT_INAPP_TITLE_2" = "zzzz ";
+"PRODUCT_INAPP_BUTTON_PURCHASE" = "yyyy ";
+
+
+//Reset Timesheet Settings
+"RESET_HEADER" = "나의 시간기록 재설정";
+"RESET_SUBHEADER" = "삭제하고자 하는 기간을 지정하십시요. 회사를 변경하거나 이전 자료를 삭제할 경우 사용합니다. 보고서와 이메일 전송을 보다 빨리 시행하게 합니다. 사전에 백업을 하는 것이 좋습니다.";
+
+
+"RESET_SUCCESS" = "선택된 기간이 삭제되었습니다!";
+"RESET_GO_BUTTON" = "실행";
+"OK" = "확인";
+"CANCEL" = "취소하기";
+"DELETE" = "삭제하기";
+"DELETE_MESSAGE" = "선택된 기간을 삭제하시겠습니까?";
+"LATER" = "후";
+"TAKE_ME_THERE" = "보여줘";
+
+//New Report header
+"MY_OVERTIME_GRAPH_TITLE" = "나머지";
+"SEGMENT_WEEKLY" = "주간";
+"SEGMENT_MONTHLY" = "월간";
+"SEGMENT_YEARLY" = "연간";
+"EMAIL_BUTTON" = "E-mail";
+
+"TITLE_WEEK" = "주";
+"TITLE_YEAR" = "년";
+
+"INGOING" = "시작";
+"INRANGE" = "기간 중";
+"OUTGOING" = "합계";
+
+"FLAT_STRING" = "정기";
+
+//New Report Email Output
+
+"MY_OVERTIME_SUMMARY" = "오버타임 통계";
+"MY_OVERTIME_GRAPH" = "오버타임 그래프";
+"MY_OVERTIME_SUMMARY_SUBJECT" = "오버타임 통계";
+"MY_OVERTIME_GRAPH_SUBJECT" = "오버타임 그래프";
+"MY_OVERTIME_SUMMARY_BODY" = "나의 오버타임 통계 첨부";
+"MY_OVERTIME_GRAPH_BODY" = "나의 오버타임 그래프 첨부";
+
+//Move order
+"TITLE_EDIT" = "Edit";
+"TITLE_DONE" = "확인";
+
+
+"TITLE_ACTIVITY_REPORT" = "활동 보고";
+"TITLE_ALL" = "모든";
+"TITLE_FILTER" = "데이터 필터:";
+"TITLE_BACKUP" = "백업, 메일";
+"BACKUP_FILENAME" = "백업";
+"TOTAL_ACTIVITY_RESULT" = "총 시간";
+"FILTER_HEADER" = "데이터 필터";
+"TOTAL_AMOUNT_HEADER" = "총액:";
+
+
+"TITLE_EMAIL" = "이메일을 삽입";
+"BACKUP_EMAIL_VALIDATION_ERROR_MESSAGE" = "유효한 이메일 주소를 입력하세요";
+"BACKUP_ERROR_MESSAGE" = "이메일 확인";
+"ERROR" = "오류!";
+
+"TEMPLATE"="템플릿";
+"TEMPLATE_LIST_HEADER"="나의 템플릿";
+"TEMPLATE_ACTION_MESSAGE" = "나의 템플릿 삽입하기";
+"DEFAULT_TEMPLATE_NAME_1"="나의 시작 잔액";
+"DEFAULT_TEMPLATE_NAME_2"="나의 초과근무율";
+"DEFAULT_TEMPLATE_NAME_3"="나의 지불금 계정";
+// need to translate
+"DEFAULT_TEMPLATE_NAME_4"="My typical day";
+"DEFAULT_TEMPLATE_NAME_5"="My shift 1";
+"DEFAULT_TEMPLATE_NAME_6"="Template 6";
+"DEFAULT_TEMPLATE_NAME_7"="Template 7";
+
+"USER_IDENTIFICATION_DESCRIPTION" = "이 내용은 전자 메일에 대한 기본값으로와 보고서 머리글에 사용됩니다.";
+"MY_HEADING" = "내 개인 정보";
+"BACKUP_TEXT_MESSAGE" = "전자 메일이 생성되고 데이터는 백업 파일 (.motd)로 첨부됩니다. * 당신은 형식 “.motad“에서 파일을 생성하는 옵션이 안드로이드에서 실행되는 장치에 데이터를 가져 오려면.";
+
+// FAQ Texts
+
+"FAQ_Question_1" = "1) Any suggestions on how to enter a starting\n    overtime/flextime balance ?";
+"FAQ_Question_2" = "2) How do I enter a compensation of my\n    overtime/flextime balance ?";
+"FAQ_Question_3" = "3) What is meant by 'overtime' ?";
+"FAQ_Question_4" = "4) What is meant by 'offset' ?";
+"FAQ_Question_5" = "5) What is the definition of 'Activity' in the\n    context of this app ?";
+"FAQ_Question_6" = "6) How can I customize my activities ?";
+"FAQ_Question_7" = "7) If I change an activity why is this not\n    applied to existing time sheets ?";
+"FAQ_Question_8" = "8) If I have two jobs which I want to track, does\n    that work ?";
+"FAQ_Question_9" = "9) How is the IAP version (red ribbon icon)\n    different ?";
+"FAQ_Question_10" = "10) What is the allowance balance report for ?";
+"FAQ_Question_11" = "11) How can I further analyze my data beyond\n      the standard reports ?";
+"FAQ_Question_12" = "12) How do I print my data ?";
+"FAQ_Question_13" = "13) What is the 'backup + mail' used for ?";
+"FAQ_Question_14" = "14) How can I recover my data ?";
+"FAQ_Question_15" = "15) How can I transfer my data to another\n      device ?";
+"FAQ_Question_16" = "16) What is 'Dropbox cloud' and how does it\n      work ?";
+"FAQ_Question_17" = "17) What is meant by 'templates' ?";
+"FAQ_Question_18" = "18) What are the future plans for this App ?";
+
+// Answers
+
+"FAQ_Answer_1" = "a) Go to the date you want to start tracking (or one day before)\nb) Tap on 'my templates' and choose 'my startup balance'*\nc) Update the default flat hours value to the value you want to start with\nd) Page to the next day to start your daily entries * alternatively, if you do not find a predefined startup balance activity then you can create one. Please check FAQ 6 and go to settings to create a new activity and define as Against Offset = Count, Flat time = ON and Default Hrs = enter your total starting balance in hours.";
+
+"FAQ_Answer_2" = "If you want to compensate your flextime by starting late or leaving early there is no special entry required as the offset will show a negative balance if your work hours are less than the offset value for that day which reduces your overall balance. If you would like to compensate your overtime through flexitime or have these paid out, you have the following additional options:\n\nOption A (Take work day off as compensation):\na) Go to the calendar day you want to compensate\nb) Tap the '+' to create a blank sheet\nc) Ensure the offset shows the required hours (eg. 8.00)\nd) Select 'Flexitime burn' or 'Compensation' activity (whichever suits best)\ne) The total work hours will show 0 and the day’s balance will show a negative offset amount (eg. -8.00).\nf) Run your reports to check that your total overtime balance has been reduced.\n\nOption B (Reduce Overtime balance and pay out):\na) Go to an unused date (eg. a Sunday)\nb) Tap on 'My templates' and choose 'My payments bank'\nc) This sets the offset value to zero. Now update the total hours you are getting paid for (update the default value of 40.00 to your value). In addition, you may fill in the total money amount if you would like to track that as well.\nd) The day's balance will show a negative value (default = 40.00) which will reduce the overall year to date balance.\ne) Run your reports to check that your total overtime balance has been reduced. The amount field is included in the Activity report.\n* alternatively, if you do not find a predefined payment activity then you can create one. Please check FAQ 6 and go to settings to create a new activity and define as Against Offset = Count, Flat time = ON, Overtime reducer = ON.\n\nTake note: The above steps can also be done combined with a working day activity (eg. 'In Office' and Offset value).";
+
+"FAQ_Answer_3" = "For the purpose of this app this refers to the amount of time which exceeds your daily required hours which is shown at the bottom of the timesheet as the 'Balance'. For example, you have 8.00 daily required hours (this is your 'offset') and your workday's activities totaled to 9:15 so your overtime is 1:15. You might want to redeem this overtime. Overtime is also known as 'flextime' in those companies and jobs where a flexible work time model exists. If you have flexible hours you can come in late or leave earlier to compensate your overtime or get extra pay. Some industries have special regulations where extra pay may be considered when the total work hours per week exceed 40 hours as well as special rates on certain days (eg. for weekend work hours count 1.5x or 2x). The United States labor act classifies workers as 'exempt' or 'non-exempt'.'\n\nFor example: if you did Weekend work of 7 hours on a Saturday you would add to the timesheet the following activities:\n\n- add Activity 1: 'In Office' Start: 9.00am and End: 5.00pm (1.00 break) = 7.00 hours total\n\n- add Activity 2: 'Overtime pay 1.5x' and enter a flat value of 3.30 hours (1.5 x 7 hrs = 10.30hrs, 10:30 - 7.00 = 3.30 hrs) which represents the bonus hours at the 1.5 pay rate. You may also want to add the overtime pay you expect into the amount field. Go to the Activity report to track all accumulated overtime hours and amounts\n\n- Total hours for the day will show 10.30 against an the Offset of 7:00 will produce an Overtime balance of 3.30 hrs.\n\n- On your pay day you can add Activity 'Payments bank' (or use the 'My payments bank' template) and enter the total hours and amount. This will reduce the overall balance on your reports. See also related topic FAQ 2 option B.\n\n- If you use more than one activity record to tally up your daily working hours on a recurring basis then you may wish to combine these activities into a 'template'. Please go to 'Set Working days' or 'My templates' within the settings page to create or customize a template (refer to FAQ 17 for more).";
+
+"FAQ_Answer_4" = "This is the applicable daily working hours a.k.a. target hours set by your employer. Some jobs may have a weekly or monthly total working hours agreement which may not be broken down to daily offset hours. However, this app is designed to enable tracking your work time against your daily offset.";
+
+"FAQ_Answer_5" = "The term 'Activity' is used to describe a unit for which you would like to track your hours against. You may decide that a different term is more appropriate for the way you would like to use this app. For example, in some jobs this unit might rather be called a ''Task' or 'Project' or 'Shift'. In addition, you may consider using an Activity as an 'account' for deposits or balances (eg. overtime rate balances).\nA range of standard activities (including 'my templates') have been set up for you as part of the initial download to give you an understanding of possible ways to track your hours. However, you are free to change these to more detailed actions (eg. 'in Office' can be broken out to 'Office task A', 'Office task B', etc) or create accounts (eg. overtime special rate, special rate payouts).";
+
+"FAQ_Answer_6" = "- Go to Settings and Activities.\n- The list of default activities can be updated: rename, delete, change order or create new ones.\n- You can set an allowance bank to check the remaining credit against your timesheets. Commonly used for Vacation allowance. See FAQ 10 for more.\n- You may set a ‚flat‘ mode which will replace start and end time with a total hours field and this is defaulted to taking the offset value. For example, the Vacation and Sick day activities have been set up this way by default.\n- Flat mode allows you to switch on an amounts field and an overtime balance reducer (see Overtime paid and FAQ 2-Option B)\n- The Activity picker will list the activities in the same order as found in the settings.";
+
+"FAQ_Answer_7" = "Changes in Activity settings will be applied on new time sheets in order to protect historic data. To apply changes to historic data you must go back to each existing sheet and reselect the activity for the change to become effective (for example: name change, flat on/off, Count against Offset yes/no, allowance value, etc).";
+
+"FAQ_Answer_8" = "The app was basically designed for one job as the reports will show just one overtime total rather than a breakout out by job. However, you have the following options:\n\na) If your second job is on a different day you can set a different offset on that day. You may want to create an activity for that job, for example: 'Job 2'.\nb) Another way is to install the other App version on the same iOS device (Full version and IAP version (red ribbon) thereby maintaining two apps in parallel. This will require you to purchase the other version.\nc) A different approach is to install the App on another iOS device to track that job. Re-installing the same app from app store is free.";
+
+
+"FAQ_Answer_9" = "Both the IAP and non-IAP version are identical with the exception that the IAP version is free giving you the opportunity to get familiar with the app but with a limitation of 14 days of timesheet history and several features which can be unlocked through an in-app-purchase (IAP) within the purchase pge. There is no need to switch between these versions. Both versions have the same features and will receive the same updates.";
+
+"FAQ_Answer_10" = "Allows tracking your vacation credit or sick days credit or other. To use this report you must fill-in your annual allowance on the activity settings in hours (refer to the existing activity for Vacation). For example, if you have a vacation allowance of 20 days and 8 hrs required per work day then you fill in 160.00 hours (8 hours * 20 days).";
+
+"FAQ_Answer_11" = "Use the email option and open the csv or html file from a computer with ms-excel (or similar program) and copy or import the data to ms-excel where you can add filters, comments and graphical elements (pivot graph) to your data.";
+
+"FAQ_Answer_12" = "Run the desired report and email the data. From the email you have the following options:\na) Open the file attachment from a computer which has printing capability.\nb) Open the file attachment within your iOS device mailbox if you have a wireless printer connected.";
+
+
+"FAQ_Answer_13" = "- to transfer your data to another device per e-mail\n- to keep a copy of your data per e-mail in case something happens to your device\n- for scheduling backups use the Dropbox facility (see FAQ 16)";
+
+"FAQ_Answer_14" = "You must do a backup regularly to avoid data loss if something happens to your device. One way to do this is the to use the 'backup + mail' feature regularly to keep a copy of your data in your email inbox. To recover from an e-mail back-up follow these steps:\na) make sure this app is installed on the target device (you can re-install it for free from the app store)\nb) open the email and tap on the attachment and confirm 'open with my overtime' when asked.\nc) the app starts and you should now see all your time sheets from that back-up.\nd) finally, you will have to manually update your preference settings (set working days, etc).\nAlternatively, if you use the 'Dropbox Cloud' option you can restore from backup files made to your Dropbox account (see FAQ 16). Furthermore, if you use the Apple iCloud/iTunes back-up feature this will allow you to reset and recover all device content (Follow Apple's insructions).\n\n";
+
+"FAQ_Answer_15" = "Follow these steps:\na) install this app on the new device. You can re-install it free direct from the app store.\nb) run the 'backup and mail' from the old device and send it to the new device’s mailbox.\nc) open the email and tap on the attachment and confirm 'open with my overtime' when asked.\nd) the app starts and you should now see all your old time sheets on the new device.\ne) finally, please update your default settings.";
+
+"FAQ_Answer_16" = "This is a service which allows you to store a regular backup of your data (a history of all your time sheets) on an external server (cloud) with a provider named 'Dropbox'. This is more convenient than creating backups manually via e-mail (see FAQ 13). Your backup file can be restored back to your device in case you you have lost your data or would like to transfer your data to another device (the app must be installed on that device). Please note that this is not an automatic database synchronization service between multiple devices.\nTo use this feature you will need a Dropbox account and internet connection. During setup you will be asked to create a Dropbox account or Login and link to an existing account. Dropbox gives you limited free space which is sufficient for the purpose of the backup files (under 10kb per file). As part of the backup process a new file is created (.motd) for every backup made along with a timestamp in a specific folder path on Dropbox (APPS\..). Further, please take note of the following points:\na) During backup if your device is not connected to the internet the backup file will stay on your device and synchronize with the cloud the next time you start the app and you are connected to the internet.\nb) Scheduled backups (eg. every Tuesday) will be triggered if you open the app on the day the backup is scheduled.\nc) The motd file format can only be read by this app as part of the restore process\nd) To view a list of all your backup files you can use the 'restore' button or look up your Dropbox account.\ne) To restore a backup file simply tap on that file name and follow the instructions.\nf) You can delete older versions from the backup path as you wish from within your Dropbox account.";
+
+"FAQ_Answer_17" = "Templates enable you to store typical activities which you would use repetitively in a changing schedule as a pre-defined timesheet. For example, you might like to re-use a previous week's timesheet, need same activities every week or a combination of activities you need once a month for special occasions. You can use the default templates from 'My Templates' which you can change to suit your needs. In addition, you can create a template for each day of the week within the 'Set working days' option.";
+
+"FAQ_Answer_18" = "A lot of feedback has come in since its first release in August 2011. Many of the reported issues and suggestions have been implemented to make this app a stable, robust and useful companion. Looking at the app store, on one hand there are apps focusing on project management and billing and on the other hand there are time tracking tools for employees for specific industries and trades. I would certainly like to be your first choice for your personal time tracking with overtime/flextime management. The more I hear back from you about the good and the bad the better I can explore new features – just email me or check my facebook page. Last but not least, I hope this app can contribute to keeping the right work-life balance for you. As part of a growing user community, congratulations for discovering this app and welcome to the club !";
+
+// Dropboz Texts
+
+"LINK_DB" = "보관 용을 연결 (Dropbox)";
+"UNLINK_DB" = "분리 보관 용 (Dropbox)";
+"DB_ALERT_HEADING" = "경고";
+"DB_ALERT_MSG" = "당신은 응용 프로그램에 대한 연결을 해제 하시겠습니까?";
+"DB_ALERT_CANCEL" = "취소";
+"DB_ALERT_YES" = "예";
+"DB_LABEL_TITLE" = "어머 놀랐다";
+"DB_ALERT_DONE_TITLE" = "할 백업";
+"DB_ALERT_DONE_MSG" = "데이터의 백업 파일이 생성되었습니다";
+"RESTORE_TITLE" = "백업 파일을 복원";
+"TITLE_RESTORE" = "복원";
+
+"RESTORE_LOGIN_ERROR" = "백업을 복원 보관 용을 연결하십시오.";
+"CREATE_LOGIN_ERROR" = "백업을 만들려면 보관 용을 연결하십시오.";
+"LOGIN_ALERT" = "주 일을 선택하기 전에 보관 용을 연결하십시오.";
+"FILE" = "파일";
+"NO_FILE" = "사용할 수 없음.";
+"DM_RESTORE_SUCCESS" = "성공적인 복원을.";
+
+"DB_LOGIN_FAILED" = "실패한 로그인";
+"DB_BACKUP_ERROR" = "데이터를 백업하는 동안 오류가 발생했습니다. 나중에 시도해 보시기 바랍니다.";
+
+// inApp Purchase Texts
+"LOADING_TITLE" = "잠시만 기다려주세요 ...";
+
+"UPGRADE_FAIL_TITLE" = "구매 실패";
+"UPGRADE_FAIL_MESSAGE" = "트랜잭션이 실패했습니다. 나중에 다시 시도하십시오.";
+"RESTORE_COMPLETE_TITLE" = "복원이 완료";
+"RESTORE_COMPLETE_MESSAGE" = "이전에 구입 한 제품이 복원되었습니다.";
+"IAP_TITLE" = "제품 구매";
+"IAP_SUCCESS_MSG" = "구매 트랜잭션은 성공합니다.";
+
+// FAQ page item title
+"TITLE_FAQ" = "자주 묻는 질문 (English)";
+"TITLE_SUPPORT" = "뉴스 및 연락처";
+"TITLE_REVIEW" = "아이튠즈에서 검토 (iTunes)";
+
+//Allowance Alert
+"EMPTY_ALLOWANCE_ALERT" = "그것은 신용 (예 : 휴가 잔액 또는 연간 목표) 설립되었습니다하는 활동으로 기록 된 시간의 항목을 누락되었습니다. '질문과 답변'의 도움말 페이지에 대한 중 10 질문.";

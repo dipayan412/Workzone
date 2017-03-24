@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="4ft-OL-Wgp">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="7ob-3q-lR7">
+            <objects>
+                <viewController id="4ft-OL-Wgp" customClass="MRSplashViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="csT-eu-Mjg">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default-Landscape.png" id="vPl-aU-zG2">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="vZW-RF-31h" kind="modal" identifier="Home" modalTransitionStyle="crossDissolve" id="yCg-oP-dyc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3m1-ZT-fah" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704" y="-696"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="KWK-lu-9GN">
+            <objects>
+                <viewController id="vZW-RF-31h" customClass="MRHomeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MQU-wD-i0w">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_home_screen.jpg" id="jCz-yl-q6H">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MSE-Uj-vP0">
+                                <rect key="frame" x="830" y="579" width="170" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pmclips_big_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pmclips_big_pres.png"/>
+                                <connections>
+                                    <segue destination="aXf-3q-SzG" kind="modal" modalTransitionStyle="crossDissolve" id="AF5-XB-MD1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5SP-gE-mgF">
+                                <rect key="frame" x="34" y="657" width="95" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pinfo_small_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pinfo_small_pres.png"/>
+                                <connections>
+                                    <segue destination="AvJ-WZ-RoF" kind="modal" modalTransitionStyle="crossDissolve" id="qVu-Zz-Fy0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Z9O-7U-CcZ">
+                                <rect key="frame" x="174" y="657" width="94" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pmgallery_small_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pmgallery_small_pres.png"/>
+                                <connections>
+                                    <segue destination="H2j-hj-hmf" kind="modal" identifier="HomeToGallery" modalTransitionStyle="crossDissolve" id="cEI-4B-43e"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version: 0.7.4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eHF-mQ-Pyz">
+                                <rect key="frame" x="56" y="187" width="334" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="versionLabel" destination="eHF-mQ-Pyz" id="oRG-8z-9au"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s8m-AW-X3I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1816" y="-696"/>
+        </scene>
+        <!--Clips View Controller-->
+        <scene sceneID="mbe-hU-JOF">
+            <objects>
+                <viewController id="aXf-3q-SzG" customClass="MRClipsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jbb-Vj-i61">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_clips_back_screen.jpg" id="tJD-kK-zXq">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="5FK-8H-5aE" customClass="iCarousel">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="654"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="aXf-3q-SzG" id="prV-zM-h6g"/>
+                                    <outlet property="delegate" destination="aXf-3q-SzG" id="PJc-Wi-d5w"/>
+                                </connections>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_clips_front_screen.png" id="6Y8-Ff-rI6">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OFR-4C-nGt">
+                                <rect key="frame" x="830" y="579" width="170" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pmpreview_big_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pmpreview_big_pres.png"/>
+                                <connections>
+                                    <action selector="goToPreview:" destination="aXf-3q-SzG" eventType="touchUpInside" id="pKK-I1-PJe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cx0-kG-6q4">
+                                <rect key="frame" x="34" y="657" width="95" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="phome_small_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="phome_small_pres.png"/>
+                                <connections>
+                                    <segue destination="vZW-RF-31h" kind="modal" modalTransitionStyle="crossDissolve" id="9JL-za-9qv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2e2-XD-H1l">
+                                <rect key="frame" x="174" y="657" width="94" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pmgallery_small_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pmgallery_small_pres.png"/>
+                                <connections>
+                                    <segue destination="H2j-hj-hmf" kind="modal" identifier="Gallery" modalTransitionStyle="crossDissolve" id="54Z-dP-vJv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="carousel" destination="5FK-8H-5aE" id="pYf-ib-1HQ"/>
+                        <segue destination="jGP-qU-wkp" kind="modal" identifier="Purchase" modalTransitionStyle="crossDissolve" id="npn-HW-hyz"/>
+                        <segue destination="61U-oU-wU7" kind="modal" identifier="Preview" modalTransitionStyle="crossDissolve" id="pq9-xp-kYw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p5e-V0-XxA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704" y="237"/>
+        </scene>
+        <!--Preview View Controller-->
+        <scene sceneID="2CD-wg-fLV">
+            <objects>
+                <viewController id="61U-oU-wU7" customClass="MRPreviewViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pba-ms-mKy">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="tVA-ss-iXR">
+                                <rect key="frame" x="440" y="167" width="507" height="286"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_instruction_screen.png" id="7Ql-Gy-64M">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TgL-x9-p4E">
+                                <rect key="frame" x="830" y="579" width="170" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pmcamera_big_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pmcamera_big_pres.png"/>
+                                <connections>
+                                    <segue destination="0RL-Ib-E4g" kind="modal" identifier="Camera" modalTransitionStyle="crossDissolve" id="6iH-ci-N9W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MZb-Zp-fEw">
+                                <rect key="frame" x="34" y="657" width="95" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pmclips_small_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pmclips_small_pres.png"/>
+                                <connections>
+                                    <segue destination="aXf-3q-SzG" kind="modal" modalTransitionStyle="crossDissolve" id="EFt-Sm-0bv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9xI-WZ-pBR">
+                                <rect key="frame" x="174" y="657" width="94" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pmgallery_small_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pmgallery_small_pres.png"/>
+                                <connections>
+                                    <segue destination="H2j-hj-hmf" kind="modal" identifier="PreviewToGallery" modalTransitionStyle="crossDissolve" id="b4j-Ax-Q6d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="videoPlaceholderView" destination="tVA-ss-iXR" id="sH3-Lm-lUb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AOQ-VH-J4d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704" y="1050"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="hMk-9h-28m">
+            <objects>
+                <viewController id="0RL-Ib-E4g" customClass="MRCameraViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Mg-Qh-0Rz">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_camera_screen.png" id="4xn-o0-Dt5">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00.00 / 00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="D6J-Ee-NPA">
+                                <rect key="frame" x="69" y="112" width="357" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uTs-CD-vw7">
+                                <rect key="frame" x="200" y="661" width="95" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="players_small_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="player_small_pressed.png"/>
+                                <connections>
+                                    <action selector="toggleOverlay:" destination="0RL-Ib-E4g" eventType="touchUpInside" id="5Ho-d1-tVL"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FlY-9e-KSj">
+                                <rect key="frame" x="481" y="661" width="94" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pcamera_swop_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pcamera_swop_pressed.png"/>
+                                <connections>
+                                    <action selector="toggleCamera:" destination="0RL-Ib-E4g" eventType="touchUpInside" id="UWC-mb-GXb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="R5K-tb-ebv">
+                                <rect key="frame" x="830" y="579" width="170" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="prec_big_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="prec_big_norm.png"/>
+                                <connections>
+                                    <action selector="startStopPressed:" destination="0RL-Ib-E4g" eventType="touchUpInside" id="O0f-qz-4Oe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZSz-Qu-sNP">
+                                <rect key="frame" x="60" y="659" width="95" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pback_button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pback_button_pres.png"/>
+                                <connections>
+                                    <action selector="backButtonAction:" destination="0RL-Ib-E4g" eventType="touchUpInside" id="gq0-FX-IpS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gzy-T6-wa2">
+                                <rect key="frame" x="341" y="661" width="94" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="plight_small_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="plight_small_pressed.png"/>
+                                <connections>
+                                    <action selector="toggleLight:" destination="0RL-Ib-E4g" eventType="touchUpInside" id="tMS-Lq-JEJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="backgroundView" destination="4xn-o0-Dt5" id="eGB-Hs-0yl"/>
+                        <outlet property="flashButton" destination="gzy-T6-wa2" id="QO2-Z9-mjp"/>
+                        <outlet property="startStopButton" destination="R5K-tb-ebv" id="JlJ-bu-Twk"/>
+                        <outlet property="timerLabel" destination="D6J-Ee-NPA" id="ork-sl-prr"/>
+                        <segue destination="Bit-8v-gz6" kind="unwind" identifier="UnwindToPreview" unwindAction="unwindToPreview:" id="yzT-nP-A5G"/>
+                        <segue destination="8fz-rI-Pfd" kind="modal" identifier="Process" modalTransitionStyle="crossDissolve" id="alY-X9-odx"/>
+                        <segue destination="Bit-8v-gz6" kind="unwind" identifier="UnwindToClips" unwindAction="unwindToClips:" id="8Ch-TA-WEu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MkB-J2-1YO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Bit-8v-gz6" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="704" y="1944"/>
+        </scene>
+        <!--Processing View Controller-->
+        <scene sceneID="OQg-U6-XGV">
+            <objects>
+                <viewController id="8fz-rI-Pfd" customClass="MRProcessingViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E4u-PX-C5M">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="wyt-ot-3cg">
+                                <rect key="frame" x="283" y="103" width="460" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_processing_screen.png" id="BWn-iZ-yAQ">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_processing_bar.png" id="chR-JL-ame">
+                                <rect key="frame" x="326" y="470" width="370" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oUQ-fg-AvN">
+                                <rect key="frame" x="830" y="579" width="170" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="preshoot_big_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="preshoot_big_pres.png"/>
+                                <connections>
+                                    <action selector="cancelProcess:" destination="8fz-rI-Pfd" eventType="touchUpInside" id="xUM-vM-Xme"/>
+                                </connections>
+                            </button>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" id="Dlw-Xj-rDq">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="66"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="8fz-rI-Pfd" id="1OS-nK-JO9"/>
+                                </connections>
+                            </adBannerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="advertView" destination="Dlw-Xj-rDq" id="uNg-mQ-iYh"/>
+                        <outlet property="processedImageView" destination="wyt-ot-3cg" id="0UZ-lo-35x"/>
+                        <outlet property="progressImageView" destination="chR-JL-ame" id="DTi-i7-908"/>
+                        <segue destination="izs-lP-49D" kind="modal" identifier="Player" modalTransitionStyle="crossDissolve" id="L1T-WB-j6i"/>
+                        <segue destination="2cC-Eb-yTe" kind="unwind" identifier="UnwindToCamera" unwindAction="unwindToCamera:" id="C0A-BQ-WnN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xrI-df-QUS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="2cC-Eb-yTe" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1772" y="1968"/>
+        </scene>
+        <!--Player View Controller-->
+        <scene sceneID="Jo5-bQ-OlJ">
+            <objects>
+                <viewController id="izs-lP-49D" customClass="MRPlayerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eku-Qr-nOX">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="YVP-XJ-jE5">
+                                <rect key="frame" x="0.0" y="543" width="1024" height="225"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_playerBar.png" id="j3q-zO-w75">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="225"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="player_background.png" id="BHO-1Z-ejV">
+                                        <rect key="frame" x="293" y="112" width="511" height="98"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="lrp-8Y-ILD">
+                                        <rect key="frame" x="37" y="113" width="95" height="95"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" image="pback_button.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="pback_button_pres.png"/>
+                                        <connections>
+                                            <action selector="backButtonPresse:" destination="izs-lP-49D" eventType="touchUpInside" id="4kA-fO-pao"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TIz-sQ-OAd">
+                                        <rect key="frame" x="158" y="113" width="95" height="95"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" image="pdelete_small_norm.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="pdelete_small_pres.png"/>
+                                        <connections>
+                                            <action selector="deleteButtonPressed:" destination="izs-lP-49D" eventType="touchUpInside" id="2br-2V-1h9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7Kd-19-yMT">
+                                        <rect key="frame" x="830" y="35" width="170" height="170"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" image="pmshare_big_norm.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="pmshare_big_pres.png"/>
+                                        <connections>
+                                            <action selector="shareButtonPressed:" destination="izs-lP-49D" eventType="touchUpInside" id="obj-az-lN7"/>
+                                        </connections>
+                                    </button>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="7US-hm-2PV" customClass="ANPopoverSlider">
+                                        <rect key="frame" x="387" y="145" width="318" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="movieSliderValueChanged:" destination="izs-lP-49D" eventType="valueChanged" id="7Cg-uR-7Pb"/>
+                                        </connections>
+                                    </slider>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WdM-ta-btG">
+                                        <rect key="frame" x="314" y="128" width="63" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" image="player_back_button.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="player_back_button.png"/>
+                                        <connections>
+                                            <action selector="playFromBeginingPressed:" destination="izs-lP-49D" eventType="touchUpInside" id="dzW-3d-ZiJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nqP-yD-5s3">
+                                        <rect key="frame" x="721" y="128" width="63" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal" image="player_play_button.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="player_play_button.png"/>
+                                        <connections>
+                                            <action selector="playPauseButtonPressed:" destination="izs-lP-49D" eventType="touchUpInside" id="cbg-Tb-FKl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="customPlayerView" destination="YVP-XJ-jE5" id="EfB-Ef-dFn"/>
+                        <outlet property="movieProgressSlider" destination="7US-hm-2PV" id="LyS-YR-gTV"/>
+                        <segue destination="wOj-Pf-6rM" kind="unwind" identifier="UnwindToClips" unwindAction="unwindToClips:" id="Nst-7f-XNJ"/>
+                        <segue destination="wOj-Pf-6rM" kind="unwind" identifier="UnwindToGallery" unwindAction="unwindToGallery:" id="6Uz-gM-0MZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="24e-hq-m3V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="wOj-Pf-6rM" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2925" y="2035"/>
+        </scene>
+        <!--Purchase View Controller-->
+        <scene sceneID="mos-gk-4c3">
+            <objects>
+                <viewController id="jGP-qU-wkp" customClass="MRPurchaseViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zhz-eh-Cwm">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="aoD-fg-iea">
+                                <rect key="frame" x="157" y="115" width="717" height="394"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_preview_screen.png" id="lju-mf-5gC">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LaA-4J-aCE">
+                                <rect key="frame" x="66" y="657" width="95" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pmclips_small_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pmclips_small_pres.png"/>
+                                <connections>
+                                    <segue destination="CEL-8G-1XY" kind="unwind" identifier="UnwindToClips" unwindAction="unwindToClips:" id="3MK-1e-ssg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gvx-nK-LB4">
+                                <rect key="frame" x="830" y="579" width="170" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pnext_arrow_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pnext_arrow_pres.png"/>
+                                <connections>
+                                    <action selector="initiatePurchase:" destination="jGP-qU-wkp" eventType="touchUpInside" id="Wju-34-cYA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JcL-MH-y9K">
+                                <rect key="frame" x="493" y="482" width="300" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="initiatePurchase:" destination="jGP-qU-wkp" eventType="touchUpInside" id="RDj-n6-rZr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Y2e-1u-aDD">
+                                <rect key="frame" x="203" y="491" width="289" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.67915196570000003" green="0.818359375" blue="0.73286290320000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="priceLabel" destination="Y2e-1u-aDD" id="lSV-8G-b7n"/>
+                        <outlet property="videoPlaceholderView" destination="aoD-fg-iea" id="fVg-Uy-Ae3"/>
+                        <segue destination="0RL-Ib-E4g" kind="modal" identifier="purchaseToCamera" modalTransitionStyle="crossDissolve" id="nBb-YK-QyO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qJA-0j-zli" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="CEL-8G-1XY" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1824" y="216"/>
+        </scene>
+        <!--Gallery View Controller-->
+        <scene sceneID="J0C-eQ-oX1">
+            <objects>
+                <viewController id="H2j-hj-hmf" customClass="MRGalleryViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="awO-rx-07O">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_gallery_screen.jpg" id="yba-7n-8Fu">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="TV0-mG-QDM" customClass="iCarousel">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="654"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="H2j-hj-hmf" id="SUO-HC-AfM"/>
+                                    <outlet property="delegate" destination="H2j-hj-hmf" id="8cS-DB-yZ1"/>
+                                </connections>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_gallery_front_screen.png" id="qy9-y8-SWb">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="77K-Cm-a6p">
+                                <rect key="frame" x="34" y="657" width="95" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pback_button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pback_button_pres.png"/>
+                                <connections>
+                                    <action selector="backButtonAction:" destination="H2j-hj-hmf" eventType="touchUpInside" id="idh-GP-gBI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gwa-OQ-HFM">
+                                <rect key="frame" x="174" y="657" width="95" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pmshare_small_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pmshare_small_pres.png"/>
+                                <connections>
+                                    <action selector="shareVideo:" destination="H2j-hj-hmf" eventType="touchUpInside" id="F0k-X4-Cyv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="l1b-Bh-7IK">
+                                <rect key="frame" x="830" y="579" width="170" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pnext_arrow_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pnext_arrow_pres.png"/>
+                                <connections>
+                                    <segue destination="izs-lP-49D" kind="modal" identifier="GalleryToPlayer" modalTransitionStyle="crossDissolve" id="Usq-aC-0eD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="carousel" destination="TV0-mG-QDM" id="ooO-Mp-D5R"/>
+                        <outlet property="goToPlayerButton" destination="l1b-Bh-7IK" id="C9H-0G-0Mf"/>
+                        <outlet property="shareButton" destination="gwa-OQ-HFM" id="euW-sF-WNt"/>
+                        <segue destination="Xr4-Gc-MAZ" kind="unwind" identifier="UnwindToClipsFromGallery" unwindAction="unwindToClipsFromGallery:" id="l73-rb-mnv"/>
+                        <segue destination="Xr4-Gc-MAZ" kind="unwind" identifier="UnwindToHomeFromGallery" unwindAction="unwindToHomeFromGallery:" id="mmS-ja-8yj"/>
+                        <segue destination="Xr4-Gc-MAZ" kind="unwind" identifier="UnwindToInfoFromGallery" unwindAction="unwindToInfoFromGallery:" id="Uyg-CT-7sl"/>
+                        <segue destination="Xr4-Gc-MAZ" kind="unwind" identifier="UnwindToPreviewFromGallery" unwindAction="unwindToPreviewFromGallery:" id="XtM-pk-mdk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pNN-fN-AZA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Xr4-Gc-MAZ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1914" y="1091"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="8bi-M9-viY">
+            <objects>
+                <viewController id="AvJ-WZ-RoF" customClass="MRInfoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DiL-a2-tnO">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p_info_screen.jpg" id="8zt-Be-iuz">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oSP-Ol-Gr6">
+                                <rect key="frame" x="482" y="418" width="60" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="p_youtube_button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="p_youtube_button.png"/>
+                                <connections>
+                                    <action selector="youtubeButtonPressed:" destination="AvJ-WZ-RoF" eventType="touchUpInside" id="8d3-Iy-F4H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Xbl-mp-Gcl">
+                                <rect key="frame" x="603" y="418" width="60" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="p_twitter_button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="p_twitter_button.png"/>
+                                <connections>
+                                    <action selector="twitterButtonPressed:" destination="AvJ-WZ-RoF" eventType="touchUpInside" id="RWp-xO-Za1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QuW-ZM-pPp">
+                                <rect key="frame" x="566" y="335" width="373" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="p_website_button_norm.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="p_website_button_pres.jpg"/>
+                                <state key="highlighted" image="p_website_button_pres.jpg"/>
+                                <connections>
+                                    <action selector="webSiteButtonPressed:" destination="AvJ-WZ-RoF" eventType="touchUpInside" id="vw0-8B-kiS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5eF-W3-S85">
+                                <rect key="frame" x="34" y="657" width="95" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="phome_small_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="phome_small_pres.png"/>
+                                <connections>
+                                    <segue destination="vZW-RF-31h" kind="modal" modalTransitionStyle="crossDissolve" id="4MK-vF-q2S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="00r-zo-3DM">
+                                <rect key="frame" x="174" y="657" width="95" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pmgallery_small_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pmgallery_small_pres.png"/>
+                                <connections>
+                                    <segue destination="H2j-hj-hmf" kind="modal" identifier="InfoToGallery" modalTransitionStyle="crossDissolve" id="lzi-d9-a5v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7Ye-ug-Qs2">
+                                <rect key="frame" x="830" y="579" width="170" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="pmclips_big_norm.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="pmclips_big_pres.png"/>
+                                <connections>
+                                    <segue destination="aXf-3q-SzG" kind="modal" modalTransitionStyle="crossDissolve" id="Z4w-d3-wlT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4GX-cV-OFr">
+                                <rect key="frame" x="531" y="253" width="428" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="p_email_button_norm.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="p_email_button_pres.jpg"/>
+                                <connections>
+                                    <action selector="mailButtonPressed:" destination="AvJ-WZ-RoF" eventType="touchUpInside" id="1xo-bK-IcU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="866-aU-RxS">
+                                <rect key="frame" x="374" y="418" width="60" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" image="p_facebook_button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="p_facebook_button.png"/>
+                                <connections>
+                                    <action selector="facebookButtonPressed:" destination="AvJ-WZ-RoF" eventType="touchUpInside" id="9uc-h7-nZj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xHK-QS-cbC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2993" y="-676"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Default-Landscape.png" width="1024" height="768"/>
+        <image name="p_camera_screen.png" width="2048" height="1536"/>
+        <image name="p_clips_back_screen.jpg" width="1024" height="768"/>
+        <image name="p_clips_front_screen.png" width="2048" height="1536"/>
+        <image name="p_email_button_norm.jpg" width="855" height="73"/>
+        <image name="p_email_button_pres.jpg" width="855" height="73"/>
+        <image name="p_facebook_button.png" width="116" height="113"/>
+        <image name="p_gallery_front_screen.png" width="2048" height="1536"/>
+        <image name="p_gallery_screen.jpg" width="2048" height="1536"/>
+        <image name="p_home_screen.jpg" width="2048" height="1536"/>
+        <image name="p_info_screen.jpg" width="2048" height="1536"/>
+        <image name="p_instruction_screen.png" width="2048" height="1536"/>
+        <image name="p_playerBar.png" width="2048" height="450"/>
+        <image name="p_preview_screen.png" width="2048" height="1536"/>
+        <image name="p_processing_bar.png" width="730" height="19"/>
+        <image name="p_processing_screen.png" width="2048" height="1536"/>
+        <image name="p_twitter_button.png" width="116" height="113"/>
+        <image name="p_website_button_norm.jpg" width="740" height="73"/>
+        <image name="p_website_button_pres.jpg" width="740" height="73"/>
+        <image name="p_youtube_button.png" width="116" height="113"/>
+        <image name="pback_button.png" width="205" height="210"/>
+        <image name="pback_button_pres.png" width="205" height="210"/>
+        <image name="pcamera_swop_norm.png" width="181" height="186"/>
+        <image name="pcamera_swop_pressed.png" width="181" height="186"/>
+        <image name="pdelete_small_norm.png" width="205" height="210"/>
+        <image name="pdelete_small_pres.png" width="205" height="210"/>
+        <image name="phome_small_norm.png" width="205" height="210"/>
+        <image name="phome_small_pres.png" width="205" height="210"/>
+        <image name="pinfo_small_norm.png" width="205" height="210"/>
+        <image name="pinfo_small_pres.png" width="205" height="210"/>
+        <image name="player_back_button.png" width="63" height="64"/>
+        <image name="player_background.png" width="468" height="88"/>
+        <image name="player_play_button.png" width="63" height="64"/>
+        <image name="player_small_pressed.png" width="181" height="186"/>
+        <image name="players_small_norm.png" width="181" height="186"/>
+        <image name="plight_small_norm.png" width="181" height="186"/>
+        <image name="plight_small_pressed.png" width="181" height="186"/>
+        <image name="pmcamera_big_norm.png" width="363" height="365"/>
+        <image name="pmcamera_big_pres.png" width="363" height="365"/>
+        <image name="pmclips_big_norm.png" width="363" height="365"/>
+        <image name="pmclips_big_pres.png" width="363" height="365"/>
+        <image name="pmclips_small_norm.png" width="205" height="210"/>
+        <image name="pmclips_small_pres.png" width="205" height="210"/>
+        <image name="pmgallery_small_norm.png" width="205" height="210"/>
+        <image name="pmgallery_small_pres.png" width="205" height="210"/>
+        <image name="pmpreview_big_norm.png" width="363" height="365"/>
+        <image name="pmpreview_big_pres.png" width="363" height="365"/>
+        <image name="pmshare_big_norm.png" width="363" height="365"/>
+        <image name="pmshare_big_pres.png" width="363" height="365"/>
+        <image name="pmshare_small_norm.png" width="205" height="210"/>
+        <image name="pmshare_small_pres.png" width="205" height="210"/>
+        <image name="pnext_arrow_norm.png" width="363" height="365"/>
+        <image name="pnext_arrow_pres.png" width="363" height="365"/>
+        <image name="prec_big_norm.png" width="363" height="365"/>
+        <image name="preshoot_big_norm.png" width="363" height="365"/>
+        <image name="preshoot_big_pres.png" width="363" height="365"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="nBb-YK-QyO"/>
+        <segue reference="EFt-Sm-0bv"/>
+        <segue reference="b4j-Ax-Q6d"/>
+        <segue reference="L1T-WB-j6i"/>
+        <segue reference="yCg-oP-dyc"/>
+    </inferredMetricsTieBreakers>
+</document>

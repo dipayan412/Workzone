@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>51116716-3551-41AC-BAD3-1138717CFBEF</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>cf520b1a-30ab-4734-8857-3df310c9d5d7++3637</key>
+		<string>https://subversion.assembla.com/svn/chartmaker-ios/trunk/ChartMaker/InAppPurchase</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>cf520b1a-30ab-4734-8857-3df310c9d5d7++3637</key>
+		<string>InAppPurchase/</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>cf520b1a-30ab-4734-8857-3df310c9d5d7++3637</key>
+		<string>https://subversion.assembla.com/svn/chartmaker-ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://subversion.assembla.com/svn/chartmaker-ios/trunk/ChartMaker/InAppPurchase</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>cf520b1a-30ab-4734-8857-3df310c9d5d7++3637</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>cf520b1a-30ab-4734-8857-3df310c9d5d7++3637</string>
+			<key>IDESourceControlWCCName</key>
+			<string>InAppPurchase</string>
+		</dict>
+	</array>
+</dict>
+</plist>
